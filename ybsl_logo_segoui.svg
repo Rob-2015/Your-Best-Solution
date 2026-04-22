@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 290" width="520" height="290" role="img" aria-label="Your Best Solution Limited logo">
+  <title>Your Best Solution Limited</title>
+
+  <defs>
+    <style>
+      .ltr {
+        font-family: 'Segoe UI', Calibri, Arial, sans-serif;
+        font-weight: 900;
+        fill: #ffffff;
+        font-size: 66px;
+        text-anchor: middle;
+        dominant-baseline: central;
+      }
+      .lbl {
+        font-family: 'Segoe UI', Calibri, Arial, sans-serif;
+        font-weight: 700;
+        font-size: 21px;
+        text-anchor: middle;
+      }
+      .pill-text {
+        font-family: 'Segoe UI', Calibri, Arial, sans-serif;
+        font-weight: 700;
+        font-size: 19px;
+        fill: #ffffff;
+        text-anchor: middle;
+        dominant-baseline: central;
+      }
+    </style>
+  </defs>
+
+  <!-- Y tile: blue, lowest (bottom at y=240) — top=118 -->
+  <rect x="0" y="118" width="112" height="112" rx="14" fill="#003DA5"/>
+  <text class="ltr" x="56" y="174">Y</text>
+  <text class="lbl" x="56" y="260" fill="#003DA5">Your</text>
+
+  <!-- B tile: orange, 2nd step (top=80) -->
+  <rect x="122" y="80" width="112" height="112" rx="14" fill="#E87722"/>
+  <text class="ltr" x="178" y="136">B</text>
+  <!-- Best pill badge -->
+  <rect x="130" y="202" width="96" height="30" rx="8" fill="#E87722"/>
+  <text class="pill-text" x="178" y="217">Best</text>
+
+  <!-- S tile: teal, 3rd step (top=40) -->
+  <rect x="244" y="40" width="112" height="112" rx="14" fill="#008080"/>
+  <text class="ltr" x="300" y="96">S</text>
+  <text class="lbl" x="300" y="175" fill="#008080">Solution</text>
+
+  <!-- L tile: green, highest (top=0) -->
+  <rect x="366" y="0" width="112" height="112" rx="14" fill="#3A7D52"/>
+  <text class="ltr" x="422" y="56">L</text>
+  <text class="lbl" x="422" y="136" fill="#3A7D52">Limited</text>
+
+</svg>
