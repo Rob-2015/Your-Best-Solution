@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bid & Tender Readiness Score™ | Your Best Solution Limited</title>
+    <style>
+        :root {
+            --navy: #003DA5;
+            --orange: #E87722;
+            --teal: #008080;
+            --green: #3A7D52;
+            --ink: #10203F;
+            --mid: #46577C;
+            --muted: #7E8DAB;
+            --line: #E4E9F3;
+            --bg: #F3F5FA;
+            --card: #FFFFFF;
+            --red: #C8362A;
+            --amber: #E0890A;
+            --light-green: #1F9D55;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Aptos', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 1rem;
+            }
+        }
+
+        /* Header */
+        header {
+            padding: 2rem 0;
+            border-bottom: 1px solid var(--line);
+            background: var(--card);
+        }
+
+        .header-content {
+            display: flex;
+            align-items: flex-start;
+            gap: 1.5rem;
+        }
+
+        .logo-section {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .logo {
+            display: flex;
+            align-items: flex-end;
+            gap: 0.3rem;
+        }
+
+        .logo-tile {
+            width: 40px;
+            height: 40px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 20px;
+            color: #fff;
+        }
+
+        .logo-tile.y { background: var(--navy); }
+        .logo-tile.b { background: var(--orange); }
+        .logo-tile.s { background: var(--teal); }
+        .logo-tile.l { background: var(--green); }
+
+        .logo-labels {
+            display: flex;
+            gap: 0.3rem;
+            font-size: 0.75rem;
+            color: var(--muted);
+            font-weight: 600;
+        }
+
+        .strapline {
+            font-size: 0.875rem;
+            color: var(--mid);
+            line-height: 1.4;
+            max-width: 350px;
+        }
+
+        /* Main */
+        main {
+            padding: 3rem 0;
+            min-height: calc(100vh - 180px);
+        }
+
+        .quiz-wrapper {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* Stages */
+        .stage {
+            display: none;
+        }
+
+        .stage.active {
+            display: block;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Landing Stage */
+        .stage-landing {
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .stage-landing h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+            color: var(--navy);
+            letter-spacing: -0.5px;
+        }
+
+        @media (max-width: 768px) {
+            .stage-landing h1 {
+                font-size: 2rem;
+            }
+        }
+
+        .stage-landing p {
+            font-size: 1rem;
+            color: var(--mid);
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        .cta-button {
+            background: var(--orange);
+            color: #fff;
+            border: none;
+            padding: 1rem 2.5rem;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.2s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .cta-button:hover {
+            background: #d66a15;
+        }
+
+        /* Form Sections */
+        .form-section {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .form-section h2 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: var(--navy);
+        }
+
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+
+        label {
+            display: block;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--ink);
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"] {
+            width: 100%;
+            padding: 0.75rem;
+            font-size: 1rem;
+            border: 1px solid var(--line);
+            border-radius: 6px;
+            font-family: inherit;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: var(--orange);
+            box-shadow: 0 0 0 3px rgba(232, 119, 34, 0.1);
+        }
+
+        /* Quiz */
+        .progress-bar {
+            height: 4px;
+            background: var(--line);
+            border-radius: 2px;
+            margin-bottom: 2rem;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--orange);
+            transition: width 0.3s ease;
+        }
+
+        .question-card {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .question-number {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+        }
+
+        .question-text {
+            font-size: 1.375rem;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 1.5rem;
+            line-height: 1.4;
+        }
+
+        .answer-option {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            padding: 1rem;
+            margin-bottom: 0.75rem;
+            border: 2px solid var(--line);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .answer-option:hover {
+            border-color: var(--orange);
+            background: rgba(232, 119, 34, 0.05);
+        }
+
+        .answer-option input[type="radio"] {
+            margin-top: 0.125rem;
+            cursor: pointer;
+            accent-color: var(--orange);
+        }
+
+        .answer-text {
+            flex: 1;
+            font-size: 1rem;
+            color: var(--ink);
+        }
+
+        .answer-option.selected {
+            border-color: var(--orange);
+            background: rgba(232, 119, 34, 0.05);
+        }
+
+        .quiz-buttons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .btn {
+            flex: 1;
+            padding: 0.875rem 1.5rem;
+            font-size: 1rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-secondary {
+            background: var(--line);
+            color: var(--ink);
+        }
+
+        .btn-secondary:hover:not(:disabled) {
+            background: var(--muted);
+            color: #fff;
+        }
+
+        .btn-secondary:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .btn-primary {
+            background: var(--orange);
+            color: #fff;
+        }
+
+        .btn-primary:hover {
+            background: #d66a15;
+        }
+
+        /* Results */
+        .results-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .score-badge {
+            display: inline-block;
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+        }
+
+        .score-badge.critical { color: var(--red); }
+        .score-badge.vulnerable { color: var(--orange); }
+        .score-badge.improving { color: var(--amber); }
+        .score-badge.tender-ready { color: var(--light-green); }
+
+        .score-tier {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .score-tier.critical { color: var(--red); }
+        .score-tier.vulnerable { color: var(--orange); }
+        .score-tier.improving { color: var(--amber); }
+        .score-tier.tender-ready { color: var(--light-green); }
+
+        .tier-message {
+            font-size: 1rem;
+            color: var(--mid);
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        .category-bars {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .category-bar {
+            margin-bottom: 1.5rem;
+        }
+
+        .category-bar:last-child {
+            margin-bottom: 0;
+        }
+
+        .category-name {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--ink);
+            margin-bottom: 0.5rem;
+        }
+
+        .bar-background {
+            height: 24px;
+            background: var(--line);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .bar-fill {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: #fff;
+            transition: width 0.4s ease;
+        }
+
+        .bar-fill.critical { background: var(--red); }
+        .bar-fill.vulnerable { background: var(--orange); }
+        .bar-fill.improving { background: var(--amber); }
+        .bar-fill.tender-ready { background: var(--light-green); }
+
+        .form-gate-2 {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .form-gate-2 h3 {
+            font-size: 1.125rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: var(--navy);
+        }
+
+        .checkbox-group {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            margin: 1.5rem 0;
+        }
+
+        input[type="checkbox"] {
+            margin-top: 0.25rem;
+            cursor: pointer;
+            accent-color: var(--orange);
+        }
+
+        .checkbox-label {
+            font-size: 0.875rem;
+            color: var(--mid);
+            line-height: 1.4;
+        }
+
+        .bc-note {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            padding: 1.5rem;
+            font-size: 0.875rem;
+            color: var(--mid);
+            line-height: 1.6;
+        }
+
+        .success-message {
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        .success-message p {
+            font-size: 1rem;
+            color: var(--mid);
+        }
+
+        @media (max-width: 768px) {
+            .question-card,
+            .form-section,
+            .category-bars,
+            .form-gate-2,
+            .bc-note {
+                padding: 1.5rem;
+            }
+
+            .question-text {
+                font-size: 1.125rem;
+            }
+
+            .score-badge {
+                font-size: 2.5rem;
+            }
+
+            .score-tier {
+                font-size: 1.25rem;
+            }
+
+            .quiz-buttons {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo">
+                        <div class="logo-tile y">Y</div>
+                        <div class="logo-tile b">B</div>
+                        <div class="logo-tile s">S</div>
+                        <div class="logo-tile l">L</div>
+                    </div>
+                    <div class="logo-labels">
+                        <span>Your</span>
+                        <span>Best</span>
+                        <span>Solution</span>
+                        <span>Limited</span>
+                    </div>
+                    <div class="strapline">
+                        <strong>The Bid / Tender Cure for UK Manufacturers</strong><br>
+                        Every Step. Every Specialist. Every Time.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="quiz-wrapper">
+                <!-- LANDING STAGE -->
+                <div class="stage active stage-landing" id="stage-landing">
+                    <h1>How ready are you to win your next bid?</h1>
+                    <p>Evaluate your organisation's ability to win more bids, tenders, quotations and commercial opportunities.<br>7 questions, about 2 minutes. Get your score and a category-by-category breakdown instantly.</p>
+                    <button class="cta-button" onclick="startQuiz()">Start my score</button>
+                </div>
+
+                <!-- FORM GATE 1 -->
+                <div class="stage" id="stage-form-1">
+                    <div class="form-section">
+                        <h2>Let's get started</h2>
+                        <div class="form-group">
+                            <label for="firstName">First name</label>
+                            <input type="text" id="firstName" placeholder="Enter your first name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" id="email" placeholder="you@company.com" required>
+                        </div>
+                        <button class="cta-button" style="width: 100%; margin-top: 1rem;" onclick="proceedToQuiz()">Start the quiz</button>
+                    </div>
+                </div>
+
+                <!-- QUIZ STAGE -->
+                <div class="stage" id="stage-quiz">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <div id="questionsContainer"></div>
+                    <div class="quiz-buttons">
+                        <button class="btn btn-secondary" id="prevBtn" onclick="prevQuestion()" disabled>← Back</button>
+                        <button class="btn btn-primary" id="nextBtn" onclick="nextQuestion()">Next →</button>
+                    </div>
+                </div>
+
+                <!-- FORM GATE 2 -->
+                <div class="stage" id="stage-form-2">
+                    <div class="form-gate-2">
+                        <h3>Just a few more details</h3>
+                        <div class="form-group">
+                            <label for="lastName">Last name</label>
+                            <input type="text" id="lastName" placeholder="Enter your last name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company name</label>
+                            <input type="text" id="company" placeholder="Your company" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone (optional)</label>
+                            <input type="tel" id="phone" placeholder="+44 (0)...">
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="consent" required>
+                            <label for="consent" class="checkbox-label">I'm happy for Your Best Solution to send me my results and occasional relevant insights.</label>
+                        </div>
+                        <button class="cta-button" style="width: 100%; margin-top: 1.5rem;" onclick="submitToHubSpot()">Show my score</button>
+                    </div>
+                </div>
+
+                <!-- RESULTS STAGE -->
+                <div class="stage" id="stage-results">
+                    <div class="results-header">
+                        <div class="score-badge" id="scoreBadge">0%</div>
+                        <div class="score-tier" id="scoreTier">Calculating...</div>
+                        <div class="tier-message" id="tierMessage"></div>
+                    </div>
+
+                    <div class="category-bars" id="categoryBars"></div>
+
+                    <div style="text-align: center; margin: 2rem 0;">
+                        <a href="https://bookings.cloud.microsoft/book/ComplianceDiscoveryCall@yourbestsolution.co.uk/?ismsaljsauthenabled=true" target="_blank" rel="noopener" class="cta-button">Book Your Comprehensive Health Assessment Now!</a>
+                    </div>
+
+                    <div class="bc-note">
+                        <strong>Business continuity note:</strong> One area buyers increasingly probe that this quick check doesn't score: business continuity. If your systems or key people went down tomorrow, could you keep delivering? We cover this in the full assessment.
+                    </div>
+
+                    <div class="success-message">
+                        <p>Check your email in 30 seconds for your detailed results and recommendations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const QUESTIONS = [
+            {
+                number: 1,
+                text: "Which best describes your business?",
+                category: null,
+                answers: [
+                    { text: "Sole trader", points: 0 },
+                    { text: "2–10 employees", points: 0 },
+                    { text: "11–50 employees", points: 0 },
+                    { text: "51–250 employees", points: 0 },
+                    { text: "250+ employees", points: 0 }
+                ]
+            },
+            {
+                number: 2,
+                text: "If a buyer demanded proof of your cyber security before they'd even score your bid, where are you?",
+                category: "Cyber & Data Security",
+                answers: [
+                    { text: "We've nothing in place, or aren't sure what's needed", points: 0 },
+                    { text: "Basic passwords and antivirus only", points: 5 },
+                    { text: "Some protections, but no Cyber Essentials certificate", points: 10 },
+                    { text: "Cyber Essentials certified and current", points: 15 },
+                    { text: "Cyber Essentials Plus, or ISO 27001 / active data protection", points: 20 }
+                ]
+            },
+            {
+                number: 3,
+                text: "When a buyer checks you can carry the contract financially, how ready are you?",
+                category: "Insurance & Financial Standing",
+                answers: [
+                    { text: "Not sure what cover or figures they'd want", points: 0 },
+                    { text: "Basic insurance, unsure of limits; accounts not to hand", points: 4 },
+                    { text: "Core insurances in place; could find accounts if pushed", points: 8 },
+                    { text: "All statutory cover at typical limits; recent accounts ready", points: 12 },
+                    { text: "Cover mapped to target contracts, credit rating known, evidence in 24 hours", points: 16 }
+                ]
+            },
+            {
+                number: 4,
+                text: "Which best describes your management standards and accreditations?",
+                category: "Standards & Quality",
+                answers: [
+                    { text: "None, and unsure which we'd need", points: 0 },
+                    { text: "Informal systems, nothing certified", points: 4 },
+                    { text: "Working towards, or hold, one (e.g. ISO 9001)", points: 8 },
+                    { text: "ISO 9001 plus one of ISO 14001 or 45001, UKAS-accredited", points: 12 },
+                    { text: "Full suite — 9001, 14001 and 45001 — current and accredited", points: 16 }
+                ]
+            },
+            {
+                number: 5,
+                text: "How ready are you to prove your track record and actually write the bid?",
+                category: "Track Record & Bid Capability",
+                answers: [
+                    { text: "We avoid tenders, or wouldn't know where to start", points: 0 },
+                    { text: "We've bid occasionally but rarely win", points: 4 },
+                    { text: "Some relevant contracts, but references and case studies aren't ready", points: 8 },
+                    { text: "Solid referenceable contracts and we can write a decent bid", points: 12 },
+                    { text: "Strong evidenced track record, KPIs, and a reusable bid library", points: 16 }
+                ]
+            },
+            {
+                number: 6,
+                text: "On social value, carbon and ethics — the newer scored areas — where do you stand?",
+                category: "Social Value & Responsible Business",
+                answers: [
+                    { text: "No policies, and unsure what's needed", points: 0 },
+                    { text: "A few basic policies, nothing evidenced", points: 3 },
+                    { text: "Some in place (e.g. a modern slavery statement) but no social value story", points: 6 },
+                    { text: "Good policies, and can show local jobs and skills", points: 9 },
+                    { text: "Evidenced jobs-and-skills programme aligned to the 2027 model, plans in place", points: 12 }
+                ]
+            },
+            {
+                number: 7,
+                text: "How confident are you that you'd win a serious tender if you bid tomorrow?",
+                category: null,
+                answers: [
+                    { text: "Not confident", points: 0 },
+                    { text: "Slightly confident", points: 0 },
+                    { text: "Moderately confident", points: 0 },
+                    { text: "Very confident", points: 0 },
+                    { text: "Extremely confident", points: 0 }
+                ]
+            }
+        ];
+
+        const CATEGORIES = [
+            "Cyber & Data Security",
+            "Insurance & Financial Standing",
+            "Standards & Quality",
+            "Track Record & Bid Capability",
+            "Social Value & Responsible Business"
+        ];
+
+        const CATEGORY_MAX_POINTS = {
+            "Cyber & Data Security": 20,
+            "Insurance & Financial Standing": 16,
+            "Standards & Quality": 16,
+            "Track Record & Bid Capability": 16,
+            "Social Value & Responsible Business": 12
+        };
+
+        const TIER_INFO = {
+            "Critical": {
+                range: [0, 39],
+                message: "You're exposed — and it's costing you work. The good news: the gaps are fixable, and usually faster and cheaper than you'd think."
+            },
+            "Vulnerable": {
+                range: [40, 69],
+                message: "You've made a start, but there are gaps that will quietly cost you winnable bids. Your category scores below show exactly where."
+            },
+            "Improving": {
+                range: [70, 84],
+                message: "You're more ready than most, but a handful of gaps could still cost you against sharper competition or on bigger contracts."
+            },
+            "Tender-Ready": {
+                range: [85, 100],
+                message: "You're in good shape. The £995 assessment helps you evidence your strengths in the bid itself and target the bigger contracts you're now ready for."
+            }
+        };
+
+        let currentQuestion = 0;
+        let answers = {};
+        let formData = {};
+
+        function startQuiz() {
+            showStage('stage-form-1');
+        }
+
+        function proceedToQuiz() {
+            const firstName = document.getElementById('firstName').value.trim();
+            const email = document.getElementById('email').value.trim();
+
+            if (!firstName || !email) {
+                alert('Please enter your first name and email');
+                return;
+            }
+
+            formData.firstName = firstName;
+            formData.email = email;
+            currentQuestion = 0;
+            answers = {};
+
+            renderQuestion();
+            showStage('stage-quiz');
+        }
+
+        function renderQuestion() {
+            const q = QUESTIONS[currentQuestion];
+            const container = document.getElementById('questionsContainer');
+            const progress = ((currentQuestion + 1) / QUESTIONS.length) * 100;
+
+            document.getElementById('progressFill').style.width = progress + '%';
+
+            let html = `
+                <div class="question-card">
+                    <div class="question-number">Question ${q.number} of ${QUESTIONS.length}</div>
+                    <div class="question-text">${q.text}</div>
+                    <div>
+            `;
+
+            q.answers.forEach((answer, idx) => {
+                const checked = answers[currentQuestion] === idx ? 'checked' : '';
+                const selectedClass = answers[currentQuestion] === idx ? 'selected' : '';
+
+                html += `
+                    <div class="answer-option ${selectedClass}" onclick="selectAnswer(${idx})">
+                        <input type="radio" name="answer" value="${idx}" ${checked} onchange="selectAnswer(${idx})">
+                        <span class="answer-text">${answer.text}</span>
+                    </div>
+                `;
+            });
+
+            html += `</div></div>`;
+
+            container.innerHTML = html;
+
+            document.getElementById('prevBtn').disabled = currentQuestion === 0;
+            document.getElementById('nextBtn').textContent = currentQuestion === QUESTIONS.length - 1 ? 'See my results →' : 'Next →';
+        }
+
+        function selectAnswer(idx) {
+            answers[currentQuestion] = idx;
+            renderQuestion();
+        }
+
+        function nextQuestion() {
+            if (answers[currentQuestion] === undefined) {
+                alert('Please select an answer');
+                return;
+            }
+
+            if (currentQuestion < QUESTIONS.length - 1) {
+                currentQuestion++;
+                renderQuestion();
+            } else {
+                showStage('stage-form-2');
+            }
+        }
+
+        function prevQuestion() {
+            if (currentQuestion > 0) {
+                currentQuestion--;
+                renderQuestion();
+            }
+        }
+
+        function submitToHubSpot() {
+            const lastName = document.getElementById('lastName').value.trim();
+            const company = document.getElementById('company').value.trim();
+            const phone = document.getElementById('phone').value.trim();
+            const consent = document.getElementById('consent').checked;
+
+            if (!lastName || !company) {
+                alert('Please enter your last name and company');
+                return;
+            }
+
+            if (!consent) {
+                alert('Please agree to receive results and insights');
+                return;
+            }
+
+            formData.lastName = lastName;
+            formData.company = company;
+            formData.phone = phone;
+
+            calculateAndSubmit();
+        }
+
+        function calculateAndSubmit() {
+            const scores = calculateScores();
+            const portalId = '147989593';
+            // HubSpot form ID: create a form in HubSpot (Marketing > Forms) and paste its ID here.
+            // No private key belongs on a public web page.
+            const formGuid = '';
+
+            const contactData = {
+                properties: {
+                    firstname: formData.firstName,
+                    lastname: formData.lastName,
+                    email: formData.email,
+                    company: formData.company,
+                    phone: formData.phone || '',
+                    hs_lead_status: 'New',
+                    bid_readiness_score: Math.round(scores.overall),
+                    bid_readiness_tier: scores.tier,
+                    bid_readiness_cyber: Math.round(scores.categories['Cyber & Data Security']),
+                    bid_readiness_insurance: Math.round(scores.categories['Insurance & Financial Standing']),
+                    bid_readiness_standards: Math.round(scores.categories['Standards & Quality']),
+                    bid_readiness_trackrecord: Math.round(scores.categories['Track Record & Bid Capability']),
+                    bid_readiness_socialvalue: Math.round(scores.categories['Social Value & Responsible Business']),
+                    business_size: QUESTIONS[0].answers[answers[0]].text,
+                    confidence_level: QUESTIONS[6].answers[answers[6]].text
+                }
+            };
+
+            const showResults = () => {
+                displayResults(scores);
+                showStage('stage-results');
+            };
+
+            if (!formGuid) {
+                showResults();
+                return;
+            }
+
+            const fields = Object.entries(contactData.properties)
+                .filter(([name]) => name !== 'hs_lead_status')
+                .map(([name, value]) => ({ objectTypeId: '0-1', name, value: String(value) }));
+
+            fetch(`https://api.hsforms.com/submissions/v3/integration/submit/${portalId}/${formGuid}`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    fields,
+                    context: { pageUri: window.location.href, pageName: document.title }
+                })
+            })
+            .then(showResults)
+            .catch(error => {
+                console.error('Error:', error);
+                showResults();
+            });
+        }
+
+        function calculateScores() {
+            const scores = {
+                categories: {},
+                points: 0,
+                maxPoints: 0,
+                overall: 0,
+                tier: 'Critical'
+            };
+
+            CATEGORIES.forEach(category => {
+                let categoryPoints = 0;
+                let categoryMaxPoints = CATEGORY_MAX_POINTS[category];
+
+                QUESTIONS.forEach((q, idx) => {
+                    if (q.category === category && answers[idx] !== undefined) {
+                        categoryPoints += q.answers[answers[idx]].points;
+                    }
+                });
+
+                scores.categories[category] = (categoryPoints / categoryMaxPoints) * 100;
+            });
+
+            QUESTIONS.forEach((q, idx) => {
+                if (q.category && answers[idx] !== undefined) {
+                    scores.points += q.answers[answers[idx]].points;
+                }
+            });
+
+            scores.maxPoints = Object.values(CATEGORY_MAX_POINTS).reduce((a, b) => a + b, 0);
+            scores.overall = (scores.points / scores.maxPoints) * 100;
+
+            for (const [tier, info] of Object.entries(TIER_INFO)) {
+                if (scores.overall >= info.range[0] && scores.overall <= info.range[1]) {
+                    scores.tier = tier;
+                    break;
+                }
+            }
+
+            return scores;
+        }
+
+        function displayResults(scores) {
+            const tierClass = scores.tier.toLowerCase().replace(/\s+/g, '-');
+
+            document.getElementById('scoreBadge').textContent = Math.round(scores.overall) + '%';
+            document.getElementById('scoreBadge').className = 'score-badge ' + tierClass;
+
+            document.getElementById('scoreTier').textContent = scores.tier;
+            document.getElementById('scoreTier').className = 'score-tier ' + tierClass;
+
+            document.getElementById('tierMessage').textContent = TIER_INFO[scores.tier].message;
+
+            let barsHtml = '';
+            CATEGORIES.forEach(cat => {
+                const percentage = Math.round(scores.categories[cat]);
+                let barClass = 'critical';
+                if (percentage >= 85) barClass = 'tender-ready';
+                else if (percentage >= 70) barClass = 'improving';
+                else if (percentage >= 40) barClass = 'vulnerable';
+
+                barsHtml += `
+                    <div class="category-bar">
+                        <div class="category-name">${cat}</div>
+                        <div class="bar-background">
+                            <div class="bar-fill ${barClass}" style="width: ${percentage}%">${percentage}%</div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            document.getElementById('categoryBars').innerHTML = barsHtml;
+        }
+
+        function showStage(stageId) {
+            document.querySelectorAll('.stage').forEach(stage => {
+                stage.classList.remove('active');
+            });
+            document.getElementById(stageId).classList.add('active');
+        }
+    </script>
+</body>
+</html>

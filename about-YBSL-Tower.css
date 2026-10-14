@@ -1,0 +1,337 @@
+/* =====================================================================
+   about.css  |  About + Resources block (joined from about.html)
+   Load AFTER home.css. Every class is prefixed .ab- so nothing here
+   can collide with existing site classes. To fold into one stylesheet,
+   paste this file onto the end of home.css and delete the <link>.
+
+   TYPE SCALE (framework, no exceptions)
+     Eyebrow .... 1.125rem, semi-bold, uppercase
+     H2 ......... 2rem, 1.6rem under 768px
+     Everything else ... 1rem, line-height 1.6
+   Emphasis outside that scale comes from weight and colour, never size.
+
+   WRAPPER: the global .container rule in home.css
+     (100% wide, max 1440px, centred, 0 2rem padding, 0 1rem under 768px)
+   ===================================================================== */
+
+/* ---------- Tokens and base (scoped to .ab, no leakage) ---------- */
+.ab,
+.ab *,
+.ab *::before,
+.ab *::after { box-sizing: border-box; }
+
+.ab {
+  --ab-navy: #003DA5;
+  --ab-navy-deep: #002A75;
+  --ab-orange: #E87722;
+  --ab-orange-text: #B5530A;
+  --ab-teal: #008080;
+  --ab-green: #3A7D52;
+  --ab-ink: #16233F;
+  --ab-muted: #48577A;
+  --ab-line: #D9E1F0;
+  --ab-wash: #F2F6FC;
+  --ab-sky: #C4D6F7;
+  --ab-display: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  --ab-body: 'Open Sans', 'Segoe UI', Arial, sans-serif;
+
+  background: #fff;
+  color: var(--ab-ink);
+  font-family: var(--ab-body);
+}
+
+/* Every text element in the block is 1rem / 1.6 unless a rule below
+   (eyebrow, H2) says otherwise. Those rules come later in this file. */
+.ab * { font-size: 1rem; line-height: 1.6; }
+
+:where(.ab img) { display: block; max-width: 100%; height: auto; }
+:where(.ab p) { margin: 0 0 1.1em; max-width: 62ch; }
+:where(.ab h2, .ab h3) { margin: 0; font-family: var(--ab-display); text-wrap: balance; }
+:where(.ab a) { color: var(--ab-navy); }
+
+/* The fixed header is 100-112px tall, so anchor jumps land below it
+   (same approach home.css uses for #alliance) */
+#about, #story, #ab-alliance, #resources { scroll-margin-top: 120px; }
+/* The older sections have less top padding on phones than the header is tall,
+   so give their menu jumps a small offset too */
+#timing, #questions, #process, #contact { scroll-margin-top: 40px; }
+
+/* Between 921px and 1199px the header wraps onto a taller bar (up to 155px),
+   so the jumps need a bigger offset in that range only */
+@media (min-width: 921px) and (max-width: 1199px) {
+  #about, #story, #ab-alliance, #resources { scroll-margin-top: 170px; }
+  #timing, #questions, #process, #contact { scroll-margin-top: 80px; }
+}
+
+.ab :focus-visible { outline: 3px solid var(--ab-navy); outline-offset: 3px; border-radius: 4px; }
+.ab-band :focus-visible { outline-color: #fff; }
+
+/* ---------- The two sanctioned larger sizes ---------- */
+.ab-eyebrow {
+  margin: 0 0 0.9rem;
+  font-family: var(--ab-display);
+  font-size: 1.125rem;
+  line-height: 1.3;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ab-teal);
+}
+.ab-h2 {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 800;
+  color: var(--ab-navy);
+}
+/* Anything nested inside an eyebrow or H2 keeps the parent's size */
+.ab-eyebrow *,
+.ab-h2 * { font-size: inherit; line-height: inherit; }
+
+@media (max-width: 767px) {
+  .ab-h2 { font-size: 1.6rem; }
+}
+
+/* ---------- Shared bits ---------- */
+.ab-best { color: var(--ab-orange-text); }
+.ab-band { background: var(--ab-navy-deep); color: #fff; }
+.ab-band .ab-h2 { color: #fff; }
+.ab-band .ab-eyebrow { color: var(--ab-sky); }
+.ab-band .ab-best { color: var(--ab-orange); }
+
+.ab-sr {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap;
+}
+
+.ab-link {
+  font-family: var(--ab-display);
+  font-weight: 700;
+  color: var(--ab-navy);
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+}
+
+/* ---------- Hero (About intro with portrait) ---------- */
+.ab-hero { padding-block: clamp(2.5rem, 7vw, 5.75rem); }
+.ab-hero__in {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+  gap: clamp(2rem, 6vw, 5.5rem);
+  align-items: center;
+}
+.ab-hero .ab-h2 { margin-bottom: 1.5rem; }
+.ab-u {
+  text-decoration: underline;
+  text-decoration-color: var(--ab-orange);
+  text-decoration-thickness: 6px;
+  text-underline-offset: 8px;
+}
+.ab-lead { color: var(--ab-muted); margin-bottom: 2rem; }
+.ab-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1.1rem 1.75rem; }
+
+.ab-portrait {
+  position: relative;
+  margin: 0;
+  width: min(calc(100% - 16px), 340px);
+  justify-self: center;
+  padding-bottom: 12px;
+}
+.ab-portrait::before {
+  content: "";
+  position: absolute; top: 16px; left: 16px;
+  width: 100%; aspect-ratio: 1;
+  background: var(--ab-navy);
+  border-radius: 20px;
+}
+.ab-portrait img {
+  position: relative; z-index: 1;
+  width: 100%; aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.ab-plate {
+  position: relative; z-index: 2; overflow: hidden;
+  margin: -46px 0 0 -12px;
+  width: calc(100% - 4px);
+  padding: 22px 20px 16px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 12px 32px rgba(0, 42, 117, 0.2);
+  display: flex; flex-direction: column; gap: 2px;
+}
+.ab-plate::before {
+  content: "";
+  position: absolute; inset: 0 0 auto 0; height: 6px;
+  background: linear-gradient(90deg, var(--ab-navy) 0 25%, var(--ab-orange) 25% 50%, var(--ab-teal) 50% 75%, var(--ab-green) 75% 100%);
+}
+.ab-plate__name { font-family: var(--ab-display); font-weight: 800; color: var(--ab-navy); }
+.ab-plate__role { color: var(--ab-muted); }
+
+/* ---------- Story ---------- */
+.ab-story { background: var(--ab-wash); padding-block: clamp(3.5rem, 8vw, 6.5rem); }
+.ab-story__grid,
+.ab-why__grid,
+.ab-res-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: clamp(1.75rem, 6vw, 5rem);
+  align-items: start;
+}
+.ab-quote {
+  position: relative;
+  margin: 2rem 0 0;
+  padding: 0;
+  max-width: 40ch;
+  font-family: var(--ab-display);
+  font-weight: 800;
+  color: var(--ab-navy);
+  text-wrap: balance;
+}
+.ab-quote::before {
+  content: "";
+  display: block;
+  width: 56px; height: 6px;
+  background: var(--ab-orange);
+  margin-bottom: 1.1rem;
+}
+
+.ab-miles {
+  list-style: none;
+  margin: clamp(3rem, 7vw, 5rem) 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem 1.75rem;
+}
+.ab-mile { border-top: 5px solid var(--c); padding-top: 1rem; }
+.ab-mile p { margin: 0; color: var(--ab-ink); }
+.ab-when {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-family: var(--ab-display);
+  font-weight: 800;
+  color: var(--ct);
+}
+/* Colour modifiers for the milestone rules and years */
+.ab-mile.ab-navy   { --c: var(--ab-navy);   --ct: var(--ab-navy); }
+.ab-mile.ab-orange { --c: var(--ab-orange); --ct: var(--ab-orange-text); }
+.ab-mile.ab-teal   { --c: var(--ab-teal);   --ct: var(--ab-teal); }
+.ab-mile.ab-green  { --c: var(--ab-green);  --ct: var(--ab-green); }
+
+/* ---------- Why (navy band) ---------- */
+.ab-why { padding-block: clamp(3.5rem, 8vw, 6.5rem); }
+.ab-why a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration-color: var(--ab-orange);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+.ab-claim {
+  margin: 2rem 0 0;
+  max-width: 40ch;
+  font-family: var(--ab-display);
+  font-weight: 800;
+  text-wrap: balance;
+}
+.ab-claim span { color: var(--ab-orange); }
+
+/* ---------- Cure Alliance (About version, with diagram) ---------- */
+.ab-alliance { padding-block: clamp(3.5rem, 8vw, 6.5rem); }
+.ab-alliance .ab-h2 { max-width: 30ch; margin-bottom: 1.6rem; }
+.ab-diagram {
+  margin-top: clamp(2rem, 5vw, 3.25rem);
+  border: 1px solid var(--ab-line);
+  border-radius: 14px;
+  overflow-x: auto;
+  background: #fff;
+}
+.ab-diagram img { width: 100%; min-width: 760px; }
+.ab-fig-note { margin: 1rem 0 0; max-width: none; color: var(--ab-muted); }
+.ab-fig-note a { font-weight: 600; color: var(--ab-navy); }
+.ab-swipe { display: none; }
+.ab-every {
+  margin: 1.4rem 0 0;
+  max-width: none;
+  font-family: var(--ab-display);
+  font-weight: 800;
+  color: var(--ab-green);
+}
+
+/* ---------- Resources ---------- */
+.ab-resources { background: var(--ab-wash); padding-block: clamp(3.5rem, 8vw, 6.5rem); }
+.ab-res-intro { color: var(--ab-muted); margin-top: 1.1rem; }
+.ab-res-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.5rem; }
+/* Each guide is a pull-down: the title bar is always visible, the rest opens on click */
+.ab-res {
+  background: #fff;
+  border: 1px solid var(--ab-line);
+  border-radius: 14px;
+}
+.ab-res__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.25rem;
+  border-radius: 14px;
+  cursor: pointer;
+  list-style: none;
+}
+.ab-res__head::-webkit-details-marker { display: none; }
+.ab-res__head::after {
+  content: "";
+  flex-shrink: 0;
+  width: 0.65rem;
+  height: 0.65rem;
+  margin: -0.2rem 0.3rem 0 0;
+  border-right: 3px solid var(--ab-navy);
+  border-bottom: 3px solid var(--ab-navy);
+  transform: rotate(45deg);
+  transition: transform 0.2s ease;
+}
+.ab-res[open] > .ab-res__head::after { transform: rotate(-135deg); margin-top: 0.2rem; }
+.ab-res__head:hover .ab-h3 { text-decoration: underline; text-underline-offset: 4px; }
+.ab-res__body {
+  display: grid;
+  grid-template-columns: minmax(0, 200px) minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+  padding: 0 1.25rem 1.25rem;
+}
+.ab-res__img { display: block; border: 1px solid var(--ab-line); border-radius: 8px; overflow: hidden; }
+.ab-res__img img { width: 100%; }
+.ab-res__meta {
+  display: block;
+  margin: 0 0 0.25rem;
+  font-family: var(--ab-display);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ab-teal);
+}
+.ab-h3 { font-weight: 800; color: var(--ab-navy); margin-bottom: 0.6rem; }
+.ab-res__head .ab-h3 { margin: 0; }
+.ab-res__body p { margin-bottom: 1rem; }
+.ab-res__body .ab-link { display: inline-block; }
+
+/* ---------- Layout breakpoints (no font-size changes here) ---------- */
+@media (min-width: 1000px) {
+  .ab-miles { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 2rem 1.5rem; }
+}
+@media (max-width: 860px) {
+  .ab-hero__in,
+  .ab-story__grid,
+  .ab-why__grid,
+  .ab-res-grid { grid-template-columns: minmax(0, 1fr); }
+  .ab-portrait { margin-top: 0.75rem; }
+  .ab-swipe { display: inline; }
+}
+@media (max-width: 560px) {
+  .ab-res__body { grid-template-columns: minmax(0, 1fr); }
+  .ab-res__img { max-width: 320px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ab-res__head::after { transition: none; }
+}
