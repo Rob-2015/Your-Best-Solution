@@ -202,6 +202,9 @@ details[open] .hide { display:inline; }
 
 .content { padding-top:24px; }
 
+.service-details { margin:18px 34px 26px; }
+.bottom-grid.top-boxes { margin-top:0; margin-bottom:26px; }
+
 .section-title {
   margin:0 0 10px;
   color:var(--navy);
@@ -536,7 +539,7 @@ td:last-child {
   body { padding:0; background:var(--white); }
   .page { width:100%; border:0; border-radius:0; }
   .hero { height:72mm; }
-  details { margin-left:0; margin-right:0; }
+  details, .service-details { margin-left:0; margin-right:0; }
   summary { display:none; }
   details .content { display:block !important; }
   .intro, .footer { padding-left:0; padding-right:0; }
@@ -555,7 +558,7 @@ td:last-child {
   .page { border-radius:12px; }
   .hero { height:310px; }
   .intro { padding:20px 17px 0; }
-  details { margin:18px 17px 20px; }
+  details, .service-details { margin:18px 17px 20px; }
   .cover-grid { grid-template-columns:1fr; }
   .manufacturer-list { columns:1; }
   table { font-size:8.5pt; }
