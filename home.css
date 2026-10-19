@@ -1199,3 +1199,8 @@ section { position: relative; }
 .tm-hospital { margin: 18px auto 28px; max-width: 1200px; }
 .tm-hospital img { display: block; width: 100%; height: auto; border-radius: 14px; box-shadow: 0 8px 28px rgba(0,61,165,0.14); }
 @media (max-width: 620px) { .tm-hospital { margin-bottom: 18px; } .tm-hospital img { border-radius: 8px; } }
+
+/* Cure Alliance diagram above the 16 specialists */
+.ca-diagram { margin: 0 0 2.5rem; }
+.ca-diagram .ab-diagram { border: 1px solid var(--rule); border-radius: var(--r); background: var(--white); box-shadow: 0 18px 44px rgba(0, 32, 90, 0.10); }
+.ca-diagram .ab-diagram img { display: block; height: auto; }
