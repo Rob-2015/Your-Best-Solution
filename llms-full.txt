@@ -1,0 +1,1079 @@
+# Your Best Solution Limited (YBSL): full site text for AI assistants
+
+> UK manufacturing advisory and coordination consultancy. YBSL diagnoses what tender buyers check before they read your price and coordinates 16 vetted Cure Alliance specialists to close each gap, for UK manufacturers with 10 to 500 employees. Westcliff-on-Sea, Essex. Company No. 16983435. Contact: rob@yourbestsolution.co.uk, +44 (0)7445 225 668. Summary index: https://yourbestsolution.co.uk/llms.txt
+
+## Common questions
+
+### What does Your Best Solution Limited do?
+
+Your Best Solution Limited (YBSL) helps UK manufacturers win the tenders they are currently being filtered out of. We look at your business the way a buyer does, find what will get you screened out before anyone reads your price, such as Cyber Essentials, ISO, health and safety, insurance, financial standing, GDPR and social value, and then coordinate vetted specialists from our Cure Alliance to close each gap. You deal with one person, not sixteen suppliers.
+
+### Who does YBSL work with?
+
+Owner-managed and mid-sized UK manufacturers with 10 to 500 employees, mainly in Essex, Kent, Hertfordshire and East and North London. Usually the MD and leadership team are under pressure to win more work from the public sector, OEMs or Tier-1 supply chains, and nobody in-house owns compliance and tender readiness full time.
+
+### Why do manufacturers lose tenders before their price is even read?
+
+Because most tenders start with pass-or-fail gates. Financial standing is often checked automatically, typically against around twice the annual contract value. Then come the certificates and policies: Cyber Essentials, ISO 9001, health and safety accreditation, the right insurance cover levels, a Modern Slavery statement and a Carbon Reduction Plan. Miss one and the bid can be screened out before anyone reads your method statement or your price. Manufacturers rarely lose because they can't do the work. They lose because they can't prove they're ready.
+
+### Do I need Cyber Essentials to bid for public sector contracts?
+
+Often, yes. UK central government has required Cyber Essentials since 2014 for contracts that involve handling certain personal information or supplying certain ICT services, and many councils, NHS bodies, defence primes and Tier-1 manufacturers now ask for it as standard. Cyber Essentials Plus adds an independent technical audit. Basic certification typically takes 4 to 8 weeks and Plus 2 to 3 months. YBSL is a CyberSmart Registered Partner for both.
+
+### Do I need a Carbon Reduction Plan to win government contracts?
+
+For major central government contracts, yes. Under PPN 006 and the Procurement Act 2023, suppliers bidding for central government contracts worth more than £5 million a year must provide a Carbon Reduction Plan committing to Net Zero by 2050. Other public bodies and large buyers increasingly expect one on smaller contracts too, so it pays to have it ready before the tender lands.
+
+### How long does it take to get ISO 9001, Cyber Essentials and other certifications?
+
+Longer than most people expect, which is why timing matters. As a guide: Cyber Essentials 4 to 8 weeks, a GDPR alignment programme 4 to 8 weeks, Cyber Essentials Plus 2 to 3 months, ISO 9001 3 to 6 months, ISO 45001 or ISO 14001 4 to 6 months and ISO 27001 6 to 12 months. If you can see a contract coming six months out, that is exactly the lead time you need. Start when the tender appears and you are usually too late.
+
+### What is the Cure Alliance?
+
+The Cure Alliance is YBSL's network of vetted specialists covering the 16 areas buyers check: bid writing, contract review, financial standing, insurance and key person cover, health and safety, ISO management systems, HR and employment law, sustainability and ESG, training, cyber security, OT and industrial cyber security, managed IT, hardware, web and digital, process automation and technology roadmaps. I act as the hospital administrator, not one consultant pretending to be an expert in everything. I bring in the right specialist at the right time, brief them on your roadmap and keep the whole plan moving.
+
+### Is YBSL a compliance consultancy?
+
+Not in the usual sense. Compliance is the means, winning contracts is the goal. We don't sell you a certificate and walk away. We diagnose what is stopping you getting through the buyer's gates, set the right order to fix it, and coordinate specialists who understand manufacturing to do the work.
+
+### What is the Bid Readiness Score?
+
+A free seven-question quiz that takes about two minutes. It scores your business against what buyers weigh most, including cyber security, insurance and finance, standards and quality, track record, social value, data protection and modern slavery, and shows you category by category where your gaps are.
+
+### How do I get started with YBSL?
+
+Take the free Bid Readiness Score for a quick read. When you want the full picture, book a Comprehensive Health Assessment. We look at your business and your target tenders through the buyer's eyes, identify every gap, show which tenders you can't currently bid for and set out what it takes to qualify. You leave with clarity either way.
+
+### Can you guarantee we will win a tender?
+
+No, and anyone who promises that is selling you something. Nobody controls a buyer's decision. What we can do is make sure you are never knocked out on a technicality, so every gate is passed and every piece of evidence is ready, and you are genuinely in a position to compete for the win on quality and price.
+
+## Bid Writing and Tenders
+
+Source: https://yourbestsolution.co.uk/bid-writing-tenders.html
+
+**Turning your evidence into an answer that actually scores.**
+
+Compliance only wins contracts if it is communicated the way evaluators score. Manufacturers who clear every hurdle still lose regularly on weak quality or methodology answers.
+
+### What it costs you to leave alone
+
+Without dedicated bid writing, the bid itself under-delivers strong capability reads as a weak, generic answer, evidence exists but never reaches the section that would score it, responses answer what you want to say, not what was asked, inconsistent quality across sections written by different people and submissions rushed and non-compliant with format requirements.
+You can be the best manufacturer on the list and still come fourth, because someone else answered the question that was actually asked.
+
+### The point most people miss
+
+Most manufacturers think tenders are won by writing. High-performing manufacturers know they are won by evidence. If the fifteen sections before this one are in order, the bid almost writes itself, because every answer already has a document behind it.
+Tender writing is not writing documents. It is strategic storytelling backed by evidence, and this is where the whole model pays off.
+
+### What it covers
+
+#### Strategy & Readiness
+
+Tender readiness assessments and bid strategy built around the scoring criteria.
+
+#### Response Writing
+
+Quality, methodology and social value answers written to how evaluators actually mark.
+
+#### Evidence Mapping
+
+Case studies, risk, ESG, cyber and workforce evidence embedded into the right section.
+
+#### Submission Management
+
+Compliance checks, portal submission and post-result debriefs.
+
+### What it looks like inside a manufacturer
+
+- Tender readiness reviewed quarterly, not the week a bid lands.
+- An evidence library maintained and updated.
+- Case studies refreshed annually.
+- Policies and certificates stored centrally where the bid writer can reach them.
+- Responses written to the scoring criteria, in the order they are scored.
+- Risk, ESG, cyber and workforce evidence embedded rather than appended.
+- Compliance checks run before submission.
+- Feedback analysed after every result, win or lose.
+
+### Bid/Tender scoring impact
+
+| Tender criterion | What this service contributes | Score effect |
+| --- | --- | --- |
+| Quality | Directly written and scored | Major |
+| Risk | Risk evidence structured and mapped to criteria | Major |
+| ESG | Social value answers directly written and scored | Major |
+| Compliance | A fully compliant submission | Major |
+| Experience | Case studies presented as scored evidence | Major |
+| Delivery | Clear operational capability | Moderate |
+| Innovation | Differentiation and win themes | Moderate |
+
+### What it strengthens
+
+- Every other Cure Alliance service — this is where their evidence gets scored.
+- ISO Consultant — process maturity becomes a written quality answer.
+- Sustainability / ESG — environmental commitments become social value marks.
+- Training and Skills — competence evidence becomes method statement content.
+
+## Contract Review
+
+Source: https://yourbestsolution.co.uk/commercial-solicitor.html
+
+**Proving you know what you're agreeing to before you sign.**
+
+Buyer contracts are drafted to protect the buyer. Every clause you accept without reading it has a price, whether or not you ever put a number on it.
+
+### What it costs you to leave alone
+
+Without contract review, you risk signing liability terms your insurance doesn't actually cover, missing TUPE obligations that create workforce and legal exposure, one-sided termination clauses with no negotiated protection, undocumented conflicts of interest surfacing later and disputes with no clear contractual escalation path.
+None of that shows up at tender stage — it shows up during delivery, when it's expensive to fix.
+
+### The point most people miss
+
+Most manufacturers think contract review is a legal formality. It is a commercial one. Uncapped liability, ninety-day payment terms and free tooling all have a price, whether you calculate it or not.
+The point is not to make you difficult to deal with. It is to make sure that when you quote a job, you know what you are actually agreeing to carry.
+
+### What it covers
+
+#### Contract Review
+
+Redlining standard terms, force majeure, liability caps and termination clauses.
+
+#### Governance Policies
+
+Anti-Bribery & Corruption and Whistleblowing policies drafted and followed.
+
+#### Workforce & Transfer
+
+TUPE advisory for contracts involving staff transfer.
+
+#### Risk & Disputes
+
+Conflict of interest declarations and a known escalation process for disputes.
+
+### What it looks like inside a manufacturer
+
+- Contracts are reviewed before signature, not after a problem arises.
+- Liability caps are understood and matched against actual insurance cover.
+- Termination and force majeure clauses are known, not discovered under pressure.
+- TUPE risk is assessed before a contract that involves staff transfer is signed.
+- Sub-contractor agreements mirror the obligations in the head contract.
+- Disputes are escalated through a known process, not improvised.
+- Someone qualified has actually read the contract you're about to sign.
+
+### Bid/Tender scoring impact
+
+| Tender criterion | What this service contributes | Score effect |
+| --- | --- | --- |
+| Risk | Onerous terms identified and negotiated before signature | Major |
+| Compliance | Anti-Bribery and Whistleblowing policies often required | Moderate |
+| Financial Standing | Liability caps protect financial exposure | Moderate |
+| Delivery | Clear terms reduce dispute-driven delivery risk | Moderate |
+| Quality | Governance policies support process maturity narrative | Minor |
+
+### What it strengthens
+
+- Insurance Broking & Key Person Cover — liability caps must match cover in place.
+- Chartered Accountant — financial exposure is set by contract terms.
+- HR & Employment Law — TUPE and workforce terms overlap directly.
+- Bid Writing & Tenders — governance policies feed compliance appendices.
+
+## Financial Standing
+
+Source: https://yourbestsolution.co.uk/financial-standing.html
+
+**Proving you'll still be trading when the contract ends.**
+
+Financial standing is the first thing a buyer checks, and it is often automated. A threshold gets set — typically twice the annual contract value — and bids below it never reach a human reader.
+
+### What it costs you to leave alone
+
+Without current, well-presented financials, a buyer assumes insufficient turnover to safely deliver the contract, cash flow that can't absorb mobilisation costs, outdated or unreliable financial reporting, undisclosed tax or compliance risk and a business growing faster than its financial controls.
+None of that may be true of you. It does not matter. In a tender, the assumption is what gets scored.
+
+### The point most people miss
+
+Most manufacturers think their accountant's job ends at the tax return. It does not. The moment you bid for a contract worth more than half your turnover, your books stop being paperwork and start being evidence.
+Nobody negotiates with a financial threshold. You either clear it or you are filtered out before anyone reads a word you wrote.
+
+### What it covers
+
+#### Financial Standing
+
+Turnover thresholds, filed accounts and management accounts that clear the buyer's minimum bar.
+
+#### Tax & Compliance
+
+Corporation tax, PAYE, VAT and NIC confirmed and evidenced, not just assumed.
+
+#### Cash Flow & Ratios
+
+Forecasting and ratio monitoring that proves you can absorb mobilisation costs.
+
+#### Credit & Reporting
+
+Credit rating management and cloud accounting built for contract-specific reporting.
+
+### What it looks like inside a manufacturer
+
+- Filed accounts are current and match what's declared in the bid.
+- Management accounts exist and are current if statutory accounts lag.
+- Turnover comfortably clears the threshold buyers set against contract value.
+- Tax compliance is confirmed and evidenced, not just assumed.
+- Financial ratios are monitored, not discovered for the first time in a tender.
+- Cash flow is modelled against contract mobilisation costs.
+- Credit score is checked and understood before it surprises anyone.
+- Financial documentation is ready to submit without a scramble.
+
+### Bid/Tender scoring impact
+
+| Tender criterion | What this service contributes | Score effect |
+| --- | --- | --- |
+| Financial Standing | Direct evidence against the buyer's minimum threshold | Major |
+| Risk | Ratios and solvency read directly as continuity risk | Major |
+| Compliance | Tax and filing compliance confirmed | Major |
+| Delivery | Cash flow capacity to mobilise and deliver | Moderate |
+| Quality | Clean financial systems support wider process evidence | Moderate |
+
+### What it strengthens
+
+- Insurance Broking & Key Person Cover — financial and insurance standing are read together.
+- Commercial Solicitor — liability caps are set against what the business can bear.
+- Bid Writing & Tenders — financial evidence underpins every capability claim.
+- vCIO Technology Advisory — investment decisions are grounded in real numbers.
+
+## Insurance and Key Person Cover
+
+Source: https://yourbestsolution.co.uk/insurance-key-person.html
+
+**Proving the financial hit lands on your insurer, not theirs.**
+
+When something goes wrong on a contract, the buyer wants to know the financial hit lands on your insurer, not on them. Cover levels and formats get checked early, and mechanically.
+
+### What it costs you to leave alone
+
+Without correctly structured insurance, a buyer assumes underinsured exposure, a business one bad event away from collapse, no continuity plan if a key person leaves or falls ill, mismatched liability between contract and cover and administrative carelessness that suggests wider carelessness.
+None of that may be true of you. It does not matter. In a tender, the assumption is what gets scored.
+
+### The point most people miss
+
+Most manufacturers assume their broker sorted this years ago and never revisit it. Cover quietly falls out of date while the business, and the contracts it bids for, grow past it.
+Insurance is not a policy document in a drawer. It is proof that the business is professionally run.
+
+### What it covers
+
+#### Core Business Cover
+
+Public liability, employers' liability, professional indemnity and product liability at buyer-specified minimums.
+
+#### Cyber & Continuity
+
+Cyber liability aligned to your certification, plus business interruption and machinery breakdown cover.
+
+#### Key Person Protection
+
+Cover for the founder or critical-skill dependency that would stop delivery if they were gone.
+
+#### Evidence & Renewal
+
+Cover checked against every tender, certificates in the right format, renewals tracked against the pipeline.
+
+### What it looks like inside a manufacturer
+
+- Cover levels are checked against each tender before submission, not assumed.
+- Certificates are in the exact format the procurement portal requires.
+- Key person cover exists for anyone whose absence would stop delivery.
+- Cyber and PI cover are aligned with actual contractual liability.
+- Machinery breakdown cover is in place for the equipment that would stop you.
+- Renewal dates are tracked against the bid pipeline, not just the calendar.
+- Insurance schedules are reviewed annually against business growth.
+- Claims history is documented and explainable.
+
+### Bid/Tender scoring impact
+
+| Tender criterion | What this service contributes | Score effect |
+| --- | --- | --- |
+| Risk | Cover levels read directly as financial resilience | Major |
+| Compliance | Cover matched to Selection Questionnaire minimums | Major |
+| Financial Standing | Signals a business built to survive disruption | Major |
+| Delivery | Machinery breakdown and business interruption cover protect delivery | Moderate |
+| Safety | Correctly formatted certificates avoid disqualification | Moderate |
+
+### What it strengthens
+
+- Chartered Accountant — insurance and financial standing are read together.
+- Cyber Security / vCISO — cyber liability cover depends on certified controls.
+- Commercial Solicitor — liability caps in contracts must match cover in place.
+- Health & Safety — incident history feeds both H&S and insurance risk profile.
+
+## Health and Safety
+
+Source: https://yourbestsolution.co.uk/health-safety.html
+
+**Proving your site won't hurt anyone, on paper and on the floor.**
+
+Health and safety is checked on almost every public-sector tender, and it is checked hard. A missing or lapsed accreditation is one of the fastest ways an otherwise strong bid gets screened out.
+
+### What it costs you to leave alone
+
+Without current H&S accreditation, a buyer assumes an uncontrolled or poorly supervised site, higher likelihood of incidents and delivery disruption, weak duty-of-care toward your own people, accreditation that has lapsed without anyone noticing and a business that reacts to incidents rather than preventing them.
+None of that may be true of you. It does not matter. In a tender, the assumption is what gets scored.
+
+### The point most people miss
+
+Most manufacturers think of H&S as paperwork that sits in a folder. Auditors do not read the folder first. They walk the floor, then check whether the paperwork matches what they just saw.
+Buyers do not want a policy document. They want proof that if something goes wrong on your shop floor, you already know what happens next.
+
+### What it covers
+
+#### Policy & Risk Assessment
+
+Written H&S policy, risk assessments and method statements specific to your actual operations.
+
+#### Accreditation
+
+SafeContractor, Achilles or an equivalent SSIP scheme, current and matched to the accrediting body's register.
+
+#### Incident Management
+
+RIDDOR reporting, accident tracking and corrective actions tracked to closure.
+
+#### Site Discipline
+
+PPE, inductions, machinery inspection records and a named person with real authority to act.
+
+### What it looks like inside a manufacturer
+
+- Risk assessments are specific to the actual operations, not generic templates.
+- Accreditation certificates are current and match the accrediting body's register.
+- Accident and near-miss logs are maintained and reviewed, not filed and forgotten.
+- Machinery has current maintenance and safety inspection records.
+- Staff can describe the evacuation plan without prompting.
+- Inductions happen before anyone new sets foot on the shop floor.
+- Corrective actions from incidents are tracked to closure.
+- A named person owns H&S with real authority to act.
+
+### Bid/Tender scoring impact
+
+| Tender criterion | What this service contributes | Score effect |
+| --- | --- | --- |
+| Safety | Direct, primary evidence category | Major |
+| Risk | Incident history and controls read as operational risk | Major |
+| Compliance | Accreditation is a stated SQ gateway requirement | Major |
+| Quality | Documented procedures signal process maturity | Moderate |
+| Delivery | Fewer incidents means fewer delivery disruptions | Moderate |
+
+### What it strengthens
+
+- ISO Consultant — the certified extension of the same discipline.
+- Training and Skills — competence records underpin safe operation.
+- Insurance Broking & Key Person Cover — claims history and premiums track H&S performance.
+- OT / ICS Security — physical and operational safety share the same audit trail.
+
+## ISO Management Systems
+
+Source: https://yourbestsolution.co.uk/iso-standards.html
+
+**Proving you are controlled, consistent and audit-ready.**
+
+ISO is the discipline that proves you are controlled, consistent, safe and audit-ready. In the Cure Alliance model it is the backbone, because almost every other service leans on the evidence it produces.
+
+### What it costs you to leave alone
+
+Without ISO, a buyer assumes inconsistent processes, uncontrolled risks, weak governance, unreliable delivery, poor evidence and high operational volatility.
+None of that may be true of you. It does not matter. In a tender, the assumption is what gets scored.
+
+### The point most people miss
+
+Buyers, especially OEMs and Tier-1s, use ISO as a risk filter. If you have it, you are low risk. If you do not, you are high risk, regardless of how good you actually are.
+People think ISO is paperwork. It is not. ISO is predictability, and predictability is what buyers want and pay for.
+
+### What it covers
+
+#### Quality — ISO 9001
+
+Process control, consistency and the paper trail that proves it.
+
+#### Environmental — ISO 14001
+
+Environmental responsibility built into how the business runs.
+
+#### Health & Safety — ISO 45001
+
+The certified extension of your day-to-day safety discipline.
+
+#### Governance & Audit
+
+Management reviews, internal audits, document control and risk-based thinking.
+
+### What it looks like inside a manufacturer
+
+- Processes are controlled, and responsibilities are defined.
+- Procedures are documented, and people actually follow them.
+- Training and competence records are current.
+- Calibration and maintenance logs are up to date.
+- Suppliers are assured, not assumed.
+- Non-conformances are managed rather than argued about.
+- Audit trails exist and stand up to scrutiny.
+- Environmental controls and safety risk assessments are in place.
+- Incidents get reported and reviewed.
+- Management oversight is documented, not implied.
+
+### Bid/Tender scoring impact
+
+| Tender criterion | What this service contributes | Score effect |
+| --- | --- | --- |
+| Quality | Process control and hard evidence | Major |
+| Experience | Case studies backed by ISO maturity | Moderate |
+| ESG | ISO 14001 plus DEI evidence | Major |
+| Safety | ISO 45001 | Major |
+| Innovation | Controlled change management | Moderate |
+| Risk | ISO reads as low-risk supplier | Major |
+| Delivery | Predictability | Major |
+
+### What it strengthens
+
+- Cyber Security / vCISO — evidence, governance and audit discipline.
+- MSP & Managed IT — controlled IT processes.
+- HR & Employment Law — competence records.
+- Sustainability / ESG — environmental controls.
+- Bid Writing & Tenders — evidence mapping.
+- OT / ICS Security — controlled engineering processes.
+- Insurance Broking & Key Person Cover — risk registers and incident logs.
+
+## People and Employment Law
+
+Source: https://yourbestsolution.co.uk/hr-employment-law.html
+
+**Proving your people are managed, protected and legally covered.**
+
+Social value is now weighted heavily on manufacturing tenders, and HR evidence is where most of those marks live or die.
+
+### What it costs you to leave alone
+
+Without current HR and employment documentation, a buyer assumes weak or absent EDI commitment, unaudited, higher-risk supply chain on modern slavery, IR35 and worker classification exposure, generic, unsubstantiated wellbeing claims and social value answers that won't survive scrutiny.
+None of that may be true of you. It does not matter. In a tender, the assumption is what gets scored.
+
+### The point most people miss
+
+Most manufacturers have decent practice and no documentation. To an evaluator, undocumented good practice scores identically to having no practice at all.
+This is not HR administration. It is operational risk control, and buyers score it that way.
+
+### What it covers
+
+#### EDI & Modern Slavery
+
+Equality, diversity and inclusion policy plus a Modern Slavery statement backed by a real supply-chain audit.
+
+#### Contracts & Classification
+
+Employment contract review and IR35 worker classification that holds up to scrutiny.
+
+#### Pay & Wellbeing
+
+Real Living Wage accreditation and wellbeing programmes with substance behind them, not slogans.
+
+#### Governance
+
+TUPE readiness, right-to-work checks, grievance procedures and whistleblowing policy.
+
+### What it looks like inside a manufacturer
+
+- EDI policy exists, is current, and has a genuine action plan behind it.
+- Modern Slavery statement is published and reflects an actual supply chain audit.
+- Employment contracts are compliant and worker classification is defensible.
+- Wellbeing initiatives are real and can be described with specifics, not slogans.
+- TUPE processes are understood and ready before a contract requires them.
+- Right-to-work checks are consistent and recorded.
+- Grievance processes are documented and followed when used.
+- HR documentation is reviewed annually, not written once and forgotten.
+
+### Bid/Tender scoring impact
+
+| Tender criterion | What this service contributes | Score effect |
+| --- | --- | --- |
+| ESG | EDI, wellbeing and pay policy score directly as social value | Major |
+| Compliance | Modern Slavery statement is often a stated requirement | Major |
+| Risk | Employment law exposure reads as operational risk | Moderate |
+| Quality | Workforce governance supports process maturity claims | Moderate |
+| Experience | Retention and wellbeing evidence strengthens capability | Moderate |
+
+### What it strengthens
+
+- Training and Skills — competence and development sit alongside workforce governance.
+- Sustainability / ESG — social value scoring draws on both together.
+- Web Design & Digital — Modern Slavery statement must be published.
+- Commercial Solicitor — TUPE and employment risk in contract review.
+
+## Sustainability and ESG
+
+Source: https://yourbestsolution.co.uk/esg-sustainability.html
+
+**Proving you operate ethically, sustainably and transparently.**
+
+A Carbon Reduction Plan has moved from nice-to-have to a scored, sometimes mandatory, requirement. Manufacturers without one are increasingly locked out before the technical evaluation even starts.
+
+### What it costs you to leave alone
+
+Without a published Carbon Reduction Plan, a buyer assumes no environmental measurement or accountability, social value answers are unsubstantiated, reputational risk from non-compliance with packaging or waste rules, a supplier behind the market on a now-standard requirement and weaker positioning against competitors who do publish one.
+None of that may be true of you. It does not matter. In a tender, the assumption is what gets scored.
+
+### The point most people miss
+
+Most manufacturers think ESG is a paragraph on the website. Evaluators check whether the Carbon Reduction Plan is actually live, actually measured, and actually matches what the bid claims.
+ESG is not reporting. It is evidence of how you actually behave.
+
+### What it covers
+
+#### Carbon Reduction
+
+A published Carbon Reduction Plan and Scope 1, 2 and 3 emissions measurement.
+
+#### Environmental Controls
+
+ISO 14001 alignment, waste management, energy efficiency and pollution prevention.
+
+#### Compliance
+
+Packaging EPR, WEEE and RoHS obligations met and documented.
+
+#### Evidence for Tenders
+
+Sustainability evidence packaged and published where evaluators can actually find it.
+
+### What it looks like inside a manufacturer
+
+- A Carbon Reduction Plan is live on the website, not sitting in a drawer.
+- Emissions are calculated annually, not estimated in a hurry for the bid.
+- Environmental targets are specific and time-bound, not aspirational language.
+- Waste streams are separated, documented and recycling targets tracked.
+- Energy usage is monitored and actually reducing.
+- Environmental incidents are logged.
+- ISO 14001 evidence backs up narrative claims.
+
+### Bid/Tender scoring impact
+
+| Tender criterion | What this service contributes | Score effect |
+| --- | --- | --- |
+| ESG | Direct, primary scoring category | Major |
+| Compliance | Carbon Reduction Plan is a stated requirement on many contracts | Major |
+| Risk | Environmental non-compliance is a reputational and legal risk | Major |
+| Quality | ISO 14001 evidence supports process maturity claims | Moderate |
+| Innovation | Net zero and efficiency initiatives support innovation answers | Moderate |
+
+### What it strengthens
+
+- ISO Consultant — ISO 14001 is the certified backbone of this evidence.
+- HR & Employment Law — environmental and social value scoring sit together.
+- Web Design & Digital — the Carbon Reduction Plan must be published and findable.
+- Bid Writing & Tenders — social value answers draw directly on this evidence.
+
+## Training and Skills
+
+Source: https://yourbestsolution.co.uk/training-skills.html
+
+**Proving your people are competent, not just present.**
+
+A method statement that claims a trained, competent workforce is a claim. A training matrix with names, dates and expiry tracking is evidence, and evaluators are trained to spot the difference.
+
+### What it costs you to leave alone
+
+Without documented training and skills records, a buyer assumes unverified workforce competence behind method statement claims, key-person dependency with no succession plan, social value commitments with no substance behind them, inconsistent site safety competence and a workforce that can't be evidenced under audit.
+None of that may be true of you. It does not matter. In a tender, the assumption is what gets scored.
+
+### The point most people miss
+
+Most manufacturers think competence is about running the course. It is about being able to produce the certificate, the date and the sign-off, six months later, without a scramble.
+Training is an activity. Competence is a proof point. Auditors do not want to hear that you train your people. They want the matrix.
+
+### What it covers
+
+#### Competency Mapping
+
+Training matrices that show who is qualified for what, and when it expires.
+
+#### Accredited Training
+
+NVQs, apprenticeships, trade certifications, IOSH and NEBOSH qualifications.
+
+#### Social Value Evidence
+
+A Skills Development Plan and apprenticeship commitments that score in a tender.
+
+#### Succession & Records
+
+Key-person succession planning and audit-ready training documentation.
+
+### What it looks like inside a manufacturer
+
+- A training matrix exists and shows who is qualified for what, and when it expires.
+- CPD records are current and can be produced on request.
+- Apprenticeship and development commitments are real and tracked.
+- Key-person dependency is identified and succession planning is underway.
+- Site inductions include a documented competency sign-off.
+- Training gaps are identified proactively, not discovered mid-contract.
+- Records are audit-ready, not scattered across individual managers' files.
+
+### Bid/Tender scoring impact
+
+| Tender criterion | What this service contributes | Score effect |
+| --- | --- | --- |
+| Quality | Competency evidence supports method statement credibility | Major |
+| ESG | Skills Development Plan and apprenticeships score as social value | Major |
+| Safety | Trained, competent staff support safe operation | Major |
+| Risk | Reduces key-person and delivery risk | Moderate |
+| Delivery | Trained, qualified workforce reduces delivery risk | Moderate |
+
+### What it strengthens
+
+- Health & Safety — competence records underpin safe operation.
+- ISO Consultant — training evidence is a required ISO 45001 control.
+- HR & Employment Law — workforce governance and skills sit together.
+- Bid Writing & Tenders — competency evidence becomes method statement content.
+
+## Cyber Security and vCISO
+
+Source: https://yourbestsolution.co.uk/cyber-assurance.html
+
+**Protecting their data. Proving you can recover.**
+
+Cyber Essentials is now a formal gateway requirement on most public-sector contracts. Miss it, and you are excluded before price is even considered.
+
+### What it costs you to leave alone
+
+Without Cyber Essentials, a buyer assumes unmanaged devices and networks, unpatched systems, no incident response capability, weak data handling and you are a soft entry point into their supply chain.
+That last one is the killer. An OEM will not share sensitive design data with a supplier it thinks is leaky.
+
+### The point most people miss
+
+Most manufacturers think of cyber security as an IT problem. It is a governance problem, and Cyber Essentials is how a buyer checks your governance without ever needing to meet you.
+A buyer will not hand sensitive data or system access to a business that cannot prove it is defended.
+
+### What it covers
+
+#### Cyber Assurance
+
+Cyber Essentials, Cyber Essentials Plus, ISO 27001 alignment, penetration testing and vulnerability management.
+
+#### Network & Access Security
+
+Patch management, multi-factor authentication, access control, segmentation, firewalls and email protection.
+
+#### Data Protection & Privacy
+
+UK GDPR, DPIAs, data retention, secure deletion and lawful handling of personal information.
+
+#### Response & Recovery
+
+Incident planning, tested backups, staff awareness, supplier assurance and evidence of recovery capability.
+
+### What it looks like inside a manufacturer
+
+- Firewalls, endpoints and cloud services are configured to a certified standard.
+- Multi-factor authentication is enforced on every account, including the directors'.
+- Software and firmware are patched on a schedule, not reactively.
+- Admin rights are restricted to the people who actually need them.
+- Staff can recognise and report phishing attempts.
+- A named person owns cyber risk at board level.
+- Backups are encrypted and, more importantly, tested.
+- An incident response plan exists and has been rehearsed.
+- Certification renews on schedule, not lapses unnoticed.
+
+### Bid/Tender scoring impact
+
+| Tender criterion | What this service contributes | Score effect |
+| --- | --- | --- |
+| Cyber | Certified controls evidence system maturity | Major |
+| Compliance | Cyber Essentials is a stated gateway requirement | Major |
+| Risk | Cyber posture reads directly as supplier risk | Major |
+| Quality | Secure systems mean reliable processes | Major |
+| Delivery | Reduces risk of service disruption from a breach | Moderate |
+
+### What it strengthens
+
+- MSP & Managed IT — the systems the certification actually governs.
+- ISO Consultant — shared control and audit framework.
+- OT / ICS Security — same governance model, extended to the shop floor.
+- Insurance Broking & Key Person Cover — cyber liability cover depends on this evidence.
+
+## OT and Industrial Cybersecurity
+
+Source: https://yourbestsolution.co.uk/ot-ics-security.html
+
+**Protecting the machines that actually make the product.**
+
+OT security protects the machines. The PLCs, the HMIs, the SCADA networks, the robots, the CNCs — everything that turns raw material into product.
+
+### What it costs you to leave alone
+
+Without it, a buyer assumes production downtime risk, unsafe machinery, uncontrolled engineering changes, exposure to ransomware, compromised PLC logic and unsafe remote vendor access.
+On some OEM frameworks, this is not a scoring question at all. It is a pass-or-fail gate.
+
+### The point most people miss
+
+Most manufacturers assume cyber-attacks target the office. Increasingly, they target the plant, and for good reason. PLCs rarely get patched, HMIs run operating systems that went out of support years ago, and almost nobody is monitoring OT traffic.
+OT cyber is not IT cyber, and treating it as though it is causes real damage. Your IT team can patch a laptop on a Tuesday afternoon. Patch a PLC mid-run and you have scrapped a batch.
+
+### What it covers
+
+#### Industrial Systems
+
+PLCs, HMIs, SCADA networks, robotics and CNC machines identified and assessed.
+
+#### Network Segmentation
+
+Production networks genuinely isolated from office IT.
+
+#### Vendor & Access Control
+
+Secure, logged, time-limited remote access for equipment vendors.
+
+#### Incident Readiness
+
+OT-specific incident response, offline backups and change control on the plant floor.
+
+### What it looks like inside a manufacturer
+
+- Production networks genuinely isolated from office networks.
+- PLC programs backed up and version-controlled.
+- Engineering laptops locked down and not doubling as someone's email machine.
+- HMIs hardened, with passwords that are not on a sticky note.
+- Industrial firewalls between zones.
+- Vendor remote access controlled, time-limited and logged.
+- OT patches applied only in a planned window when it is safe.
+- Offline backups held for ransomware recovery.
+- Change management enforced on the plant floor.
+
+### Bid/Tender scoring impact
+
+| Tender criterion | What this service contributes | Score effect |
+| --- | --- | --- |
+| Cyber | IT and OT working to one security posture | Major |
+| Risk | OT maturity means low supply-chain risk | Major |
+| Operational Resilience | Backups, segmentation and monitoring | Major |
+| Safety | Protected control systems | Major |
+| Compliance | Cyber Essentials Plus, ISO and safety evidence | Moderate |
+| Delivery | Reduced downtime | Moderate |
+
+### What it strengthens
+
+- Cyber Security / vCISO — one security posture across IT and OT.
+- ISO Consultant — controlled engineering processes feed ISO evidence.
+- MSP & Managed IT — a stable foundation for OT systems.
+- Insurance Broking & Key Person Cover — OT risk registers and cyber insurance.
+
+## Managed IT and Infrastructure
+
+Source: https://yourbestsolution.co.uk/managed-it.html
+
+**Proving the systems behind your certificate actually work.**
+
+Your Cyber Essentials certificate is only true if the systems behind it are actually managed that way, every day, not just on assessment day.
+
+### What it costs you to leave alone
+
+Without managed infrastructure, a buyer assumes Cyber Essentials controls exist on paper but not in practice, unreliable systems during contract delivery, no real continuity plan if systems fail, inconsistent patching and endpoint protection and support dependent on one person's availability.
+None of that may be true of you. It does not matter. In a tender, the assumption is what gets scored.
+
+### The point most people miss
+
+Auditors do not take the certificate's word for it. They ask to see the patch log, the backup test, the access list. If the systems on the ground do not match the claim on the certificate, the claim collapses.
+This is not IT support. IT support is what you call when something breaks. Managed IT is what stops it breaking.
+
+### What it covers
+
+#### Core Infrastructure
+
+Servers, networks, site Wi-Fi and user devices kept patched, monitored and documented.
+
+#### Production Systems
+
+HMIs, engineering workstations and shop-floor PCs managed to the same standard as the office.
+
+#### Cloud & Backup
+
+Microsoft 365, Azure and SharePoint structured properly, with backups encrypted and tested.
+
+#### Support & Access Control
+
+Helpdesk workflows, patch management and access control that stands up to an audit.
+
+### What it looks like inside a manufacturer
+
+- Servers patched on a schedule, with a record to prove it.
+- Office and production networks segmented.
+- Wi-Fi that works in the far corner of the warehouse, not just reception.
+- Multi-factor authentication enforced across all accounts.
+- Backups encrypted and tested for actual recoverability.
+- Firewalls configured and reviewed, not installed and forgotten.
+- Production PCs locked down.
+- ERP and MRP databases maintained and backed up.
+- Cloud storage structured and permissioned.
+
+### Bid/Tender scoring impact
+
+| Tender criterion | What this service contributes | Score effect |
+| --- | --- | --- |
+| Operational Resilience | System uptime and reliability during contract delivery | Major |
+| Cyber | Underpins Cyber Essentials control evidence | Major |
+| Delivery | Reduces risk of service disruption during a live contract | Major |
+| Compliance | Documented, managed systems support audit evidence | Moderate |
+| Quality | Reliable systems support consistent process delivery | Moderate |
+
+### What it strengthens
+
+- Cyber Security / vCISO — the certification depends on this being real.
+- Hardware & Infrastructure — physical and managed layers work together.
+- vCIO Technology Advisory — strategy needs an operational base to execute against.
+- IT Systems & Process Automation — automation runs on managed infrastructure.
+
+## Hardware and Infrastructure
+
+Source: https://yourbestsolution.co.uk/hardware-infrastructure.html
+
+**Proving the physical kit behind every certificate is real.**
+
+Every certification claim about secure, controlled systems rests on physical hardware. It's what your MSP manages day to day and what a Cyber Essentials assessor actually inspects.
+
+### What it costs you to leave alone
+
+Without documented hardware and infrastructure management, a buyer assumes undocumented, inconsistent network configuration, ageing or unsupported equipment as a security gap, no clear record of what's connected to the network, risk in how old devices and data are disposed of and infrastructure claims in certifications that don't match reality.
+None of that may be true of you. It does not matter. In an audit, the assumption is what gets tested.
+
+### The point most people miss
+
+Most manufacturers can describe their IT setup from memory. Almost none can produce an asset register that matches it, and that is exactly what an auditor asks to see.
+Hardware is not a procurement decision. For tender purposes, it's documented evidence behind everything else you claim.
+
+### What it covers
+
+#### Asset Documentation
+
+A hardware estate and network topology diagram that matches reality.
+
+#### Secure Configuration
+
+Firewalls, switches and access points configured to Cyber Essentials standards.
+
+#### Lifecycle Management
+
+Replacement planning and certified data destruction for end-of-life devices.
+
+#### Physical Security
+
+Server room security and power resilience for critical infrastructure.
+
+### What it looks like inside a manufacturer
+
+- A current hardware and network topology diagram exists.
+- Firewalls and access points are configured to a documented, certified standard.
+- Devices are supplied and configured consistently, not ad hoc.
+- An asset register tracks every piece of hardware through its lifecycle.
+- End-of-life devices are disposed of with certified data destruction.
+- Power and environmental resilience protects critical systems.
+- Hardware configuration matches what's declared in Cyber Essentials submissions.
+
+### Bid/Tender scoring impact
+
+| Tender criterion | What this service contributes | Score effect |
+| --- | --- | --- |
+| Compliance | Underpins Cyber Essentials secure configuration evidence | Moderate |
+| Risk | Poor asset management reads as operational risk | Moderate |
+| Quality | Documented asset register supports process maturity | Moderate |
+| Operational Resilience | Reliable infrastructure supports uninterrupted delivery | Moderate |
+| Cyber | Physical layer behind every cyber control claim | Minor |
+
+### What it strengthens
+
+- MSP & Managed IT — the physical layer the MSP manages day to day.
+- Cyber Security / vCISO — secure configuration evidence for certification.
+- ISO Consultant — asset registers feed ISO documentation.
+- OT / ICS Security — physical and OT security decisions are linked.
+
+## Web Design and Digital
+
+Source: https://yourbestsolution.co.uk/web-digital.html
+
+**Proving your certifications actually exist, before they open your bid.**
+
+Your website is the first thing an evaluator checks, often before they open your bid. It's where every certification and policy you claim gets quietly verified.
+
+### What it costs you to leave alone
+
+Without a current, compliant website, a buyer assumes claimed policies and certifications may not actually exist, the business is not actively maintained or invested in, a gap between bid claims and public evidence, weak data protection practice and lower overall credibility across every other claim in the bid.
+None of that may be true of you. It does not matter. In a tender, the assumption is what gets scored.
+
+### The point most people miss
+
+Most manufacturers think a website is marketing. For tender purposes it is a due diligence surface, checked without your knowledge, outside the formal evaluation process.
+A stale website works against you before a human even reads your submission.
+
+### What it covers
+
+#### Compliance Content
+
+Carbon Reduction Plan, Modern Slavery Statement and Privacy Policy published and current.
+
+#### GDPR & Data Handling
+
+Cookie consent and data-handling disclosures that meet UK GDPR requirements.
+
+#### Evidence Pages
+
+Case studies and accreditation showcases built as citable tender evidence.
+
+#### Consistency Check
+
+Everything on the site matches exactly what's claimed in the bid.
+
+### What it looks like inside a manufacturer
+
+- Carbon Reduction Plan, Modern Slavery Statement and policies are live, current, and easy to find.
+- Certifications shown on the site match what's actually held and in date.
+- Case studies exist as citable evidence for capability questions.
+- The site loads properly, has no broken pages, and looks maintained.
+- Contact and company details match Companies House records exactly.
+- Social value and ESG claims on the site match what's in submitted bids.
+- Nothing on the site contradicts anything claimed in a bid response.
+
+### Bid/Tender scoring impact
+
+| Tender criterion | What this service contributes | Score effect |
+| --- | --- | --- |
+| Compliance | Published policies verified during due diligence | Major |
+| ESG | Carbon Reduction Plan and social value content must be publicly findable | Major |
+| Risk | Inconsistency between site and bid reads as a red flag | Major |
+| Quality | A current, professional site signals operational maturity | Moderate |
+| Experience | Case studies serve as accessible, checkable evidence | Moderate |
+
+### What it strengthens
+
+- Sustainability / ESG — the Carbon Reduction Plan has nowhere to live without this.
+- ISO Consultant — certifications need a visible, verifiable home.
+- HR & Employment Law — Modern Slavery statement must be published.
+- Bid Writing & Tenders — case studies and evidence pages feed bid responses directly.
+
+## Process Automation
+
+Source: https://yourbestsolution.co.uk/process-automation.html
+
+**Proving your evidence can be produced in minutes, not days.**
+
+Buyers increasingly look for evidence that your operations run reliably day to day, not just that policies exist on paper. This is what makes every other policy provable on demand.
+
+### What it costs you to leave alone
+
+Without process automation, a buyer rarely notices directly — but the business feels it evidence takes too long to produce when a tender or audit asks for it, processes depend on one person's memory or method, version control errors create inconsistent documentation, administrative errors creep into repeated manual tasks and audits take longer and surface more inconsistencies than they should.
+None of this typically loses a specific tender on its own — but it quietly undermines every other workstream's evidence.
+
+### The point most people miss
+
+Most manufacturers can describe how work gets done. Few can produce the evidence of it happening that way, on the day an auditor or evaluator actually asks.
+A process that lives in one person's head is not a process. It is a single point of failure with a job title.
+
+### What it covers
+
+#### Process Mapping
+
+Repetitive administrative processes mapped and automated.
+
+#### Document Control
+
+SharePoint and OneDrive structured for version control and access management.
+
+#### Workflow Automation
+
+Approval and sign-off workflows that leave a clear, traceable record.
+
+#### Records on Demand
+
+Evidence retrievable quickly, without relying on one person's memory.
+
+### What it looks like inside a manufacturer
+
+- Records and evidence can be retrieved quickly when a tender or audit asks for them.
+- SharePoint and OneDrive are structured, not a folder free-for-all.
+- Repetitive administrative tasks run through an automated workflow.
+- Version control means everyone is working from the current document.
+- Key processes are documented well enough that they don't rely on one person.
+- Approval workflows are traceable, with a clear record of who signed off what.
+- Process documentation is current and matches how work actually happens.
+
+### Bid/Tender scoring impact
+
+| Tender criterion | What this service contributes | Score effect |
+| --- | --- | --- |
+| Quality | Repeatable, documented processes support maturity claims | Moderate |
+| Operational Resilience | Reduced single-person dependency lowers operational risk | Moderate |
+| Risk | Faster, more reliable evidence retrieval for audits | Moderate |
+| Compliance | Records retrievable on demand during due diligence | Minor |
+| Innovation | Digital workflow maturity supports innovation narrative | Minor |
+
+### What it strengthens
+
+- ISO Consultant — document control and process mapping directly support ISO evidence.
+- vCIO Technology Advisory — automation is part of the broader technology roadmap.
+- Training and Skills — documented workflows reduce reliance on one person's memory.
+- MSP & Managed IT — automated workflows run on the infrastructure the MSP manages.
+
+## Technology Roadmap
+
+Source: https://yourbestsolution.co.uk/vcio-technology-advisory.html
+
+**Proving your technology spend adds up to a plan.**
+
+Every technology decision across the other fifteen services needs a strategic frame, or it becomes a series of disconnected purchases that never add up to anything a buyer notices.
+
+### What it costs you to leave alone
+
+Without vCIO oversight, a buyer rarely notices directly — but the business experiences it technology decisions made in isolation, without a coordinated plan, reactive spending instead of planned investment, no board-level visibility into cumulative technology risk, suppliers pulling in different directions instead of one coherent plan and missed opportunity to position technology maturity as a differentiator.
+None of this usually costs a specific tender — but it caps how far the other workstreams can take you.
+
+### The point most people miss
+
+Most manufacturers spend on technology reactively, one urgent problem at a time. The spend adds up over the years, but it never compounds into a story a buyer can actually see.
+A vCIO is not a luxury for businesses that cannot afford a full-time CIO. It is board-level judgement, sized right.
+
+### What it covers
+
+#### Roadmap & Strategy
+
+A technology roadmap reviewed against the bid pipeline, not built once and forgotten.
+
+#### Board Reporting
+
+Clear, non-technical reporting on technology risk and investment priorities.
+
+#### Supplier Coordination
+
+MSP, cyber, hardware and automation partners working to one plan.
+
+#### Investment Planning
+
+Budgets planned proactively and ranked against commercial outcomes.
+
+### What it looks like inside a manufacturer
+
+- A technology roadmap exists and is reviewed against the bid pipeline.
+- Technology investment decisions are made with commercial outcomes in mind.
+- The board receives clear, non-technical reporting on technology risk.
+- MSP, Cyber, Hardware and Automation partners work to one coordinated plan.
+- Technology spend is budgeted proactively, not reactively.
+- Vendor contracts are negotiated with strategic oversight, not signed in isolation.
+- Investment priorities are ranked, not scattered across whatever's urgent.
+
+### Bid/Tender scoring impact
+
+| Tender criterion | What this service contributes | Score effect |
+| --- | --- | --- |
+| Innovation | Strategic technology positioning supports innovation answers | Moderate |
+| Risk | Coordinated technology risk management | Moderate |
+| Quality | Coherent technology strategy supports maturity narrative | Moderate |
+| Delivery | Long-range planning reduces disruption from reactive investment | Minor |
+| Financial Standing | Disciplined investment planning supports commercial credibility | Minor |
+
+### What it strengthens
+
+- Every technology-related Cure Alliance service — this is the layer above them.
+- MSP & Managed IT — strategy sets direction, MSP executes it.
+- Cyber Security / vCISO — technology risk reporting feeds board-level cyber oversight.
+- Chartered Accountant — investment planning is grounded in financial reality.

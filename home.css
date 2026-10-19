@@ -1204,3 +1204,14 @@ section { position: relative; }
 .ca-diagram { margin: 0 0 2.5rem; }
 .ca-diagram .ab-diagram { border: 1px solid var(--rule); border-radius: var(--r); background: var(--white); box-shadow: 0 18px 44px rgba(0, 32, 90, 0.10); }
 .ca-diagram .ab-diagram img { display: block; height: auto; }
+
+/* ---------- FAQ (common questions) ---------- */
+.faq-list { max-width: 900px; margin: 2.5rem auto 0; display: grid; gap: 0.9rem; }
+.faq-item { background: var(--white); border: 1px solid var(--rule); border-left: 4px solid var(--orange); border-radius: var(--r); box-shadow: 0 2px 10px rgba(0,61,165,0.05); }
+.faq-item summary { list-style: none; cursor: pointer; padding: 1.15rem 3.2rem 1.15rem 1.4rem; position: relative; }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after { content: "+"; position: absolute; right: 1.3rem; top: 50%; transform: translateY(-50%); font-family: var(--fh); font-weight: 800; font-size: 1.5rem; color: var(--orange); line-height: 1; }
+.faq-item[open] summary::after { content: "\2212"; }
+.faq-item summary h3 { font-family: var(--fh); font-weight: 800; font-size: clamp(1rem, 1.6vw, 1.12rem); line-height: 1.35; color: var(--navy); margin: 0; }
+.faq-item p { padding: 0 1.4rem 1.3rem; color: var(--mid); line-height: 1.75; font-size: 1rem; }
+.faq-item summary:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; border-radius: var(--r); }
