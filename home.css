@@ -1194,3 +1194,8 @@ section { position: relative; }
     display: flex;
   }
 }
+
+/* Hospital hero image at the top of the homepage */
+.tm-hospital { margin: 18px auto 28px; max-width: 1200px; }
+.tm-hospital img { display: block; width: 100%; height: auto; border-radius: 14px; box-shadow: 0 8px 28px rgba(0,61,165,0.14); }
+@media (max-width: 620px) { .tm-hospital { margin-bottom: 18px; } .tm-hospital img { border-radius: 8px; } }
