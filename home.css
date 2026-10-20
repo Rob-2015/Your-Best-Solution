@@ -1254,3 +1254,4 @@ section { position: relative; }
   .step-body { border-left: none; padding-left: 0; }
   .hiw { grid-template-columns: 1fr; gap: 1.1rem; }
 }
+.h3-sub { display: block; }
