@@ -1271,3 +1271,8 @@ section { position: relative; }
 @media (max-width: 600px) { .tm-hero .tm-eyebrow { margin-top: 12px; } }
 @media (max-width: 920px) { .tm-hospital { max-width: 1200px; min-width: 0; } }
 .tm-hero .tm-win { line-height: 1.15; margin-top: 18px; }
+
+/* Hero type hierarchy: lead-in small, headline biggest, team line as a bridge into the picture */
+.tm-hero .tm-eyebrow { font-size: clamp(17px, 1.7vw, 23px); line-height: 1.25; max-width: 860px; }
+.tm-hero .tm-headline { font-size: clamp(24px, 3.1vw, 40px); line-height: 1.1; margin-top: 10px; }
+.tm-hero .tm-win { font-size: clamp(17px, 1.7vw, 23px); line-height: 1.25; margin-top: 14px; }
