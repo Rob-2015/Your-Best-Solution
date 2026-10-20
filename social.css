@@ -166,3 +166,22 @@
 @media (min-width: 921px) and (max-width: 945px) {
   .tm-hero { padding-top: calc(152px + var(--bar-h)) !important; }
 }
+
+/* Header logo is 26px taller on laptops and desktops (home.css), so everything below moves down by the same amount */
+@media (min-width: 921px) {
+  .tm-hero { padding-top: calc(6.8rem + 26px + var(--bar-h)) !important; }
+  #about, #story, #ab-alliance, #resources { scroll-margin-top: calc(146px + var(--bar-h, 0px)); }
+  #timing, #questions, #process, #contact, #faq { scroll-margin-top: calc(66px + var(--bar-h, 0px)); }
+  #alliance { scroll-margin-top: calc(116px + var(--bar-h, 0px)); }
+}
+@media (min-width: 921px) and (max-width: 1199px) {
+  #about, #story, #ab-alliance, #resources { scroll-margin-top: calc(196px + var(--bar-h, 0px)); }
+  #timing, #questions, #process, #contact, #faq { scroll-margin-top: calc(106px + var(--bar-h, 0px)); }
+  #alliance { scroll-margin-top: calc(136px + var(--bar-h, 0px)); }
+}
+@media (min-width: 921px) and (max-width: 1125px) {
+  .tm-hero { padding-top: calc(156px + var(--bar-h)) !important; }
+}
+@media (min-width: 921px) and (max-width: 945px) {
+  .tm-hero { padding-top: calc(178px + var(--bar-h)) !important; }
+}
