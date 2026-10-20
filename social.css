@@ -198,3 +198,8 @@
 
 /* Contact strip matches the white header */
 @media (min-width: 921px) { .top-bar { background: #FFFFFF; } }
+
+/* No dividing lines inside the header: under the contact strip, or above the menu */
+.top-bar { border-bottom: none !important; }
+.nav-bar { border-top: none !important; }
+.nav, .nav.scrolled { box-shadow: 0 8px 14px -8px rgba(10, 26, 47, 0.12) !important; }
