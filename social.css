@@ -206,5 +206,5 @@
 
 /* Tighter gaps between home page sections: about 160px between sections on laptops and big monitors
    (was 256px), about 96px on phones (was 144px). Background colours still mark where each section starts. */
-.sec { padding-top: clamp(3rem, 5.5vw, 5rem) !important; padding-bottom: clamp(3rem, 5.5vw, 5rem) !important; }
-.ab-story, .ab-alliance, .ab-resources { padding-block: clamp(3rem, 5.5vw, 5rem); }
+.sec { padding-top: clamp(2.25rem, 4vw, 3.5rem) !important; padding-bottom: clamp(2.25rem, 4vw, 3.5rem) !important; }
+.ab-story, .ab-alliance, .ab-resources { padding-block: clamp(2.25rem, 4vw, 3.5rem); }
