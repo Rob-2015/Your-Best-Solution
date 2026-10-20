@@ -585,3 +585,17 @@ td:last-child {
 .next-step__more { font-size: 0.95em; margin: 0 !important; }
 .next-step__more a { color: var(--navy); font-weight: 600; }
 @media (max-width: 600px) { .next-step { margin: 8px 12px 18px; padding: 20px 18px; } .next-step__btn { width: 100%; text-align: center; } }
+
+/* Common questions block on service pages: answer-first Q&As AI tools and search can quote */
+.svc-faq { margin: 8px 28px 22px; padding: 24px 28px 18px; background: #fff; border: 1px solid #DDE3F0; border-radius: 16px; }
+.svc-faq .section-title { margin-bottom: 14px; }
+.svc-faq__item { padding: 14px 0; border-top: 1px solid #EEF1F7; }
+.svc-faq__item:first-of-type { border-top: none; padding-top: 4px; }
+.svc-faq__item h3 { margin: 0 0 6px; color: var(--navy); font-family: "Segoe UI", Arial, sans-serif; font-size: 1.05rem; font-weight: 800; line-height: 1.35; }
+.svc-faq__item p { margin: 0; color: #2E3A55; line-height: 1.65; }
+.svc-faq__sources, .svc-faq__reviewed { margin: 12px 0 0; font-size: 0.85rem; color: #5B6785; line-height: 1.55; }
+.svc-faq__sources a, .svc-faq__reviewed a { color: var(--navy); }
+@media (max-width: 600px) { .svc-faq { margin: 8px 12px 16px; padding: 18px 16px 14px; } }
+
+/* WebP images sit in <picture>; keep layout identical to a bare <img> */
+picture { display: contents; }

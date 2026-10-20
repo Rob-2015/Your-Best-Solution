@@ -9,8 +9,18 @@ Key facts:
 - Who it is for: owner-managed and mid-sized UK manufacturers (10 to 500 staff) bidding for public sector, NHS, defence, local authority, OEM and Tier-1 supply chain contracts.
 - What it is not: YBSL is not a generic compliance consultancy and does not sell certificates. It diagnoses tender readiness and coordinates specialists who understand manufacturing. It does not guarantee tender wins.
 - Accreditations and memberships: CyberSmart Registered Partner (Cyber Essentials and Cyber Essentials Plus), Federation of Small Businesses, Manufacturers Hub (Premium), Global Technology Industry Association (GTIA).
-- How to start: the free 7-question Bid & Tender Readiness Screening (about two minutes), then a Comprehensive Health Assessment.
+- How it works, in three steps: (1) the free 7-question Bid & Tender Readiness Screening, a two-minute Red-Amber-Green check; (2) the paid Comprehensive Health Assessment, which identifies every gap and maps every missed tender; (3) the paid Full Review, where AI checks every requirement and a bid manager with 15 years' tender evaluation experience reviews it personally and overhauls the response. Prices are quoted per client.
+- Coming soon: Contender, a live tender and compliance dashboard with deadline countdowns and automatic gap alerts. Example: https://claude.ai/artifact/CThx9XWwA8btkLT8CUEqoN
 - Contact: rob@yourbestsolution.co.uk, +44 (0)7445 225 668.
+
+## UK tender facts YBSL cites (checked 20 October 2026)
+
+- Cyber Essentials: PPN 014 replaced PPN 09/14 and PPN 09/23 from 24 February 2025. Central government departments, agencies and NHS bodies require it where suppliers handle personal data or OFFICIAL-level ICT, renewed annually for the contract's life. https://www.gov.uk/government/publications/ppn-014-cyber-essentials-scheme/ppn-014-cyber-essentials-scheme-html
+- Carbon Reduction Plans: PPN 006 applies to central government contracts above £5 million a year (including VAT) advertised on or after 24 February 2025. Net zero by 2050 for UK operations, updated at least annually, published on the supplier's UK website. https://www.gov.uk/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-taking-account-of-carbon-reduction-plans-html
+- Social value: PPN 002 sets a minimum 10% weighting of the total score for central government procurements under the Procurement Act 2023 started on or after 1 October 2025. https://www.gov.uk/government/publications/ppn-002-taking-account-of-social-value-in-the-award-of-contracts/ppn-002-taking-account-of-social-value-in-the-award-of-central-government-contracts-html
+- ISO 9001:2026 was published on 16 September 2026; ISO 9001:2015 certificates must transition by 30 September 2029. https://www.lrqa.com/en/latest-news/iso-9001-2026-live/
+- Modern Slavery statements are a legal requirement at £36 million annual turnover or more. https://www.gov.uk/guidance/publish-an-annual-modern-slavery-statement
+- Employers' liability insurance must cover at least £5 million. https://www.gov.uk/employers-liability-insurance
 
 ## Start here
 

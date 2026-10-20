@@ -193,7 +193,7 @@
   .top-bar__in .top-contact { grid-column: 2; }
   .top-bar__in .soc-icons { grid-column: 3; justify-self: end; }
   .nav { z-index: 202; }
-  .logo-gif { height: 108px !important; margin-top: calc(-1 * var(--bar-h)); filter: none; }
+  .logo-gif { height: 108px !important; margin-top: calc(-1 * var(--bar-h)); filter: none; mix-blend-mode: multiply; }
 }
 
 /* Contact strip matches the white header */

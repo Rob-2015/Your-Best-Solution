@@ -2,6 +2,20 @@
 
 > UK manufacturing advisory and coordination consultancy. YBSL diagnoses what tender buyers check before they read your price and coordinates 16 vetted Cure Alliance specialists to close each gap, for UK manufacturers with 10 to 500 employees. Westcliff-on-Sea, Essex. Company No. 16983435. Contact: rob@yourbestsolution.co.uk, +44 (0)7445 225 668. Summary index: https://yourbestsolution.co.uk/llms.txt
 
+## How it works
+
+Step 1: Bid & Tender Readiness Screening (free). A quick 7-question, Red-Amber-Green check across the areas buyers score you on: Cyber Security, Insurance & Finance, Standards & Quality, Track Record, Social Value, Data Security and Compliance. Take it at https://yourbestsolution.co.uk/bid-readiness-score.html
+
+Step 2: The Comprehensive Health Assessment (paid). Every gap identified. Every missed tender opportunity mapped. If your position is strong, YBSL confirms it clearly. If there are gaps, YBSL shows exactly what needs fixing.
+
+Step 3: The Full Review (paid). AI does the heavy lifting, checking your documents against every requirement quickly and thoroughly. Then a bid manager with 15 years' experience evaluating tenders goes through it personally, spotting the nuances AI can't: what an evaluator is really looking for, where a good answer still loses marks, and the small details that decide close contests. The result is a complete overhaul of the tender response and a clear roadmap. The speed of AI. The judgement of a human.
+
+Coordinate: the Cure Alliance. 16 vetted specialist partners across Cyber, ISO, H&S, Employment Law, GDPR, Insurance, Finance and Bid Writing, coordinated entirely by YBSL. One contact, not sixteen.
+
+Monitor: Contender (coming soon). A live tender and compliance dashboard. Contender watches UK tenders, keeps the client's compliance position in view, shows countdown timers to every bid deadline and sends automatic alerts the moment a gap opens. Example dashboard: https://claude.ai/artifact/CThx9XWwA8btkLT8CUEqoN
+
+YBSL does not guarantee tender wins. It makes sure a manufacturer is never knocked out on a technicality and is ready to compete for the win on quality and price.
+
 ## Common questions
 
 ### What does Your Best Solution Limited do?
@@ -43,6 +57,18 @@ A free seven-question quiz that takes about two minutes. It scores your business
 ### How do I get started with YBSL?
 
 It's three simple steps. First, take the free Bid & Tender Readiness Screening, seven quick questions that show where you stand. Second, book a Comprehensive Health Assessment. We look at your business and your target tenders through the buyer's eyes, identify every gap, show which tenders you can't currently bid for and set out what it takes to qualify. Third, the Full Review. AI checks your documents against every requirement, then a bid manager with 15 years' experience evaluating tenders goes through it personally, spotting the nuances AI can't. You get a complete overhaul of your tender response and a clear roadmap, so you're ready to compete for more of the bids you go after.
+
+### What is the Full Review?
+
+The Full Review is a complete overhaul of your tender response. AI checks your documents against every requirement quickly and thoroughly, then a bid manager with 15 years' experience evaluating tenders across manufacturing, construction and facilities management goes through it personally. They pick up the nuances AI misses: what an evaluator is really looking for, where a good answer still loses marks, and the small details that decide close contests. You get the reworked response and a clear roadmap.
+
+### What is Contender?
+
+Contender is YBSL's live tender and compliance dashboard, coming soon. It watches UK tenders for you, matches them to your profile, shows a countdown to every bid deadline and alerts you the moment a compliance gap opens, such as a certificate about to lapse. You can open an example dashboard from the How It Works section of our home page.
+
+### How is YBSL different from a bid writing agency?
+
+A bid writer improves the words. YBSL fixes what sits behind them. Most manufacturers are filtered out at the gate, on Cyber Essentials, insurance, financial standing or a missing Carbon Reduction Plan, before the quality answers are ever read. We diagnose those gaps first, coordinate the specialists who close them, and then a bid manager makes sure the response scores.
 
 ### Can you guarantee we will win a tender?
 
@@ -114,6 +140,19 @@ Compliance checks, portal submission and post-result debriefs.
 - Sustainability / ESG — environmental commitments become social value marks.
 - Training and Skills — competence evidence becomes method statement content.
 
+### Common questions about bid writing and tenders
+
+**Why do good manufacturers lose tenders they should win?**
+Usually because the answer did not match the question, not because the capability was missing. Evaluators mark quality and method statements against published criteria, in the order they are written. A generic answer that talks about what you do well, rather than what was asked, loses marks even when the evidence exists somewhere in the business. Answer in scoring order, and put a document behind every claim.
+
+**How much is social value worth in a government tender?**
+At least 10% of the total score on central government contracts. Under PPN 002, central government departments, agencies and non-departmental public bodies must give social value a minimum 10% weighting on procurements under the Procurement Act 2023 started on or after 1 October 2025. On a close contest, that 10% is often the whole margin between first and second.
+
+**What should a manufacturer have ready before a tender lands?**
+An evidence library you can draw on in minutes. That means current certificates, your insurance schedule, the last two or three years of accounts, your key policies, three recent case studies, a training matrix and, for larger government work, a published Carbon Reduction Plan. Review it every quarter, not the week a bid arrives.
+
+Sources: PPN 002: Social value in central government contracts (GOV.UK) https://www.gov.uk/government/publications/ppn-002-taking-account-of-social-value-in-the-award-of-contracts/ppn-002-taking-account-of-social-value-in-the-award-of-central-government-contracts-html
+
 ## Contract Review
 
 Source: https://yourbestsolution.co.uk/commercial-solicitor.html
@@ -176,6 +215,19 @@ Conflict of interest declarations and a known escalation process for disputes.
 - Chartered Accountant — financial exposure is set by contract terms.
 - HR & Employment Law — TUPE and workforce terms overlap directly.
 - Bid Writing & Tenders — governance policies feed compliance appendices.
+
+### Common questions about contract review
+
+**What should I check in a buyer's contract before I sign?**
+Six things, every time: the liability cap and whether your insurance actually covers it, payment terms, termination and force majeure, who owns the tooling and intellectual property, any TUPE obligations, and whether your subcontractor agreements carry the same obligations down the chain. Each one has a price, whether you calculate it or not.
+
+**Do I need anti-bribery and whistleblowing policies to bid?**
+Very often, yes. Selection questionnaires regularly ask for them, and the Procurement Act 2023 lets buyers exclude suppliers connected with offences such as bribery and fraud. A written policy that people actually follow is the simplest way to show a buyer your governance is real.
+
+**What is TUPE, and when does it apply to a contract?**
+TUPE protects employees' terms when a business or service moves from one employer to another. It can apply when a service contract changes hands and staff move with it, which is common in outsourced and facilities work. If a contract might involve staff transferring to you, assess the cost before you price the bid, not after you have won it.
+
+Sources: Procurement Act 2023 (legislation.gov.uk) https://www.legislation.gov.uk/ukpga/2023/54/contents; TUPE: employee rights when a business changes hands (GOV.UK) https://www.gov.uk/transfers-takeovers
 
 ## Financial Standing
 
@@ -241,6 +293,17 @@ Credit rating management and cloud accounting built for contract-specific report
 - Bid Writing & Tenders — financial evidence underpins every capability claim.
 - vCIO Technology Advisory — investment decisions are grounded in real numbers.
 
+### Common questions about financial standing
+
+**How much turnover do I need to bid for a contract?**
+Buyers commonly set a minimum turnover of around twice the annual contract value, and many check it automatically. If a contract is worth more than half your turnover, expect your accounts to be scrutinised closely. Check the selection questionnaire for the exact figure on every tender, because it varies.
+
+**What financial evidence do buyers ask for?**
+Usually your last two or three years of filed accounts, plus management accounts if your statutory accounts are out of date. Many buyers also run a credit check through a credit reference agency, and some ask for a bank reference. Make sure what you declare in the bid matches exactly what Companies House shows.
+
+**Can a young or fast-growing manufacturer pass financial standing?**
+Often, yes, if you prepare for it. Current management accounts, a parent company guarantee or a performance bond can all help, and a short, honest explanation of a one-off dip reads far better than silence. The mistake is letting an automated check make the decision before anyone sees the context.
+
 ## Insurance and Key Person Cover
 
 Source: https://yourbestsolution.co.uk/insurance-key-person.html
@@ -305,6 +368,19 @@ Cover checked against every tender, certificates in the right format, renewals t
 - Commercial Solicitor — liability caps in contracts must match cover in place.
 - Health & Safety — incident history feeds both H&S and insurance risk profile.
 
+### Common questions about insurance and key person cover
+
+**What insurance do I need to bid for public sector contracts?**
+Employers' liability is a legal requirement, with a minimum of £5 million of cover. On top of that, tenders commonly specify public liability, often at £5 million to £10 million, plus professional indemnity and product liability depending on what you supply. The figure that matters is the one in each selection questionnaire, so check it every time.
+
+**Why do bids get rejected over insurance?**
+Usually for mechanical reasons, not because the business is uninsured. The cover is below the stated minimum, the certificate has expired, the policyholder name does not match the company that is bidding, or the limit is on an aggregate basis when the buyer asked for each and every claim. All four are easy to fix before submission and impossible to fix after.
+
+**What is key person insurance, and do buyers care about it?**
+Key person insurance pays out if someone the business depends on, often the founder or a lead engineer, dies or becomes critically ill. Buyers care because they score continuity risk. If one person's absence would stop delivery, a buyer will notice, and cover plus a succession plan is the answer they want to see.
+
+Sources: Employers' liability insurance (GOV.UK) https://www.gov.uk/employers-liability-insurance
+
 ## Health and Safety
 
 Source: https://yourbestsolution.co.uk/health-safety.html
@@ -368,6 +444,19 @@ PPE, inductions, machinery inspection records and a named person with real autho
 - Training and Skills — competence records underpin safe operation.
 - Insurance Broking & Key Person Cover — claims history and premiums track H&S performance.
 - OT / ICS Security — physical and operational safety share the same audit trail.
+
+### Common questions about health and safety
+
+**Which health and safety accreditation do I need for tenders?**
+Most buyers accept a scheme that belongs to Safety Schemes in Procurement (SSIP), such as CHAS, SafeContractor or Achilles. Some ask for ISO 45001 instead, particularly on larger or higher-risk contracts. Check which one the buyer names before you spend money, because the right single certificate often covers several buyers.
+
+**What does SSIP deem to satisfy mean?**
+It means SSIP member schemes recognise each other's core health and safety assessment. If you hold one SSIP certificate and a buyer asks for a different SSIP scheme, you can usually get recognised without paying for a full second assessment. It saves time and money, but only if your certificate is current and shows on the scheme's register.
+
+**What health and safety evidence do evaluators actually check?**
+Proof that your paperwork matches your shop floor. That means risk assessments specific to your operations, an accident and near-miss log, RIDDOR reports where required, machinery inspection records, training records and a current certificate that matches the accrediting body's register. Generic templates are spotted quickly.
+
+Sources: Safety Schemes in Procurement (SSIP) https://ssip.org.uk/; RIDDOR reporting (HSE) https://www.hse.gov.uk/riddor/
 
 ## ISO Management Systems
 
@@ -440,6 +529,19 @@ Management reviews, internal audits, document control and risk-based thinking.
 - OT / ICS Security — controlled engineering processes.
 - Insurance Broking & Key Person Cover — risk registers and incident logs.
 
+### Common questions about ISO standards
+
+**What is ISO 9001:2026, and do I need to upgrade?**
+ISO 9001:2026 is the new version of the quality standard, published on 16 September 2026. Certified organisations have until 30 September 2029 to transition, after which ISO 9001:2015 certificates expire or are withdrawn. The main changes are quality culture and ethical behaviour, separate requirements for risks and opportunities, and stronger change management. Plan the move at your next recertification rather than leaving it to the deadline.
+
+**How long does ISO certification take?**
+For most small and mid-sized manufacturers, ISO 9001 takes three to six months, ISO 14001 and ISO 45001 four to six months, and ISO 27001 six to twelve months. Certificates then run on a three-year cycle with annual surveillance audits. Start at least six months before the tender you are aiming for.
+
+**Which ISO standards do manufacturing buyers ask for?**
+ISO 9001 is the one asked for most, because buyers use it as a risk filter for quality. ISO 14001 covers environmental management, ISO 45001 health and safety, and ISO 27001 information security where sensitive data is shared. Some OEMs and Tier-1s also expect sector standards, such as IATF 16949 in automotive or AS9100 in aerospace.
+
+Sources: ISO 9001:2026 is live, the transition period has begun (LRQA) https://www.lrqa.com/en/latest-news/iso-9001-2026-live/
+
 ## People and Employment Law
 
 Source: https://yourbestsolution.co.uk/hr-employment-law.html
@@ -504,6 +606,19 @@ TUPE readiness, right-to-work checks, grievance procedures and whistleblowing po
 - Web Design & Digital — Modern Slavery statement must be published.
 - Commercial Solicitor — TUPE and employment risk in contract review.
 
+### Common questions about HR and employment law
+
+**Do I need a Modern Slavery statement?**
+It is a legal requirement if your annual turnover is £36 million or more, under section 54 of the Modern Slavery Act 2015. Many buyers ask smaller suppliers for one anyway, or for a description of how they check their supply chain. Publish it on your website, have a director approve it, and update it every year.
+
+**How do HR policies score in social value?**
+They are where much of the social value score is evidenced. Central government gives social value at least a 10% weighting under PPN 002, and evaluators look for specifics: Real Living Wage, apprenticeships, an equality action plan with targets, and wellbeing support you can describe in detail. Good practice that is not written down scores the same as no practice at all.
+
+**What HR documents should a manufacturer have before bidding?**
+An equality, diversity and inclusion policy, a Modern Slavery statement, whistleblowing, grievance and disciplinary procedures, compliant employment contracts and consistent right-to-work records. If the contract could involve staff transferring, add a TUPE plan. Review the set once a year.
+
+Sources: Publish an annual modern slavery statement (GOV.UK) https://www.gov.uk/guidance/publish-an-annual-modern-slavery-statement; PPN 002: Social value in central government contracts (GOV.UK) https://www.gov.uk/government/publications/ppn-002-taking-account-of-social-value-in-the-award-of-contracts/ppn-002-taking-account-of-social-value-in-the-award-of-central-government-contracts-html
+
 ## Sustainability and ESG
 
 Source: https://yourbestsolution.co.uk/esg-sustainability.html
@@ -567,6 +682,19 @@ Sustainability evidence packaged and published where evaluators can actually fin
 - Web Design & Digital — the Carbon Reduction Plan must be published and findable.
 - Bid Writing & Tenders — social value answers draw directly on this evidence.
 
+### Common questions about sustainability and ESG
+
+**Do I need a Carbon Reduction Plan to win government contracts?**
+Yes, for major central government contracts. Under PPN 006, suppliers bidding for central government contracts worth more than £5 million a year (including VAT), advertised on or after 24 February 2025, must provide one. NHS England has its own carbon requirements, and many councils and prime contractors now ask smaller suppliers for a plan too.
+
+**What must a Carbon Reduction Plan contain?**
+Your Scope 1 and Scope 2 emissions, a defined subset of Scope 3 emissions, a commitment to reach net zero by 2050 for your UK operations, and the measures you are taking to get there. PPN 006 says it should be updated at least annually, published and clearly signposted on your UK website, and signed off by a director.
+
+**What are Scope 1, 2 and 3 emissions in plain English?**
+Scope 1 is fuel you burn yourself, such as gas heating and company vehicles. Scope 2 is the electricity you buy. Scope 3 is everything else in your value chain. For a Carbon Reduction Plan, the Scope 3 part covers a defined set: upstream and downstream transport and distribution, waste from your operations, business travel and employee commuting.
+
+Sources: PPN 006: Carbon Reduction Plans (GOV.UK) https://www.gov.uk/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-taking-account-of-carbon-reduction-plans-html
+
 ## Training and Skills
 
 Source: https://yourbestsolution.co.uk/training-skills.html
@@ -629,6 +757,19 @@ Key-person succession planning and audit-ready training documentation.
 - ISO Consultant — training evidence is a required ISO 45001 control.
 - HR & Employment Law — workforce governance and skills sit together.
 - Bid Writing & Tenders — competency evidence becomes method statement content.
+
+### Common questions about training and skills
+
+**What is a training matrix, and why do evaluators want one?**
+A training matrix is a grid showing each person, the skills and qualifications they hold, when they were achieved and when they expire. It turns the claim of a competent workforce into evidence an evaluator can check. Without one, a method statement is just an assertion.
+
+**Do apprenticeships count as social value in tenders?**
+Yes. Skills and employment are among the most common social value themes, and central government gives social value at least a 10% weighting under PPN 002. To score, the commitment has to be specific: how many apprentices, at what level, by when, and how you will report progress.
+
+**Which qualifications matter most on manufacturing tenders?**
+It depends on the contract, but buyers commonly look for IOSH Managing Safely for supervisors, NEBOSH for whoever leads health and safety, relevant NVQs and trade certificates, first aid cover, and equipment tickets such as forklift licences. What matters most is that every certificate is current and on the matrix.
+
+Sources: PPN 002: Social value in central government contracts (GOV.UK) https://www.gov.uk/government/publications/ppn-002-taking-account-of-social-value-in-the-award-of-contracts/ppn-002-taking-account-of-social-value-in-the-award-of-central-government-contracts-html
 
 ## Cyber Security and vCISO
 
@@ -694,6 +835,19 @@ Incident planning, tested backups, staff awareness, supplier assurance and evide
 - ISO Consultant — shared control and audit framework.
 - OT / ICS Security — same governance model, extended to the shop floor.
 - Insurance Broking & Key Person Cover — cyber liability cover depends on this evidence.
+
+### Common questions about Cyber Essentials and cyber security
+
+**Do I need Cyber Essentials to bid for government contracts?**
+For many central government contracts, yes. PPN 014, which replaced PPN 09/14 and PPN 09/23 from 24 February 2025, tells central government departments, their agencies and NHS bodies to require Cyber Essentials where a supplier handles citizens' or government staff's personal data, or provides ICT that stores or processes OFFICIAL data. The certificate must be renewed every year for the life of the contract, and many OEMs and prime contractors now ask for it throughout their supply chains.
+
+**What is the difference between Cyber Essentials and Cyber Essentials Plus?**
+Both cover the same five controls: firewalls, secure configuration, user access control, malware protection and security update management. Cyber Essentials is a self-assessment that is independently verified. Cyber Essentials Plus adds a hands-on technical audit, where an assessor tests your devices and systems. Plus has to be completed within three months of passing the basic certification.
+
+**How long does Cyber Essentials take?**
+Basic Cyber Essentials typically takes four to eight weeks for a manufacturer, including fixing what the self-assessment uncovers. Cyber Essentials Plus usually takes two to three months. Both last 12 months, so book the renewal well before the expiry date, ideally ahead of your next tender deadline.
+
+Sources: PPN 014: Cyber Essentials Scheme (GOV.UK) https://www.gov.uk/government/publications/ppn-014-cyber-essentials-scheme/ppn-014-cyber-essentials-scheme-html; Cyber Essentials overview (NCSC) https://www.ncsc.gov.uk/cyberessentials/overview
 
 ## OT and Industrial Cybersecurity
 
@@ -761,6 +915,19 @@ OT-specific incident response, offline backups and change control on the plant f
 - MSP & Managed IT — a stable foundation for OT systems.
 - Insurance Broking & Key Person Cover — OT risk registers and cyber insurance.
 
+### Common questions about OT and industrial cybersecurity
+
+**What is OT security, and how is it different from IT security?**
+OT security protects the systems that run production: PLCs, HMIs, SCADA, robots and CNC machines. Unlike office IT, the priority is safety and keeping the line running, so you cannot simply patch or restart a machine mid-run. It needs segmentation, controlled vendor access and planned maintenance windows. IEC 62443 is the main international standard.
+
+**Does Cyber Essentials cover the factory floor?**
+Only if the factory systems are in scope. Cyber Essentials covers devices that can reach the internet, and you can exclude production systems if they are properly separated from the office network by a firewall or similar. Buyers, especially OEMs, may still ask how your OT is protected, so separation needs to be real and documented.
+
+**What do OEMs ask suppliers about OT security?**
+Typically: is production separated from office IT, how is remote vendor access controlled and logged, are PLC programs backed up and version-controlled, can you recover from ransomware, and is there an OT incident response plan. On some OEM frameworks these are pass or fail questions, not scored ones.
+
+Sources: Cyber Essentials overview (NCSC) https://www.ncsc.gov.uk/cyberessentials/overview
+
 ## Managed IT and Infrastructure
 
 Source: https://yourbestsolution.co.uk/managed-it.html
@@ -826,6 +993,19 @@ Helpdesk workflows, patch management and access control that stands up to an aud
 - vCIO Technology Advisory — strategy needs an operational base to execute against.
 - IT Systems & Process Automation — automation runs on managed infrastructure.
 
+### Common questions about managed IT
+
+**What does an assessor check behind a Cyber Essentials certificate?**
+Whether your systems match what the certificate claims. That includes critical and high-risk security updates applied within 14 days of release, multi-factor authentication on cloud services, only supported software in use, and admin accounts kept separate from everyday ones. The patch log and the access list are the evidence.
+
+**Why do manufacturers fail Cyber Essentials?**
+The most common reasons are shop-floor or office PCs running unsupported operating systems, cloud accounts without multi-factor authentication, staff with admin rights they do not need, default passwords left on devices, and patches applied late. All of them are fixable, but they need to be fixed before the assessment, not during it.
+
+**Do shop-floor PCs count for Cyber Essentials?**
+Yes, if they can reach the internet. An old production PC running an unsupported version of Windows will fail the assessment unless it is upgraded, replaced, or properly separated so it falls outside the scope. Decide which route you are taking well before the assessment.
+
+Sources: Cyber Essentials overview (NCSC) https://www.ncsc.gov.uk/cyberessentials/overview
+
 ## Hardware and Infrastructure
 
 Source: https://yourbestsolution.co.uk/hardware-infrastructure.html
@@ -888,6 +1068,19 @@ Server room security and power resilience for critical infrastructure.
 - Cyber Security / vCISO — secure configuration evidence for certification.
 - ISO Consultant — asset registers feed ISO documentation.
 - OT / ICS Security — physical and OT security decisions are linked.
+
+### Common questions about hardware and infrastructure
+
+**What is an IT asset register, and why do auditors ask for it?**
+An asset register lists every device you own: what it is, who uses it, where it is, what it runs and whether it is still supported. Auditors ask for it because you cannot claim control over systems you cannot list. For Cyber Essentials, it is how you show what is in scope.
+
+**How should we dispose of old IT equipment?**
+Through a certified data destruction service that gives you a certificate of destruction for each device. Under UK GDPR you remain responsible for personal data on old drives, and the certificate is the evidence an auditor or buyer will ask to see.
+
+**Does unsupported hardware fail Cyber Essentials?**
+Yes, if it is in scope. Devices, firmware and software that no longer receive security updates must be replaced, upgraded or removed from scope. That includes routers, firewalls and network switches, not just laptops, which is why a replacement plan matters.
+
+Sources: Cyber Essentials overview (NCSC) https://www.ncsc.gov.uk/cyberessentials/overview
 
 ## Web Design and Digital
 
@@ -952,6 +1145,19 @@ Everything on the site matches exactly what's claimed in the bid.
 - HR & Employment Law — Modern Slavery statement must be published.
 - Bid Writing & Tenders — case studies and evidence pages feed bid responses directly.
 
+### Common questions about websites and digital
+
+**What do buyers check on a supplier's website?**
+Whether what you claim in the bid is publicly true. Evaluators commonly look for your Carbon Reduction Plan, Modern Slavery statement, privacy policy and certificates, and check that your company name, number and address match Companies House. A mismatch reads as a red flag before anyone opens your submission.
+
+**Does a Carbon Reduction Plan have to be on our website?**
+Yes, for central government contracts covered by PPN 006. The plan should be published and clearly signposted on your UK website, and updated at least annually. A plan that exists only as a PDF in a drawer does not meet the requirement.
+
+**Do we need cookie consent on our website?**
+Yes, for any cookies that are not strictly necessary, such as analytics and advertising cookies. Under the UK's privacy and electronic communications rules, visitors must give consent before those cookies are set. A compliant banner is one of the quickest signals a buyer has that you take data protection seriously.
+
+Sources: PPN 006: Carbon Reduction Plans (GOV.UK) https://www.gov.uk/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-taking-account-of-carbon-reduction-plans-html; Cookies and similar technologies (ICO) https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guide-to-pecr/cookies-and-similar-technologies/
+
 ## Process Automation
 
 Source: https://yourbestsolution.co.uk/process-automation.html
@@ -1015,6 +1221,17 @@ Evidence retrievable quickly, without relying on one person's memory.
 - Training and Skills — documented workflows reduce reliance on one person's memory.
 - MSP & Managed IT — automated workflows run on the infrastructure the MSP manages.
 
+### Common questions about process automation
+
+**How quickly should a manufacturer be able to produce tender evidence?**
+In minutes, not days. Clarification questions often come with deadlines measured in days, and audits ask for records on the spot. If finding a certificate, a policy or a training record depends on one person remembering where it is, that is the first process to fix.
+
+**Which processes should we automate first for tenders?**
+Start with the ones that cause the most last-minute panic: certificate and insurance renewal reminders, policy review dates, training expiry alerts, a single evidence library with version control, and approval workflows that record who signed off what. They pay back on the very next bid.
+
+**Do we need new software to automate this?**
+Usually not. Most manufacturers already pay for Microsoft 365, which includes SharePoint for document control and Power Automate for workflows and reminders. The work is structuring what you already have, not buying something new.
+
 ## Technology Roadmap
 
 Source: https://yourbestsolution.co.uk/vcio-technology-advisory.html
@@ -1077,3 +1294,15 @@ Budgets planned proactively and ranked against commercial outcomes.
 - MSP & Managed IT — strategy sets direction, MSP executes it.
 - Cyber Security / vCISO — technology risk reporting feeds board-level cyber oversight.
 - Chartered Accountant — investment planning is grounded in financial reality.
+
+### Common questions about technology roadmaps and vCIO advice
+
+**What is a vCIO?**
+A vCIO, or virtual Chief Information Officer, gives you board-level technology leadership on a part-time basis. They set the technology roadmap, report risk to the board in plain English and coordinate your IT, cyber and automation suppliers, for a fraction of the cost of a full-time hire.
+
+**When does a manufacturer need a vCIO?**
+Usually when technology decisions start to pile up: several IT suppliers, an ERP or MES decision, customers asking about cyber and OT security, or a tender pipeline that needs technology evidence. If no one is joining those decisions up at board level, that is the gap a vCIO fills.
+
+**How does a technology roadmap help win tenders?**
+It gives you evidence for innovation, continuous improvement and risk questions. A roadmap shows a buyer that your investment is planned and tied to the contracts you are bidding for, rather than reactive. It turns separate purchases into a story an evaluator can score.
+

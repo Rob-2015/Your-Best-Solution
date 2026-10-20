@@ -91,8 +91,9 @@
         }
 
         .quiz-logo { display: inline-block; line-height: 0; }
-        .quiz-logo img { height: 84px; width: auto; display: block; }
-        @media (max-width: 600px) { .quiz-logo img { height: 64px; } }
+        picture { display: contents; }
+        .quiz-logo img, .quiz-logo video { height: 84px; width: auto; display: block; mix-blend-mode: multiply; }
+        @media (max-width: 600px) { .quiz-logo img, .quiz-logo video { height: 64px; } }
         .logo-tile.y { background: var(--navy); }
         .logo-tile.b { background: var(--orange); }
         .logo-tile.s { background: var(--teal); }
@@ -505,6 +506,19 @@
                 flex-direction: column;
             }
         }
+        /* Static explainer: visible on the landing step, hidden once the quiz starts */
+        .screen-info { max-width: 760px; margin: 2.5rem auto 0; padding: 2rem 2rem 1.5rem; background: #fff; border: 1px solid #E4E9F3; border-radius: 14px; }
+        body:has(#stage-landing:not(.active)) .screen-info { display: none; }
+        .screen-info h2 { color: var(--navy); font-size: 1.25rem; margin: 0 0 0.75rem; }
+        .screen-info h2:not(:first-child) { margin-top: 1.75rem; }
+        .screen-info p, .screen-info li { color: #33415C; line-height: 1.6; font-size: 0.97rem; }
+        .si-list { margin: 0.5rem 0 0 1.2rem; display: grid; gap: 0.45rem; }
+        .si-faq { padding: 0.8rem 0; border-top: 1px solid #EEF1F7; }
+        .si-faq h3 { color: var(--navy); font-size: 1.02rem; margin: 0 0 0.3rem; }
+        .si-faq p { margin: 0; }
+        .si-reviewed { margin-top: 1rem; font-size: 0.85rem !important; color: #5B6785 !important; }
+        .screen-info a { color: var(--navy); }
+        @media (max-width: 600px) { .screen-info { padding: 1.4rem 1.1rem 1rem; margin-top: 1.75rem; } }
     </style>
 <!-- search and AI visibility -->
 <link rel="canonical" href="https://yourbestsolution.co.uk/bid-readiness-score.html">
@@ -546,9 +560,12 @@
    "publisher": {
     "@id": "https://yourbestsolution.co.uk/#organization"
    },
-   "dateModified": "2026-10-19",
+   "dateModified": "2026-10-20",
    "breadcrumb": {
     "@id": "https://yourbestsolution.co.uk/bid-readiness-score.html#breadcrumb"
+   },
+   "mainEntity": {
+    "@id": "https://yourbestsolution.co.uk/#screening"
    }
   },
   {
@@ -568,6 +585,46 @@
      "item": "https://yourbestsolution.co.uk/bid-readiness-score.html"
     }
    ]
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://yourbestsolution.co.uk/bid-readiness-score.html#questions",
+   "url": "https://yourbestsolution.co.uk/bid-readiness-score.html",
+   "inLanguage": "en-GB",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Is the Bid & Tender Readiness Screening free?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. It is completely free, takes about two minutes and there is no obligation. If it shows gaps you want fixed, the next step is a paid Comprehensive Health Assessment, but that is entirely your call."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What do I get at the end?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "An overall readiness score, a Red-Amber-Green rating for each area buyers check, and an email with your detailed results explaining what buyers expect in each area and why it matters for winning tenders."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Who is the Screening for?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Owner-managed and mid-sized UK manufacturers, typically with 10 to 500 staff, who bid or want to bid for public sector, NHS, defence, local authority, OEM or Tier-1 supply chain contracts."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What happens to my details?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We use your name, email and company details to send your results and occasional relevant insights, and hold them in our CRM. You can unsubscribe at any time. Our privacy policy explains exactly how your data is handled."
+     }
+    }
+   ]
   }
  ]
 }
@@ -579,7 +636,7 @@
             <div class="header-content">
                 <div class="logo-section">
                     <a href="index.html" class="quiz-logo" aria-label="Your Best Solution Limited home">
-                        <img src="assets/ybsl-logo-clear.gif" width="760" height="443" alt="Your Best Solution Limited">
+                        <video autoplay muted loop playsinline width="760" height="443" poster="assets/ybsl-logo-poster.webp" aria-label="Your Best Solution Limited logo"><source src="assets/ybsl-logo.webm" type="video/webm"><source src="assets/ybsl-logo.mp4" type="video/mp4"></video>
                     </a>
                     <div class="strapline">
                         <strong>The Bid / Tender Cure for UK Manufacturers</strong><br>
@@ -675,6 +732,37 @@
                     </div>
                 </div>
             </div>
+            <section class="screen-info" aria-labelledby="si-h">
+                <h2 id="si-h">What the Screening checks</h2>
+                <p>Seven quick questions, scored Red, Amber or Green, across the areas buyers check before they ever read your price:</p>
+                <ul class="si-list">
+                    <li><strong>Cyber Security:</strong> Whether you hold Cyber Essentials or Cyber Essentials Plus, now required on many central government contracts that handle personal data.</li>
+                    <li><strong>Insurance &amp; Finance:</strong> Whether your cover meets typical tender minimums, and whether your accounts clear the turnover thresholds buyers set.</li>
+                    <li><strong>Standards &amp; Quality:</strong> ISO 9001, ISO 14001, ISO 45001 and the other certifications buyers use as a risk filter.</li>
+                    <li><strong>Track Record:</strong> Relevant contracts and case studies you can actually evidence.</li>
+                    <li><strong>Social Value:</strong> Worth at least 10% of the score on central government contracts under PPN 002.</li>
+                    <li><strong>Data Security:</strong> How you handle personal and buyer data, and whether your UK GDPR records would stand up to a request.</li>
+                    <li><strong>Compliance:</strong> Modern slavery, carbon reduction and the published policies buyers check before they read your bid.</li>
+                </ul>
+                <h2>Common questions</h2>
+                <div class="si-faq">
+                    <h3>Is the Bid &amp; Tender Readiness Screening free?</h3>
+                    <p>Yes. It is completely free, takes about two minutes and there is no obligation. If it shows gaps you want fixed, the next step is a paid Comprehensive Health Assessment, but that is entirely your call.</p>
+                </div>
+                <div class="si-faq">
+                    <h3>What do I get at the end?</h3>
+                    <p>An overall readiness score, a Red-Amber-Green rating for each area buyers check, and an email with your detailed results explaining what buyers expect in each area and why it matters for winning tenders.</p>
+                </div>
+                <div class="si-faq">
+                    <h3>Who is the Screening for?</h3>
+                    <p>Owner-managed and mid-sized UK manufacturers, typically with 10 to 500 staff, who bid or want to bid for public sector, NHS, defence, local authority, OEM or Tier-1 supply chain contracts.</p>
+                </div>
+                <div class="si-faq">
+                    <h3>What happens to my details?</h3>
+                    <p>We use your name, email and company details to send your results and occasional relevant insights, and hold them in our CRM. You can unsubscribe at any time. Our <a href="privacy-policy.html">privacy policy</a> explains exactly how your data is handled.</p>
+                </div>
+                <p class="si-reviewed">Created by <a href="index.html#about">Rob Atkins</a>, Founder &amp; Principal Consultant, Your Best Solution Limited. Last updated <time datetime="2026-10-20">20 October 2026</time>.</p>
+            </section>
         </div>
     </main>
 

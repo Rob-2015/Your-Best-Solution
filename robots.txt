@@ -68,4 +68,14 @@ Allow: /
 User-agent: DuckAssistBot
 Allow: /
 
+# Common Crawl (an open web archive many AI models learn from) and Google's other AI crawlers
+User-agent: CCBot
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Google-CloudVertexBot
+Allow: /
+
 Sitemap: https://yourbestsolution.co.uk/sitemap.xml

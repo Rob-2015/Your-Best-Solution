@@ -1298,3 +1298,8 @@ section { position: relative; }
 /* Headline scales with the screen so "…you have two choices:" always stays on one line from tablet size up */
 @media (min-width: 700px) { .tm-hero .tm-headline { font-size: min(30px, calc((100vw - 80px) / 33)); max-width: none; } }
 .tm-hero .tm-headline { text-wrap: balance; }
+
+/* WebP images sit in <picture>; keep layout identical to a bare <img> */
+picture { display: contents; }
+.logo-gif { mix-blend-mode: multiply; }
+@media (prefers-reduced-motion: reduce) { .logo-gif { animation: none; } }
