@@ -1291,3 +1291,7 @@ section { position: relative; }
   .tm-lb-close { position: absolute; top: 14px; right: 14px; width: 44px; height: 44px; border-radius: 50%; border: 0; background: #fff; color: var(--navy); font-size: 28px; line-height: 1; cursor: pointer; z-index: 2; }
   .tm-lb-note { color: #fff; text-align: center; font-family: var(--fh); font-weight: 600; font-size: 14px; margin-top: 14px; opacity: 0.85; }
 }
+/* Keep "There's no silver medal, no off-season" together; smaller headline */
+.tm-eyebrow .nb { white-space: nowrap; }
+.tm-hero .tm-headline { font-size: clamp(20px, 2.3vw, 30px); }
+.tm-hero .tm-headline { max-width: 980px; }
