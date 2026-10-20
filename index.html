@@ -504,7 +504,10 @@
     <h1 class="tm-headline rev d1 in"><span class="nc">When the rules of the game keep changing, you have two choices:</span><br><span class="oc">Keep up or give up.</span></h1>
     <p class="tm-win rev d2 in">We’re the team that gets you ready to compete for the win.</p>
     <figure class="tm-hospital">
-      <img src="assets/hero-home-hospital.jpg" alt="Rob Atkins, Hospital Administrator, in front of the Your Best Solution Hospital with the sixteen Cure Alliance specialists, each labelled with their role" width="2000" height="1126">
+      <button type="button" class="tm-zoom" id="tmZoomOpen" aria-label="Enlarge the team picture to read all sixteen specialist titles">
+        <img src="assets/hero-home-hospital.jpg" alt="Rob Atkins, Hospital Administrator, in front of the Your Best Solution Hospital with the sixteen Cure Alliance specialists, each labelled with their role" width="2000" height="1126">
+        <span class="tm-zoom-hint" aria-hidden="true">Tap to enlarge</span>
+      </button>
     </figure>
     <div class="tm-scanwrap rev d3 in">
       <img class="tm-scan-img" alt="Four diagnostic scans: chest X-ray, CT axial, brain MRI, ECG monitor" src="assets/hero-scans.png" width="1024" height="342">
@@ -1170,5 +1173,30 @@
 })();
 </script>
 
+<div class="tm-lightbox" id="tmLightbox" role="dialog" aria-modal="true" aria-label="Team picture, enlarged" hidden>
+  <button type="button" class="tm-lb-close" id="tmZoomClose" aria-label="Close enlarged picture">&times;</button>
+  <div class="tm-lb-scroll" id="tmLbScroll">
+    <img src="assets/hero-home-hospital.jpg" alt="The Your Best Solution Hospital team, with all sixteen Cure Alliance specialist titles" width="2000" height="1126">
+  </div>
+  <p class="tm-lb-note">Swipe sideways to see every specialist</p>
+</div>
+<script>
+(function(){
+  var open=document.getElementById('tmZoomOpen'), box=document.getElementById('tmLightbox'),
+      close=document.getElementById('tmZoomClose'), sc=document.getElementById('tmLbScroll');
+  if(!open||!box) return;
+  function small(){ return window.matchMedia('(max-width: 920px)').matches; }
+  function show(){
+    if(!small()) return;
+    box.hidden=false; document.body.style.overflow='hidden';
+    sc.scrollLeft=(sc.scrollWidth-sc.clientWidth)/2; close.focus();
+  }
+  function hide(){ box.hidden=true; document.body.style.overflow=''; open.focus(); }
+  open.addEventListener('click',show);
+  close.addEventListener('click',hide);
+  box.addEventListener('click',function(e){ if(e.target===box) hide(); });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&!box.hidden) hide(); });
+})();
+</script>
 </body>
 </html>
