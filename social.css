@@ -195,3 +195,6 @@
   .nav { z-index: 202; }
   .logo-gif { height: 108px !important; margin-top: calc(-1 * var(--bar-h)); filter: none; }
 }
+
+/* Contact strip matches the white header */
+@media (min-width: 921px) { .top-bar { background: #FFFFFF; } }

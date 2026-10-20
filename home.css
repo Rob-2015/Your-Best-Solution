@@ -1263,3 +1263,9 @@ section { position: relative; }
 /* Keep the hero clear of the taller header, and stop menu jumps hiding section headings */
 @media (max-width: 600px) { .tm-hero { padding-top: calc(6.8rem + 6px) !important; } }
 
+
+/* Hero: headline sits above the team picture; picture is sized so headline and team share the first screen on laptops */
+.tm-hospital { margin-top: 22px; max-width: min(1200px, calc((100vh - 425px) * 1.776)); min-width: min(100%, 680px); }
+.tm-hero .tm-eyebrow { margin-top: 28px; }
+@media (max-width: 600px) { .tm-hero .tm-eyebrow { margin-top: 12px; } }
+@media (max-width: 920px) { .tm-hospital { max-width: 1200px; min-width: 0; } }
