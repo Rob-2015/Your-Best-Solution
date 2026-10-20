@@ -1238,3 +1238,6 @@ section { position: relative; }
   position: absolute; width: 1px; height: 1px; overflow: hidden;
   clip: rect(0 0 0 0); white-space: nowrap;
 }
+
+/* Shorter header button on smaller laptops so it stays on one line */
+@media (max-width: 1280px) { .nav-cta .cta-long { display: none; } }
