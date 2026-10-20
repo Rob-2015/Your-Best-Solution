@@ -730,7 +730,7 @@
                     </div>
 
                     <div class="success-message">
-                        <p>Check your email in 30 seconds for your detailed results and recommendations.</p>
+                        <p id="resultsFollowUp">Thanks. We'll be in touch with your detailed recommendations.</p>
                     </div>
                 </div>
             </div>
@@ -1000,60 +1000,134 @@
             calculateAndSubmit();
         }
 
+        // HubSpot connection. Paste the form ID from HubSpot (Marketing > Forms) between the quotes.
+        // No private key belongs on a public web page; a form ID is safe to publish.
+        const HUBSPOT_PORTAL_ID = '147989593';
+        const HUBSPOT_FORM_ID = '';
+
+        const RED_BELOW = 40;      // any area under this is red
+        const HEALTHY_FROM = 70;   // overall at or above this, with no red areas, is healthy
+
+        function joinNames(names) {
+            if (names.length <= 1) return names.join('');
+            return names.slice(0, -1).join(', ') + ' and ' + names[names.length - 1];
+        }
+
+        // Works out which email the person should get and writes its five paragraphs,
+        // so one HubSpot email reads correctly for every score (no paid branching needed).
+        function buildEmailContent(scores) {
+            const overall = Math.round(scores.overall);
+            const rounded = {};
+            CATEGORIES.forEach(c => { rounded[c] = Math.round(scores.categories[c]); });
+            const reds = CATEGORIES.filter(c => scores.categories[c] < RED_BELOW);
+            const weakest = CATEGORIES.reduce((a, b) => (scores.categories[b] < scores.categories[a] ? b : a));
+            const opener = "Most manufacturers I meet are losing tenders they should be winning, and the buyer never tells them why.";
+
+            if (reds.length) {
+                const which = reds.length === 1
+                    ? `${reds[0]}, which came out red`
+                    : `${joinNames(reds)}, which ${reds.length === 2 ? 'both' : 'all'} came out red`;
+                return {
+                    type: 'Red',
+                    focus: joinNames(reds),
+                    paras: [
+                        `${opener} Your results show where some of those marks are likely going.`,
+                        `You scored ${overall}%. The number I'd focus on, though, is ${which}. In a real evaluation, one red area can knock you out on its own, even when everything else looks healthy. Buyers don't average it out. They simply stop scoring you.`,
+                        "Seven questions can only give you the headline. The Comprehensive Health Assessment goes through your actual tender catalogue: every document a buyer will ask you for, how your delivery methodology reads to an evaluator, and what's missing. The good, the bad and the ugly.",
+                        "It's £995. Put that against the cost of writing one bid that was never going to win, or the value of one contract you should have won, and it pays for itself very quickly.",
+                        "If the Assessment shows real gaps, the next step is a full review. A senior bid manager, who has spent 15 years scoring tenders from the buyer's side of the table, personally goes through your submissions and pinpoints exactly what needs fixing. You won't be left with a list and told to get on with it. As part of our service, we bring in vetted manufacturing specialists to close each gap, so you go into your next tender 100% ready to compete for the win."
+                    ]
+                };
+            }
+
+            const review = "If you want to go further, the next step is a full review. A senior bid manager with 15 years of scoring tenders from the buyer's side personally reviews your submissions and shows you exactly what remediation is needed. Then, as part of our service, we bring in vetted manufacturing specialists to put it right, so you go into your next tender 100% ready to compete for the win.";
+            const assessment = "The Comprehensive Health Assessment goes through your actual tender catalogue and shows you where you're dropping marks and what's missing, before the buyer finds it.";
+
+            if (overall >= HEALTHY_FROM) {
+                return {
+                    type: 'Healthy',
+                    focus: weakest,
+                    paras: [
+                        `${opener} The good news is your foundations look solid: you scored ${overall}%.`,
+                        "Here's the uncomfortable bit. Firms with healthy scores still lose, usually on the detail. A method statement that doesn't answer the question asked, evidence that's out of date, or social value that reads like a promise rather than a plan. A screening can't see any of that. An evaluator sees all of it.",
+                        assessment,
+                        "It's £995. When you're already this close, the difference between second place and winning is usually a handful of marks, and that's exactly what this finds.",
+                        review
+                    ]
+                };
+            }
+
+            return {
+                type: 'Middle',
+                focus: weakest,
+                paras: [
+                    `${opener} There's no single red area dragging you down, but at ${overall}% there are gaps a sharper competitor will exploit, and ${weakest} at ${rounded[weakest]}% is where I'd look first.`,
+                    "Here's the uncomfortable bit. Firms without a single red flag still lose, usually on the detail. A method statement that doesn't answer the question asked, evidence that's out of date, or social value that reads like a promise rather than a plan. A screening can't see any of that. An evaluator sees all of it.",
+                    assessment,
+                    "It's £995. The difference between second place and winning is usually a handful of marks, and that's exactly what this finds.",
+                    review
+                ]
+            };
+        }
+
+        function buildHubSpotFields(scores) {
+            const email = buildEmailContent(scores);
+            const values = {
+                firstname: formData.firstName,
+                lastname: formData.lastName,
+                email: formData.email,
+                company: formData.company,
+                phone: formData.phone || '',
+                bid_readiness_score: Math.round(scores.overall),
+                bid_readiness_tier: scores.tier,
+                bid_readiness_cyber: Math.round(scores.categories['Cyber & Data Security']),
+                bid_readiness_insurance: Math.round(scores.categories['Insurance & Financial Standing']),
+                bid_readiness_standards: Math.round(scores.categories['Standards & Quality']),
+                bid_readiness_track_record: Math.round(scores.categories['Track Record & Bid Capability']),
+                bid_readiness_social_value: Math.round(scores.categories['Social Value & Responsible Business']),
+                bid_readiness_result_type: email.type,
+                bid_readiness_focus_area: email.focus,
+                bid_readiness_tier_message: TIER_INFO[scores.tier].message,
+                business_size: QUESTIONS[0].answers[answers[0]].text,
+                confidence_level: QUESTIONS[6].answers[answers[6]].text
+            };
+            email.paras.forEach((text, i) => { values['bid_readiness_email_para_' + (i + 1)] = text; });
+            return Object.entries(values)
+                .filter(([, value]) => value !== '')
+                .map(([name, value]) => ({ objectTypeId: '0-1', name, value: String(value) }));
+        }
+
         function calculateAndSubmit() {
             const scores = calculateScores();
-            const portalId = '147989593';
-            // HubSpot form ID: create a form in HubSpot (Marketing > Forms) and paste its ID here.
-            // No private key belongs on a public web page.
-            const formGuid = '';
-
-            const contactData = {
-                properties: {
-                    firstname: formData.firstName,
-                    lastname: formData.lastName,
-                    email: formData.email,
-                    company: formData.company,
-                    phone: formData.phone || '',
-                    hs_lead_status: 'New',
-                    bid_readiness_score: Math.round(scores.overall),
-                    bid_readiness_tier: scores.tier,
-                    bid_readiness_cyber: Math.round(scores.categories['Cyber & Data Security']),
-                    bid_readiness_insurance: Math.round(scores.categories['Insurance & Financial Standing']),
-                    bid_readiness_standards: Math.round(scores.categories['Standards & Quality']),
-                    bid_readiness_trackrecord: Math.round(scores.categories['Track Record & Bid Capability']),
-                    bid_readiness_socialvalue: Math.round(scores.categories['Social Value & Responsible Business']),
-                    business_size: QUESTIONS[0].answers[answers[0]].text,
-                    confidence_level: QUESTIONS[6].answers[answers[6]].text
-                }
-            };
 
             const showResults = () => {
                 displayResults(scores);
                 showStage('stage-results');
             };
 
-            if (!formGuid) {
+            if (!HUBSPOT_FORM_ID) {
                 showResults();
                 return;
             }
 
-            const fields = Object.entries(contactData.properties)
-                .filter(([name]) => name !== 'hs_lead_status')
-                .map(([name, value]) => ({ objectTypeId: '0-1', name, value: String(value) }));
+            document.getElementById('resultsFollowUp').textContent =
+                "Your full results are on their way to your inbox. If you can't see them in a few minutes, check your junk folder.";
 
-            fetch(`https://api.hsforms.com/submissions/v3/integration/submit/${portalId}/${formGuid}`, {
+            fetch(`https://api.hsforms.com/submissions/v3/integration/submit/${HUBSPOT_PORTAL_ID}/${HUBSPOT_FORM_ID}`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
-                    fields,
+                    fields: buildHubSpotFields(scores),
                     context: { pageUri: window.location.href, pageName: document.title }
                 })
             })
-            .then(showResults)
-            .catch(error => {
-                console.error('Error:', error);
-                showResults();
-            });
+            .then(response => {
+                if (!response.ok) {
+                    return response.text().then(t => { console.error('HubSpot rejected the submission:', response.status, t); });
+                }
+            })
+            .catch(error => console.error('HubSpot submission failed:', error))
+            .finally(showResults);
         }
 
         function calculateScores() {
@@ -1087,12 +1161,11 @@
             scores.maxPoints = Object.values(CATEGORY_MAX_POINTS).reduce((a, b) => a + b, 0);
             scores.overall = (scores.points / scores.maxPoints) * 100;
 
-            for (const [tier, info] of Object.entries(TIER_INFO)) {
-                if (scores.overall >= info.range[0] && scores.overall <= info.range[1]) {
-                    scores.tier = tier;
-                    break;
-                }
-            }
+            // Thresholds, not ranges, so a score like 69.5% can't fall between two tiers
+            if (scores.overall >= 85) scores.tier = 'Tender-Ready';
+            else if (scores.overall >= 70) scores.tier = 'Improving';
+            else if (scores.overall >= 40) scores.tier = 'Vulnerable';
+            else scores.tier = 'Critical';
 
             return scores;
         }
