@@ -1303,3 +1303,8 @@ section { position: relative; }
 picture { display: contents; }
 .logo-gif { mix-blend-mode: multiply; }
 @media (prefers-reduced-motion: reduce) { .logo-gif { animation: none; } }
+
+/* Scans: Health Assessment line first, then the four scans, then their descriptions */
+.tm-hero .tm-subhead { margin: 26px auto 0; }
+.tm-scanwrap .tm-scan-img { order: 1; margin-top: 0; }
+.tm-scanwrap .tm-desc-row { order: 2; margin-top: 18px; }

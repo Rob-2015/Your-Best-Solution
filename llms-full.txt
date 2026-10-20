@@ -74,6 +74,12 @@ A bid writer improves the words. YBSL fixes what sits behind them. Most manufact
 
 No, and anyone who promises that is selling you something. Nobody controls a buyer's decision. What we can do is make sure you are never knocked out on a technicality, so every gate is passed and every piece of evidence is ready, and you are genuinely in a position to compete for the win on quality and price.
 
+## Guide: Protecting the Production Line (cyber risk briefing, October 2026)
+
+Source: https://yourbestsolution.co.uk/protecting-the-production-line.pdf
+
+An 8-page briefing by Rob Atkins on what the 2026 cyber data means for UK manufacturers and the tenders they want to win. Headline figures it reports: manufacturing took 27.7% of all cyber attacks, the most of any sector for the fifth year running (IBM X-Force 2026); 61% of manufacturing breaches involved ransomware and 61% involved a third party such as a supplier (Verizon DBIR 2026); the Jaguar Land Rover attack cost the UK economy an estimated £2bn and hit around 5,000 supply chain firms (Cyber Monitoring Centre). It covers the five threats that matter most (ransomware, unpatched systems, supply chain attacks, phone and text scams, and intellectual property leaking through AI tools), how attackers get in, what an attack really costs, why a manufacturer is its customers' supply chain risk, and the fixes that make the biggest difference.
+
 ## Bid Writing and Tenders
 
 Source: https://yourbestsolution.co.uk/bid-writing-tenders.html
