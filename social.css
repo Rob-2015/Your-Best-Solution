@@ -185,3 +185,13 @@
 @media (min-width: 921px) and (max-width: 945px) {
   .tm-hero { padding-top: calc(178px + var(--bar-h)) !important; }
 }
+
+/* Laptops/desktops: centre the email and phone, and let the climbing logo rise into the
+   empty left side of the contact strip so it can be bigger without a taller header */
+@media (min-width: 921px) {
+  .top-bar__in { display: grid; grid-template-columns: 1fr auto 1fr; }
+  .top-bar__in .top-contact { grid-column: 2; }
+  .top-bar__in .soc-icons { grid-column: 3; justify-self: end; }
+  .nav { z-index: 202; }
+  .logo-gif { height: 108px !important; margin-top: calc(-1 * var(--bar-h)); filter: none; }
+}

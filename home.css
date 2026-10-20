@@ -1262,4 +1262,4 @@ section { position: relative; }
 @media (max-width: 600px) { .logo-gif { height: 48px !important; } }
 /* Keep the hero clear of the taller header, and stop menu jumps hiding section headings */
 @media (max-width: 600px) { .tm-hero { padding-top: calc(6.8rem + 6px) !important; } }
-.logo-gif { filter: brightness(1.013); }
+
