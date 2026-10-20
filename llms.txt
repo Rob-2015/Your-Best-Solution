@@ -9,14 +9,14 @@ Key facts:
 - Who it is for: owner-managed and mid-sized UK manufacturers (10 to 500 staff) bidding for public sector, NHS, defence, local authority, OEM and Tier-1 supply chain contracts.
 - What it is not: YBSL is not a generic compliance consultancy and does not sell certificates. It diagnoses tender readiness and coordinates specialists who understand manufacturing. It does not guarantee tender wins.
 - Accreditations and memberships: CyberSmart Registered Partner (Cyber Essentials and Cyber Essentials Plus), Federation of Small Businesses, Manufacturers Hub (Premium), Global Technology Industry Association (GTIA).
-- How to start: the free 7-question Bid Readiness Score (about two minutes), then a Comprehensive Health Assessment.
+- How to start: the free 7-question Bid & Tender Readiness Screening (about two minutes), then a Comprehensive Health Assessment.
 - Contact: rob@yourbestsolution.co.uk, +44 (0)7445 225 668.
 
 ## Start here
 
 - [Home page](https://yourbestsolution.co.uk/): what YBSL does, the timing problem, how it works, the Cure Alliance and Rob's story
 - [Common questions](https://yourbestsolution.co.uk/#faq): straight answers on tender gates, Cyber Essentials, Carbon Reduction Plans, certification lead times and how YBSL works
-- [Free Bid Readiness Score](https://yourbestsolution.co.uk/bid-readiness-score.html): 7 questions, category-by-category results
+- [Free Bid & Tender Readiness Screening](https://yourbestsolution.co.uk/bid-readiness-score.html): 7 questions, category-by-category results
 - [Book a Comprehensive Health Assessment](https://bookings.cloud.microsoft/book/ComplianceDiscoveryCall@yourbestsolution.co.uk/?ismsaljsauthenabled=true)
 - [Full text of every service page](https://yourbestsolution.co.uk/llms-full.txt): one file for AI assistants
 
