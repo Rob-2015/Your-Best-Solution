@@ -1295,3 +1295,6 @@ section { position: relative; }
 .tm-eyebrow .nb { white-space: nowrap; }
 .tm-hero .tm-headline { font-size: clamp(20px, 2.3vw, 30px); }
 .tm-hero .tm-headline { max-width: 980px; }
+/* Headline scales with the screen so "…you have two choices:" always stays on one line from tablet size up */
+@media (min-width: 700px) { .tm-hero .tm-headline { font-size: min(30px, calc((100vw - 80px) / 33)); max-width: none; } }
+.tm-hero .tm-headline { text-wrap: balance; }
