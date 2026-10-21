@@ -1004,6 +1004,8 @@
         // No private key belongs on a public web page; a form ID is safe to publish.
         const HUBSPOT_PORTAL_ID = '147989593';
         const HUBSPOT_FORM_ID = '69657ceb-f1df-43bf-addb-de7ffc805626';
+        const HUBSPOT_MARKETING_SUBSCRIPTION_ID = 2274266819; // Marketing Information
+        const CONSENT_TEXT = "I'm happy for Your Best Solution to send me my results and occasional relevant insights.";
 
         const RED_BELOW = 40;      // any area under this is red
         const HEALTHY_FROM = 70;   // overall at or above this, with no red areas, is healthy
@@ -1118,7 +1120,15 @@
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     fields: buildHubSpotFields(scores),
-                    context: { pageUri: window.location.href, pageName: document.title }
+                    context: { pageUri: window.location.href, pageName: document.title },
+                    // GDPR: pass the consent tick through, or HubSpot blocks the results email
+                    legalConsentOptions: {
+                        consent: {
+                            consentToProcess: true,
+                            text: CONSENT_TEXT,
+                            communications: [{ value: true, subscriptionTypeId: HUBSPOT_MARKETING_SUBSCRIPTION_ID, text: CONSENT_TEXT }]
+                        }
+                    }
                 })
             })
             .then(response => {
