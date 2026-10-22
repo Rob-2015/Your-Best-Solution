@@ -889,7 +889,7 @@
             },
             "Tender-Ready": {
                 range: [85, 100],
-                message: "You're in good shape. The £995 assessment helps you evidence your strengths in the bid itself and target the bigger contracts you're now ready for."
+                message: "You're in good shape. The Comprehensive Health Assessment helps you evidence your strengths in the bid itself and target the bigger contracts you're now ready for."
             }
         };
 
@@ -1026,6 +1026,13 @@
             const reds = CATEGORIES.filter(c => scores.categories[c] < RED_BELOW);
             const weakest = CATEGORIES.reduce((a, b) => (scores.categories[b] < scores.categories[a] ? b : a));
             const opener = "Most manufacturers I meet are losing tenders they should be winning, and the buyer never tells them why.";
+            // Fee is priced by company size (no figures in customer copy)
+            const size = (answers[0] !== undefined) ? QUESTIONS[0].answers[answers[0]].text : '';
+            const feeLine = size === 'Sole trader'
+                ? "The fee is set by the size of your business, so as a sole trader you only pay for the depth of review you actually need."
+                : size
+                ? `The fee is set by the size of your business, so a firm of ${size.replace('employees', 'people')} only pays for the depth of review it actually needs.`
+                : "The fee is set by the size of your business, so you only pay for the depth of review you actually need.";
 
             if (reds.length) {
                 const which = reds.length === 1
@@ -1038,7 +1045,7 @@
                         `${opener} Your results show where some of those marks are likely going.`,
                         `You scored ${overall}%. The number I'd focus on, though, is ${which}. In a real evaluation, one red area can knock you out on its own, even when everything else looks healthy. Buyers don't average it out. They simply stop scoring you.`,
                         "Seven questions can only give you the headline. The Comprehensive Health Assessment goes through your actual tender catalogue: every document a buyer will ask you for, how your delivery methodology reads to an evaluator, and what's missing. The good, the bad and the ugly.",
-                        "It's £995. Put that against the cost of writing one bid that was never going to win, or the value of one contract you should have won, and it pays for itself very quickly.",
+                        `${feeLine} Put that against the cost of writing one bid that was never going to win, or the value of one contract you should have won, and it pays for itself very quickly.`,
                         "If the Assessment shows real gaps, the next step is a full review. A senior bid manager, who has spent 15 years scoring tenders from the buyer's side of the table, personally goes through your submissions and pinpoints exactly what needs fixing. You won't be left with a list and told to get on with it. As part of our service, we bring in vetted manufacturing specialists to close each gap, so you go into your next tender 100% ready to compete for the win."
                     ]
                 };
@@ -1055,7 +1062,7 @@
                         `${opener} The good news is your foundations look solid: you scored ${overall}%.`,
                         "Here's the uncomfortable bit. Firms with healthy scores still lose, usually on the detail. A method statement that doesn't answer the question asked, evidence that's out of date, or social value that reads like a promise rather than a plan. A screening can't see any of that. An evaluator sees all of it.",
                         assessment,
-                        "It's £995. When you're already this close, the difference between second place and winning is usually a handful of marks, and that's exactly what this finds.",
+                        `${feeLine} When you're already this close, the difference between second place and winning is usually a handful of marks, and that's exactly what this finds.`,
                         review
                     ]
                 };
@@ -1068,7 +1075,7 @@
                     `${opener} There's no single red area dragging you down, but at ${overall}% there are gaps a sharper competitor will exploit, and ${weakest} at ${rounded[weakest]}% is where I'd look first.`,
                     "Here's the uncomfortable bit. Firms without a single red flag still lose, usually on the detail. A method statement that doesn't answer the question asked, evidence that's out of date, or social value that reads like a promise rather than a plan. A screening can't see any of that. An evaluator sees all of it.",
                     assessment,
-                    "It's £995. The difference between second place and winning is usually a handful of marks, and that's exactly what this finds.",
+                    `${feeLine} The difference between second place and winning is usually a handful of marks, and that's exactly what this finds.`,
                     review
                 ]
             };
