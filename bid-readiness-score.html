@@ -721,7 +721,11 @@
 
                     <div class="category-bars" id="categoryBars"></div>
 
-                    <div style="text-align: center; margin: 2rem 0;">
+                    <div style="text-align: center; margin: 2rem 0 1rem;">
+                        <a id="reportLink" href="screening-report.html" target="_blank" rel="noopener" class="cta-button" style="background:#003DA5;">Open my full report &rarr;</a>
+                        <p style="margin:.7rem 0 0;font-size:.9rem;color:#4A5568;">Your personal report, area by area, with your first three steps. You can download it as a PDF.</p>
+                    </div>
+                    <div style="text-align: center; margin: 0 0 2rem;">
                         <a href="https://bookings.cloud.microsoft/book/ComplianceDiscoveryCall@yourbestsolution.co.uk/?ismsaljsauthenabled=true" target="_blank" rel="noopener" class="cta-button">Book Your Comprehensive Health Assessment Now!</a>
                     </div>
 
@@ -1208,6 +1212,12 @@
             });
 
             document.getElementById('categoryBars').innerHTML = barsHtml;
+
+            // Personal report link (scores only in the link; name and company stay in this browser)
+            const pts = CATEGORIES.map(cat => Math.round(scores.categories[cat] * CATEGORY_MAX_POINTS[cat] / 100));
+            const today = new Date().toISOString().slice(0, 10);
+            document.getElementById('reportLink').href = 'screening-report.html?r=' + pts.join('-') + '&d=' + today;
+            try { localStorage.setItem('ybsl_screening_profile', JSON.stringify({ first: formData.firstName || '', company: formData.company || '' })); } catch (e) {}
         }
 
         function showStage(stageId) {

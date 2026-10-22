@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your Bid & Tender Readiness Report | Your Best Solution Limited</title>
+<meta name="description" content="Your personal Bid & Tender Readiness Report from Your Best Solution Limited.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#003DA5;--navy-d:#002b76;--ink:#13192B;--mid:#4A5568;--soft:#6B7488;--rule:#DDE3F0;--off:#F1F4FA;--paper:#FAF8F3;
+--orange:#E87722;--orange-d:#c9621a;--teal:#008080;--green:#3A7D52;--blue:#000BDB;
+--red:#C62828;--amber:#E09A00;--lg:#7CB342;--g:#2E7D32;--redp:#FDECEC;--amberp:#FFF6E0;--gp:#EAF5EA;
+--fh:'Montserrat','Aptos Display',Arial,sans-serif;--fb:'Open Sans','Segoe UI',Arial,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{font-family:var(--fb);color:var(--ink);background:#E9EDF5;line-height:1.6;font-size:16px;font-style:normal}
+a{color:var(--navy)}
+h1,h2,h3,h4{font-family:var(--fh);line-height:1.15;color:var(--navy)}
+.best{color:var(--orange)}
+/* top bar */
+.bar{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--rule);box-shadow:0 2px 12px rgba(0,30,90,.06)}
+.bar-in{max-width:1000px;margin:0 auto;padding:.7rem 1rem;display:flex;align-items:center;gap:1rem;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:.6rem;text-decoration:none}
+.brand img{height:40px;width:auto}
+.brand span{font-family:var(--fh);font-weight:800;color:var(--navy);font-size:1rem}
+.bar-actions{display:flex;gap:.6rem;align-items:center}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;font-family:var(--fh);font-weight:800;text-decoration:none;border-radius:10px;padding:.85rem 1.4rem;font-size:1rem;border:0;cursor:pointer;line-height:1.2;text-align:center}
+.btn-book{background:var(--orange);color:#fff;box-shadow:0 6px 18px rgba(232,119,34,.35)}
+.btn-book:hover{background:var(--orange-d)}
+.btn-ghost{background:#fff;color:var(--navy);border:2px solid var(--navy)}
+.btn-sm{padding:.6rem 1rem;font-size:.9rem}
+.btn-xl{padding:1.15rem 2rem;font-size:1.2rem}
+@media(max-width:640px){.brand span{display:none}.btn-sm{padding:.55rem .75rem;font-size:.82rem}.bar .btn-ghost{display:none}}
+/* sheets */
+main{max-width:1000px;margin:1.5rem auto 3rem;padding:0 1rem;display:flex;flex-direction:column;gap:1.5rem}
+.sheet{background:#fff;border-radius:18px;box-shadow:0 10px 40px rgba(0,30,90,.10);padding:clamp(1.4rem,4vw,3rem);position:relative;overflow:hidden}
+.eyebrow{font-family:var(--fh);font-weight:800;font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;color:var(--teal);display:flex;align-items:center;gap:.6rem;margin-bottom:.6rem}
+.dots{display:inline-flex;gap:4px}.dots i{width:10px;height:10px;border-radius:2px;display:block}
+.dots i:nth-child(1){background:var(--navy)}.dots i:nth-child(2){background:var(--orange)}.dots i:nth-child(3){background:var(--teal)}.dots i:nth-child(4){background:var(--green)}
+.h-sheet{font-size:clamp(1.6rem,3.6vw,2.4rem);font-weight:900;letter-spacing:-.02em;margin-bottom:.8rem}
+.lede{font-size:1.08rem;color:var(--mid);max-width:46rem}
+.rule-o{height:5px;background:linear-gradient(90deg,var(--orange),var(--orange) 40%,transparent);border-radius:3px;margin:1.4rem 0}
+/* cover */
+.cover{padding:0;display:grid;grid-template-columns:1.15fr .85fr;min-height:640px}
+.cover-l{padding:clamp(1.6rem,4vw,3.2rem);display:flex;flex-direction:column}
+.cover-l .logo{width:210px;height:auto;margin-bottom:1.4rem}
+.strap{font-family:var(--fh);font-weight:800;color:var(--orange);font-size:1rem;margin-bottom:2.2rem}
+.cover h1{font-size:clamp(2.1rem,5vw,3.4rem);font-weight:900;letter-spacing:-.025em;margin:.4rem 0 1rem}
+.cover .for{font-size:1.05rem;color:var(--mid)}.cover .for b{color:var(--ink);font-size:1.25rem;display:block}
+.cover .tag2{margin-top:auto;padding-top:2rem;font-family:var(--fh);font-weight:800;color:var(--green)}
+.cover-r{background:linear-gradient(160deg,var(--navy) 0%,#00287a 100%);color:#fff;padding:clamp(1.6rem,4vw,3rem);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:1.2rem}
+.ring{width:230px;height:230px;position:relative}
+.ring svg{width:100%;height:100%;transform:rotate(-90deg)}
+.ring .num{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.ring .num b{font-family:var(--fh);font-weight:900;font-size:3.6rem;line-height:1}
+.ring .num span{font-family:var(--fh);font-weight:700;opacity:.85;margin-top:.3rem}
+.tier-pill{font-family:var(--fh);font-weight:900;letter-spacing:.12em;text-transform:uppercase;padding:.5rem 1.1rem;border-radius:999px;font-size:.95rem}
+.gate{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.25);border-radius:14px;padding:1rem 1.1rem;font-size:.95rem;max-width:320px}
+.gate b{display:block;font-family:var(--fh);letter-spacing:.12em;font-size:.8rem;margin-bottom:.3rem}
+@media(max-width:760px){.cover{grid-template-columns:1fr}}
+/* dashboard */
+.dash-top{display:grid;grid-template-columns:240px 1fr;gap:1rem;margin:1.2rem 0 1rem}
+.tile{border-radius:14px;color:#fff;padding:1.1rem;text-align:center;display:flex;flex-direction:column;justify-content:center}
+.tile small{font-family:var(--fh);font-weight:800;letter-spacing:.12em;font-size:.72rem;text-transform:uppercase;opacity:.95}
+.tile b{font-family:var(--fh);font-weight:900;font-size:2.5rem;line-height:1.05;margin:.25rem 0}
+.tile .t2{font-family:var(--fh);font-weight:800;font-size:.85rem;letter-spacing:.06em}
+.tile.big b{font-size:3.2rem}
+.gate-tile{text-align:left;align-items:flex-start}
+.gate-tile p{font-family:var(--fh);font-weight:800;font-size:1.15rem;line-height:1.35;margin-top:.3rem}
+.tiles5{display:grid;grid-template-columns:repeat(5,1fr);gap:.7rem}
+.tiles5 .tile{padding:.9rem .5rem}.tiles5 .tile b{font-size:2rem}
+.legend{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center;margin:.9rem 0 1.6rem;font-size:.85rem;color:var(--soft);font-family:var(--fh);font-weight:700}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:.35rem;vertical-align:-1px}
+@media(max-width:760px){.dash-top{grid-template-columns:1fr}.tiles5{grid-template-columns:repeat(2,1fr)}.tiles5 .tile:last-child{grid-column:span 2}}
+.exec h2{font-size:1.6rem;font-weight:900;padding-bottom:.5rem;border-bottom:4px solid var(--orange);margin-bottom:1rem}
+.exec-row{display:grid;grid-template-columns:190px 1fr;gap:1rem;padding:.75rem 0;border-bottom:1px dashed var(--rule)}
+.exec-row h4{font-size:.95rem;font-weight:800}
+.exec-row:last-of-type{border-bottom:0}
+.prio{list-style:none;counter-reset:p;display:flex;flex-direction:column;gap:.55rem}
+.prio li{counter-increment:p;display:grid;grid-template-columns:34px 1fr;gap:.6rem;align-items:start}
+.prio li::before{content:counter(p);font-family:var(--fh);font-weight:900;color:#fff;background:var(--orange);border-radius:50%;width:30px;height:30px;display:flex;align-items:center;justify-content:center;font-size:.95rem}
+.prio a{font-weight:700;text-decoration:none;border-bottom:2px solid currentColor}
+@media(max-width:640px){.exec-row{grid-template-columns:1fr;gap:.2rem}}
+.cta-band{margin-top:1.4rem;background:linear-gradient(120deg,#FFF3E8,#FFFFFF);border:2px solid var(--orange);border-radius:16px;padding:1.3rem 1.4rem;display:flex;gap:1.2rem;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.cta-band h3{font-size:1.25rem;font-weight:900}
+.cta-band p{color:var(--mid);font-size:.95rem;max-width:34rem}
+/* section intros */
+.part-h{display:flex;align-items:center;gap:.9rem;margin-bottom:.4rem}
+.part-badge{font-family:var(--fh);font-weight:900;color:#fff;border-radius:10px;padding:.35rem .7rem;font-size:.85rem;letter-spacing:.06em}
+/* category card */
+.cat{border:1px solid var(--rule);border-radius:16px;overflow:hidden;margin-top:1.4rem;break-inside:avoid;page-break-inside:avoid}
+.cat-head{padding:1rem 1.3rem;color:#fff;display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}
+.cat-head small{font-family:var(--fh);font-weight:800;letter-spacing:.14em;font-size:.72rem;text-transform:uppercase;opacity:.92;display:block}
+.cat-head h3{color:#fff;font-size:1.4rem;font-weight:900;margin-top:.15rem}
+.chip{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.45);border-radius:999px;padding:.4rem .9rem;font-family:var(--fh);font-weight:900;white-space:nowrap}
+.cat-body{padding:1.3rem}
+.verdict{font-size:1.06rem;padding:1rem 1.1rem;border-radius:12px;border-left:6px solid;margin-bottom:1.1rem}
+.asked{font-size:.92rem;color:var(--mid);margin-bottom:1rem}.asked b{color:var(--navy)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+@media(max-width:760px){.two{grid-template-columns:1fr}}
+.box{border-radius:12px;padding:1rem 1.1rem}
+.box h4{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;font-weight:900;margin-bottom:.45rem}
+.box p{font-size:.95rem}
+.box.cost{background:var(--navy);color:#fff}.box.cost h4{color:#fff}
+.box.miss{border:2px solid var(--orange)}.box.miss h4{color:var(--orange)}
+.box.good{background:var(--off)}.box.good h4{color:var(--navy)}
+.box.steps{background:#fff;border:2px solid var(--rule)}.box.steps h4{color:var(--navy)}
+.box.steps ol{padding-left:1.2rem;font-size:.93rem}.box.steps li{margin-bottom:.35rem}.box.steps li::marker{color:var(--orange);font-weight:800}
+.cure{margin-top:1rem;display:flex;gap:.8rem;align-items:flex-start;background:#FFF6EE;border-radius:12px;padding:.9rem 1.1rem;font-size:.95rem}
+.cure b{font-family:var(--fh);color:var(--navy);white-space:nowrap}
+.svc-chips{margin-top:.9rem;display:flex;flex-wrap:wrap;gap:.45rem;align-items:center;font-size:.85rem}
+.svc-chips span{font-family:var(--fh);font-weight:800;color:var(--navy);margin-right:.2rem}
+.svc-chips a{background:var(--off);border-radius:999px;padding:.3rem .75rem;text-decoration:none;font-weight:600}
+.none{background:var(--off);border-radius:12px;padding:1rem 1.2rem;margin-top:1rem}
+/* services */
+.svc{display:grid;grid-template-columns:330px 1fr;align-items:start;border:1px solid var(--rule);border-radius:16px;overflow:hidden;margin-top:1.2rem;break-inside:avoid;page-break-inside:avoid}
+.svc img{width:100%;height:auto;aspect-ratio:3/2;object-fit:contain;display:block;background:#003DA5}
+.svc>a{display:block;align-self:center;padding:10px}.svc>a img{border-radius:10px}
+.svc-b{padding:1.1rem 1.3rem}
+.svc-b small{font-family:var(--fh);font-weight:800;letter-spacing:.14em;font-size:.72rem;color:var(--teal);text-transform:uppercase}
+.svc-b h3{font-size:1.25rem;font-weight:900;margin:.2rem 0 .2rem}
+.svc-b .tag{font-family:var(--fh);font-weight:800;color:var(--orange);font-size:.92rem;margin-bottom:.6rem}
+.svc-b p{font-size:.92rem;margin-bottom:.5rem}
+.svc-b .punch{font-weight:700}
+.svc-b .miss{border-left:4px solid var(--orange);padding-left:.8rem;color:var(--mid)}
+.svc-b a.more{font-family:var(--fh);font-weight:800;text-decoration:none;font-size:.9rem}
+@media(max-width:760px){.svc{grid-template-columns:1fr}}
+.grid16{display:grid;grid-template-columns:repeat(4,1fr);gap:.6rem;margin-top:1rem}
+.g16{border:1px solid var(--rule);border-radius:12px;padding:.7rem .8rem;text-decoration:none;color:var(--ink);display:flex;flex-direction:column;gap:.2rem;position:relative;background:#fff}
+.g16 small{font-family:var(--fh);font-weight:800;font-size:.68rem;letter-spacing:.12em;color:var(--soft)}
+.g16 b{font-family:var(--fh);font-size:.88rem;color:var(--navy);line-height:1.25}
+.g16 i{position:absolute;top:.7rem;right:.7rem;width:11px;height:11px;border-radius:50%}
+@media(max-width:760px){.grid16{grid-template-columns:repeat(2,1fr)}}
+/* timing */
+.lt{margin-top:1.3rem;display:flex;flex-direction:column;gap:.7rem}
+.lt-row{display:grid;grid-template-columns:200px 1fr 90px;gap:.8rem;align-items:center;font-size:.92rem}
+.lt-row b{font-family:var(--fh);font-size:.88rem;color:var(--navy)}
+.lt-track{height:22px;background:var(--off);border-radius:6px;position:relative}
+.lt-fill{position:absolute;top:0;bottom:0;border-radius:6px}
+.lt-mark{position:absolute;top:-6px;bottom:-6px;width:3px;background:var(--red);left:50%}
+.lt-row .when{font-family:var(--fh);font-weight:700;color:var(--mid);font-size:.85rem}
+.lt-key{font-size:.85rem;color:var(--soft);margin-top:.4rem;display:flex;gap:1.2rem;flex-wrap:wrap}
+@media(max-width:640px){.lt-row{grid-template-columns:1fr;gap:.25rem}}
+.callout{background:#FFF6EE;border-left:6px solid var(--orange);border-radius:12px;padding:1rem 1.2rem;margin-top:1.3rem;font-weight:600}
+/* book */
+.book-hero{background:linear-gradient(140deg,var(--navy),#00287a);color:#fff;border-radius:16px;padding:clamp(1.3rem,3vw,2.2rem);display:grid;grid-template-columns:1fr 200px;gap:1.5rem;align-items:center}
+.book-hero h2{color:#fff;font-size:clamp(1.5rem,3vw,2.1rem);font-weight:900}
+.book-hero p{opacity:.92;margin:.6rem 0 1.2rem}
+.book-hero img{width:200px;height:200px;border-radius:50%;object-fit:cover;border:5px solid rgba(255,255,255,.25)}
+@media(max-width:700px){.book-hero{grid-template-columns:1fr}.book-hero img{width:140px;height:140px}}
+.gets{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin-top:1.2rem}
+.gets div{border:1px solid var(--rule);border-radius:12px;padding:.9rem 1rem;display:flex;gap:.7rem;align-items:flex-start}
+.gets div::before{content:"\2713";font-weight:900;color:#fff;background:var(--green);border-radius:50%;min-width:24px;height:24px;display:flex;align-items:center;justify-content:center;font-size:.8rem;margin-top:.1rem}
+@media(max-width:640px){.gets{grid-template-columns:1fr}}
+.ladder{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem;margin-top:1.3rem}
+.step{border-radius:14px;padding:1rem;border:2px solid var(--rule)}
+.step small{font-family:var(--fh);font-weight:900;letter-spacing:.12em;font-size:.72rem}
+.step h4{font-size:1.02rem;margin:.25rem 0 .35rem}
+.step p{font-size:.88rem;color:var(--mid)}
+.step.done{border-color:var(--g);background:var(--gp)}.step.done small{color:var(--g)}
+.step.now{border-color:var(--orange);background:#FFF6EE;box-shadow:0 8px 22px rgba(232,119,34,.18)}.step.now small{color:var(--orange)}
+.step.next small{color:var(--navy)}
+@media(max-width:760px){.ladder{grid-template-columns:1fr}}
+.quote{font-family:var(--fh);font-weight:800;font-size:1.25rem;color:var(--navy);border-left:6px solid var(--orange);padding:.3rem 0 .3rem 1rem;margin:1.4rem 0}
+.contender{display:grid;grid-template-columns:1.2fr 1fr;gap:1.2rem;align-items:center;margin-top:1.4rem;border:1px solid var(--rule);border-radius:16px;padding:1rem}
+.contender img{width:100%;border-radius:10px;display:block;box-shadow:0 8px 24px rgba(0,30,90,.15)}
+.contender h4{color:var(--teal);font-size:1.05rem;margin-bottom:.4rem}
+.contender p{font-size:.92rem;color:var(--mid);margin-bottom:.6rem}
+@media(max-width:700px){.contender{grid-template-columns:1fr}}
+/* faq */
+.faq{margin-top:1rem;display:grid;grid-template-columns:1fr 1fr;gap:.9rem 1.4rem}
+.faq div{break-inside:avoid;padding:.9rem 0;border-bottom:1px dashed var(--rule)}
+.faq h4{font-size:1rem;margin-bottom:.35rem}
+.faq p{font-size:.92rem;color:var(--mid)}
+@media(max-width:760px){.faq{grid-template-columns:1fr}}
+.final{text-align:center;padding:clamp(1.6rem,4vw,3rem)}
+.final h2{font-size:clamp(1.6rem,3.6vw,2.4rem);font-weight:900;margin-bottom:.6rem}
+.final p{color:var(--mid);max-width:40rem;margin:0 auto 1.4rem}
+.sign{margin-top:1.6rem;font-size:.92rem;color:var(--soft)}
+.sign b{color:var(--navy)}
+.foot{text-align:center;font-size:.82rem;color:var(--soft);padding:0 1rem 2rem}
+.notice{background:#fff;border:1px dashed var(--orange);border-radius:12px;padding:1rem;margin:1rem auto;max-width:1000px;display:none}
+/* print */
+@page{size:A4;margin:12mm 12mm 14mm}
+@media print{
+  body{background:#fff;font-size:9.4pt;line-height:1.45}
+  .bar,.no-print,.foot,.notice{display:none!important}
+  main{max-width:none;margin:0;padding:0;gap:0;display:block}
+  .sheet{box-shadow:none;border-radius:0;padding:0;break-after:page;page-break-after:always;overflow:visible}
+  .sheet:last-child{break-after:auto;page-break-after:auto}
+  .eyebrow{font-size:7.5pt;margin-bottom:2mm}
+  .h-sheet{font-size:19pt;margin-bottom:2mm}
+  .lede{font-size:10pt}
+  .cover{min-height:271mm;border-radius:12px;overflow:hidden;display:grid;grid-template-columns:1fr 78mm}
+  .cover-l{padding:14mm 12mm}
+  .cover h1{font-size:30pt}
+  .ring{width:58mm;height:58mm}
+  .dash-top{grid-template-columns:62mm 1fr;margin:4mm 0 3mm}
+  .tile{padding:3mm}.tile b{font-size:20pt}.tile.big b{font-size:26pt}
+  .tiles5 .tile b{font-size:17pt}
+  .gate-tile p{font-size:11pt}
+  .legend{margin:3mm 0 5mm;font-size:7.5pt}
+  .exec h2{font-size:15pt;margin-bottom:2mm}
+  .exec-row{grid-template-columns:38mm 1fr;padding:2mm 0;font-size:9.2pt}
+  .prio li::before{width:22px;height:22px;font-size:8pt}
+  .cta-band{margin-top:4mm;padding:4mm 5mm}
+  .cta-band h3{font-size:12pt}.cta-band p{font-size:8.8pt}
+  .btn{padding:3mm 5mm;font-size:9.5pt}.btn-xl{padding:4mm 7mm;font-size:11.5pt}
+  .cat{margin-top:4mm;break-inside:avoid;page-break-inside:avoid}
+  .cat+.cat{break-before:page;page-break-before:always}
+  .cat-head{padding:3mm 5mm}.cat-head h3{font-size:14pt}.chip{font-size:9pt;padding:1.5mm 3.5mm}
+  .cat-body{padding:4mm 5mm}
+  .verdict{font-size:9.6pt;padding:3mm 4mm;margin-bottom:3mm}
+  .asked{font-size:8.6pt;margin-bottom:3mm}
+  .two{grid-template-columns:1fr 1fr;gap:3mm}
+  .box{padding:3mm 4mm}.box h4{font-size:7pt;margin-bottom:1.5mm}.box p,.box.steps ol{font-size:8.6pt}
+  .cure{margin-top:3mm;padding:3mm 4mm;font-size:8.6pt}
+  .svc-chips{margin-top:2.5mm;font-size:7.8pt}
+  .svc{grid-template-columns:58mm 1fr;margin-top:4mm;break-inside:avoid;page-break-inside:avoid}
+  .svc img{height:auto}
+  .svc-b{padding:3mm 5mm}.svc-b h3{font-size:12pt}.svc-b p{font-size:8.5pt;margin-bottom:1.5mm}.svc-b .tag{font-size:8.5pt;margin-bottom:1.5mm}
+  .grid16{gap:2.5mm}.g16{padding:2.5mm 3mm}.g16 b{font-size:8pt}
+  .lt-row{grid-template-columns:42mm 1fr 22mm;font-size:8.6pt}
+  .book-hero{grid-template-columns:1fr 42mm;padding:6mm}.book-hero img{width:42mm;height:42mm}.book-hero h2{font-size:17pt}.book-hero p{font-size:9.2pt;margin:2mm 0 4mm}
+  .gets{gap:2.5mm;margin-top:4mm}.gets div{padding:2.5mm 3mm;font-size:8.8pt}
+  .ladder{gap:2.5mm;margin-top:4mm}.step{padding:3mm}.step p{font-size:8.3pt}
+  .quote{font-size:11.5pt;margin:4mm 0 2mm}
+  .contender{margin-top:4mm;padding:3mm;grid-template-columns:1fr 1fr}
+  .faq{gap:1mm 6mm;margin-top:2mm}.faq div{padding:2mm 0}.faq h4{font-size:9.5pt}.faq p{font-size:8.4pt}
+  .final{padding:6mm 0 0}.final h2{font-size:17pt}
+  .svc .c0{display:none}
+  .svc{grid-template-columns:66mm 1fr}
+  .svc>a{padding:2mm}
+  .cta-band{break-inside:avoid;page-break-inside:avoid}
+  a{text-decoration:none}
+}
+</style>
+</head>
+<body>
+<div class="bar"><div class="bar-in">
+  <a class="brand" href="https://yourbestsolution.co.uk/"><img src="assets/ybsl-logo-report.png" alt="Your Best Solution Limited"><span>Your <span class="best">Best</span> Solution Limited</span></a>
+  <div class="bar-actions">
+    <button class="btn btn-ghost btn-sm" onclick="window.print()">Download PDF</button>
+    <a class="btn btn-book btn-sm book" href="#" target="_blank" rel="noopener">Book your Comprehensive Health Assessment</a>
+  </div>
+</div></div>
+<div class="notice" id="notice">This report needs your Screening results. <a href="https://yourbestsolution.co.uk/bid-readiness-score.html">Take the free Bid &amp; Tender Readiness Screening</a> and your personal report will be created straight away.</div>
+<main id="report"></main>
+<p class="foot">Your Best Solution Limited &middot; 73 St Johns Road, Westcliff-on-Sea, Essex, SS0 7JY &middot; Company No. 16983435 &middot; ICO registered C1911739 &middot; <a href="https://yourbestsolution.co.uk/privacy-policy.html">Privacy</a></p>
+<script>
+const DATA = {"cats":[{"key":"C","q":"Question 2","name":"Cyber and Data Security","max":20,"weight":"25%","services":[10,11,12,13],"asks":"Whether you can prove you're safe to share data with: Cyber Essentials, GDPR records, protection for your production systems and a plan if something goes down.","cost":"UK central government has required Cyber Essentials since 2014 for contracts that handle certain information, and large manufacturers now push the same requirement down their supply chains. Buyers want proof you're safe to connect to and share drawings, data and systems with. One weak supplier is how attackers get into the bigger company.","green":"Great result. Cyber is where a lot of manufacturers fall down, and you can evidence the things buyers ask for. That matters more every year, because buyers are pushing these requirements further down their supply chains. Keep your certification renewals in the diary and make sure your production systems are covered, not just the office.","lightGreen":"Good position. The basics are covered, but there's usually something to tighten, often the factory side (machines, controllers, connected kit) rather than the office IT, or a certificate due for renewal. Close that and you're in the strongest group.","amber":"You have some protection in place, but not enough to prove it the way buyers ask for it. If a buyer demanded your Cyber Essentials certificate or your GDPR records today, could you produce both? Cyber Essentials Basic is typically 4 to 8 weeks and Plus 2 to 3 months, so it's very achievable before your next bid if you start now.","red":"This is a real exposure, both in tenders and in the business itself. Without certification and evidence, many buyers simply can't award you the work. And the risk isn't only on paper: KNP Logistics, a 158-year-old firm, lost 700 jobs after attackers got in through one employee's password. Cyber Essentials Basic can be in place in 4 to 8 weeks. I'd put this at the top of the list.","miss":"Most bidders treat the certificate as the finish line. Buyers treat it as the minimum, then ask whether the factory floor is protected too. A Cyber Essentials badge that only covers the office is a gap waiting to be found.","good":"Successful bidders hold Cyber Essentials (often Plus), keep GDPR records of processing up to date, protect production systems as well as office IT, and have a tested plan for getting back up and running if something goes down.","actions":["Check whether you hold a current Cyber Essentials certificate, and when it expires. It renews every year.","Ask your IT provider for three things: the patch log, the date of the last backup restore test, and the list of who has admin access.","List every machine, controller or connected device on the factory floor that can be reached from the network or by a supplier remotely."],"help":"As a CyberSmart Registered Partner we can get Cyber Essentials and Plus moving quickly, and bring in OT security, managed IT and data protection specialists so the certificate reflects reality."},{"key":"A","q":"Question 3","name":"Insurance and Financial Standing","max":16,"weight":"20%","services":[3,4,2],"asks":"Whether you can clear the pass-or-fail gates before anyone reads your bid: accounts, insurance cover levels and the core documents a buyer asks for up front.","cost":"Most tenders open with pass-or-fail gates. Financial standing is often checked automatically, with a threshold set at around twice the annual contract value. Insurance levels are checked mechanically against the contract. Fall short on either and your quality answers are never read, however good they are. That's why it sits so early in any evaluation.","green":"This is the part of a tender that quietly kills more bids than any other, and you're in good shape. Your financial evidence and insurance position look like they'd clear the gates a buyer sets before they read a word. That puts you ahead of a lot of manufacturers your size. The job now is keeping it that way: accounts filed on time, cover reviewed every time your contract values grow, and the documents ready to send the day a tender lands.","lightGreen":"You're close here. The foundations are in place, but there are one or two loose ends a buyer could pick up on, usually cover levels that haven't kept pace with the contracts you're chasing, or financial evidence that takes a few days to pull together. Tidy those up and this becomes a real strength.","amber":"You'd get through some gates here, but not all of them. The usual pattern is insurance cover that was right three years ago but doesn't match today's contract values, or accounts that don't show the turnover a buyer wants against the size of the job. The risk is that you never find out. Automated checks don't send feedback, they just filter you out. Worth fixing before the next tender, not during it.","red":"This is the one I'd look at first. If your financial standing or insurance doesn't clear the buyer's threshold, the rest of the bid doesn't matter, because nobody reads it. These checks are often automated and nobody negotiates with a threshold. The good news is that this is usually fixable quickly with the right specialist, and it unlocks every other improvement you make.","miss":"Most bidders check their cover once and assume it still fits. Every time your contract values grow, the gap between what you hold and what the buyer asks for grows with it, and nobody tells you until you've been filtered out.","good":"Successful bidders keep a ready-to-send pack: the last two years of filed accounts, a current credit report, insurance certificates showing cover levels against the contract sizes they bid for, and the core policies buyers ask for at the selection stage. It's reviewed every quarter, not the week a tender lands.","actions":["Find your largest target contract value and check it against your turnover. If the contract is worth more than half your annual turnover, expect your financial standing to be tested hard.","Pull your insurance schedule and compare Public Liability, Employers' Liability and Professional Indemnity limits against the levels asked for in the last tender you looked at.","Create one folder with your accounts, insurance certificates and key policies, each with a review date on it."],"help":"We bring in a vetted finance specialist and an insurance broker who understand manufacturing contracts, so your numbers and your cover clear the gates before anyone reads your bid."},{"key":"B","q":"Question 4","name":"Standards and Quality","max":16,"weight":"20%","services":[6,5,9],"asks":"Which management standards you hold (ISO 9001, 14001, 45001) and whether your health and safety evidence would stand up to a buyer's checks.","cost":"OEMs, Tier-1s and public-sector buyers use ISO as a risk filter. If you have it, you're treated as low risk. If you don't, you're treated as high risk, regardless of how good you actually are. Health and safety is checked on almost every public-sector tender, and a lapsed accreditation is one of the fastest ways a strong bid gets screened out.","green":"Well done. Holding the right standards puts you in the low-risk pile before the buyer has read a word, and plenty of manufacturers can't say that. Your quality and safety evidence should be doing real work in your tender answers. Make sure it is: buyers score what you show them, not what you hold.","lightGreen":"You're nearly there. You hold most of what buyers expect, but there may be a standard your target buyers ask for that you don't yet have, or a certificate approaching renewal. Worth checking against the specific tenders you're going after.","amber":"You have some of the standards buyers look for, but not the full set your target contracts are likely to ask for. ISO 9001 typically takes 3 to 6 months and ISO 45001 or 14001 around 4 to 6 months, so if the gap is there today, it needs planning now, not when the tender lands.","red":"Without the standards buyers expect, you're likely to be treated as a higher-risk supplier from the start, however good your work really is. That's a hard position to score your way out of. Certification takes months, not weeks, which is exactly why it's worth starting before the next tender appears rather than after.","miss":"Most bidders think holding the certificate is the job done. Buyers score what you show them, and an auditor checks that the shop floor matches the manual. The certificate gets you in. The evidence earns the marks.","good":"Successful bidders hold the standards their target buyers ask for, keep certificates in date with renewals planned, and can show an auditor that what happens on the shop floor matches what's written in the system.","actions":["List the ISO standards named in the last three tenders you looked at and tick off the ones you hold.","Check the expiry date of every certificate and accreditation you hold, and put the renewal dates in the diary three months early.","Walk your own shop floor with your health and safety policy in hand. Note anywhere the paperwork and the practice don't match."],"help":"Our ISO and health and safety partners work with manufacturers every day. We sequence the work so one system supports the next, rather than buying three standards separately."},{"key":"D","q":"Question 5","name":"Track Record and Bid Capability","max":16,"weight":"20%","services":[1,14,15,16],"asks":"Whether you can evidence similar contracts with named clients, and whether you have a repeatable way of writing bids that score.","cost":"Evaluators score what you can prove, in the order they asked for it. Most quality questions want named examples of similar work completed recently, usually three or more in the last three years. A generic answer about what you do well loses marks even when the evidence exists somewhere in the business.","green":"Strong result. You can show buyers you've done this before, and you have a way of putting bids together that holds up. That's what turns good compliance into marks on the page. Keep your case studies fresh, at least once a year, and review the feedback from every result, won or lost.","lightGreen":"Good foundations. You have the track record; the opportunity is in how it's presented. Usually that means case studies that need refreshing or an evidence library that isn't quite in one place. Small changes here can move marks quickly.","amber":"You've done the work, but the evidence isn't always where an evaluator needs to find it. That's how capable manufacturers come fourth: someone else answered the question that was actually asked. A maintained evidence library and answers written in scoring order make a big difference.","red":"Right now, buyers would struggle to see proof that you've delivered work like theirs before, or the bid process isn't set up to show it. That doesn't mean you can't do the job. It means the bid can't prove it, and in a tender the proof is what gets scored. This is very fixable, and it's where a lot of the other improvements finally pay off.","miss":"Most bidders answer with what they want to say. Evaluators mark against what they asked, in the order they asked it. The evidence is usually in the business somewhere. It just never reaches the right box.","good":"Successful bidders keep an evidence library with at least three recent case studies of similar work with named clients, write answers in the order the buyer asks, put a document behind every claim, and review feedback from every result, win or lose.","actions":["Write down three contracts from the last three years that are most like the work you want to win, with the client name, value and outcome.","Ask each of those clients whether you can use them as a reference or case study.","Request feedback on your last tender result, win or lose, and note the lowest-scoring question."],"help":"We coordinate experienced bid writers who understand manufacturing, and the Full Review puts a bid manager with 15 years' tender evaluation experience on your response personally."},{"key":"E","q":"Question 6","name":"Social Value and Responsible Business","max":12,"weight":"15%","services":[8,7,9],"asks":"Whether you have a documented social value and ESG commitment, a Carbon Reduction Plan and a current Modern Slavery statement.","cost":"In a tender, social value is typically worth 10% to 20% of the score: at least 10% on central government contracts, and up to 20% at Essex County Council. In close contests it's often the margin. Major central government contracts also expect a published Carbon Reduction Plan. Evaluators check whether what you claim is live, measured and documented.","green":"Well done. Social value is often the deciding margin in close contests, and you've got documented commitments buyers can actually score. Make sure your Carbon Reduction Plan and Modern Slavery statement are reviewed each year, and that your bid answers point to real numbers, not just policies.","lightGreen":"You're in a good place. The commitments are there, but one piece may need refreshing, often the Modern Slavery statement for this financial year or measured results to back up the Carbon Reduction Plan.","amber":"You have good intentions here, but not enough documented evidence to score well. To an evaluator, undocumented good practice scores the same as no practice at all. A Carbon Reduction Plan, a current Modern Slavery statement and a few measured social value commitments would move this quickly.","red":"This is where many manufacturers are now being locked out before the technical evaluation starts. With social value worth 10% to 20% of the score in most public tenders, and a Carbon Reduction Plan expected on major contracts, a gap here can cost you the contract even when everything else is strong. It's one of the quicker areas to put right.","miss":"Most bidders write social value as promises. Evaluators reward proof: numbers, names and dates from work you've already done. Good practice that isn't written down scores the same as none at all.","good":"Successful bidders publish a Carbon Reduction Plan with measured figures, review their Modern Slavery statement every financial year, and turn social value into specific, measurable commitments backed by evidence of past delivery.","actions":["Check whether your Modern Slavery statement has been reviewed and signed off this financial year.","Write down three things you already do for your local community or workforce, such as apprentices, local hiring or charity work, with a number attached to each.","Find out whether you have a baseline carbon figure. If not, that's the first step towards a Carbon Reduction Plan."],"help":"Our sustainability and people specialists turn what you already do into documented, measurable evidence that buyers can score."}],"svcs":[{"n":1,"slug":"bid-writing-tenders","name":"Bid Writing and Tenders","tag":"Submissions that score, not just submissions","h1":"Turning your evidence into an answer that actually scores.","cost":["Without dedicated bid writing, the bid itself under-delivers strong capability reads as a weak, generic answer, evidence exists but never reaches the section that would score it, responses answer what you want to say, not what was asked, inconsistent quality across sections written by different people and submissions rushed and non-compliant with format requirements.","You can be the best manufacturer on the list and still come fourth, because someone else answered the question that was actually asked."],"point":["Most manufacturers think tenders are won by writing. High-performing manufacturers know they are won by evidence. If the fifteen sections before this one are in order, the bid almost writes itself, because every answer already has a document behind it.","Tender writing is not writing documents. It is strategic storytelling backed by evidence, and this is where the whole model pays off."],"hero":"assets/hero-bid-writing-tenders-new.webp","heroJpg":"assets/hero-bid-writing-tenders-new.jpg"},{"n":2,"slug":"commercial-solicitor","name":"Contract Review","tag":"Contracts that do not quietly cost you margin","h1":"Proving you know what you're agreeing to before you sign.","cost":["Without contract review, you risk signing liability terms your insurance doesn't actually cover, missing TUPE obligations that create workforce and legal exposure, one-sided termination clauses with no negotiated protection, undocumented conflicts of interest surfacing later and disputes with no clear contractual escalation path.","None of that shows up at tender stage — it shows up during delivery, when it's expensive to fix."],"point":["Most manufacturers think contract review is a legal formality. It is a commercial one. Uncapped liability, ninety-day payment terms and free tooling all have a price, whether you calculate it or not.","The point is not to make you difficult to deal with. It is to make sure that when you quote a job, you know what you are actually agreeing to carry."],"hero":"assets/hero-commercial-solicitor-new.webp","heroJpg":"assets/hero-commercial-solicitor-new.jpg"},{"n":3,"slug":"financial-standing","name":"Financial Standing","tag":"Financial credibility that survives a credit check","h1":"Proving you'll still be trading when the contract ends.","cost":["Without current, well-presented financials, a buyer assumes insufficient turnover to safely deliver the contract, cash flow that can't absorb mobilisation costs, outdated or unreliable financial reporting, undisclosed tax or compliance risk and a business growing faster than its financial controls.","None of that may be true of you. It does not matter. In a tender, the assumption is what gets scored."],"point":["Most manufacturers think their accountant's job ends at the tax return. It does not. The moment you bid for a contract worth more than half your turnover, your books stop being paperwork and start being evidence.","Nobody negotiates with a financial threshold. You either clear it or you are filtered out before anyone reads a word you wrote."],"hero":"assets/hero-financial-standing-new.webp","heroJpg":"assets/hero-financial-standing-new.jpg"},{"n":4,"slug":"insurance-key-person","name":"Insurance and Key Person Cover","tag":"Financial protection that will actually pay out","h1":"Proving the financial hit lands on your insurer, not theirs.","cost":["Without correctly structured insurance, a buyer assumes underinsured exposure, a business one bad event away from collapse, no continuity plan if a key person leaves or falls ill, mismatched liability between contract and cover and administrative carelessness that suggests wider carelessness.","None of that may be true of you. It does not matter. In a tender, the assumption is what gets scored."],"point":["Most manufacturers assume their broker sorted this years ago and never revisit it. Cover quietly falls out of date while the business, and the contracts it bids for, grow past it.","Insurance is not a policy document in a drawer. It is proof that the business is professionally run."],"hero":"assets/hero-insurance-key-person-new.webp","heroJpg":"assets/hero-insurance-key-person-new.jpg"},{"n":5,"slug":"health-safety","name":"Health and Safety","tag":"Proof your site won't hurt anyone, on paper and in practice","h1":"Proving your site won't hurt anyone, on paper and on the floor.","cost":["Without current H&S accreditation, a buyer assumes an uncontrolled or poorly supervised site, higher likelihood of incidents and delivery disruption, weak duty-of-care toward your own people, accreditation that has lapsed without anyone noticing and a business that reacts to incidents rather than preventing them.","None of that may be true of you. It does not matter. In a tender, the assumption is what gets scored."],"point":["Most manufacturers think of H&S as paperwork that sits in a folder. Auditors do not read the folder first. They walk the floor, then check whether the paperwork matches what they just saw.","Buyers do not want a policy document. They want proof that if something goes wrong on your shop floor, you already know what happens next."],"hero":"assets/hero-health-safety-new.webp","heroJpg":"assets/hero-health-safety-new.jpg"},{"n":6,"slug":"iso-standards","name":"ISO Management Systems","tag":"Proof you are controlled, consistent and audit-ready","h1":"Proving you are controlled, consistent and audit-ready.","cost":["Without ISO, a buyer assumes inconsistent processes, uncontrolled risks, weak governance, unreliable delivery, poor evidence and high operational volatility.","None of that may be true of you. It does not matter. In a tender, the assumption is what gets scored."],"point":["Buyers, especially OEMs and Tier-1s, use ISO as a risk filter. If you have it, you are low risk. If you do not, you are high risk, regardless of how good you actually are.","People think ISO is paperwork. It is not. ISO is predictability, and predictability is what buyers want and pay for."],"hero":"assets/hero-iso-standards-new.webp","heroJpg":"assets/hero-iso-standards-new.jpg"},{"n":7,"slug":"hr-employment-law","name":"People and Employment Law","tag":"People who are managed, protected and legally covered","h1":"Proving your people are managed, protected and legally covered.","cost":["Without current HR and employment documentation, a buyer assumes weak or absent EDI commitment, unaudited, higher-risk supply chain on modern slavery, IR35 and worker classification exposure, generic, unsubstantiated wellbeing claims and social value answers that won't survive scrutiny.","None of that may be true of you. It does not matter. In a tender, the assumption is what gets scored."],"point":["Most manufacturers have decent practice and no documentation. To an evaluator, undocumented good practice scores identically to having no practice at all.","This is not HR administration. It is operational risk control, and buyers score it that way."],"hero":"assets/hero-hr-employment-law-new.webp","heroJpg":"assets/hero-hr-employment-law-new.jpg"},{"n":8,"slug":"esg-sustainability","name":"Sustainability and ESG","tag":"Credible carbon, ethical and social value evidence","h1":"Proving you operate ethically, sustainably and transparently.","cost":["Without a published Carbon Reduction Plan, a buyer assumes no environmental measurement or accountability, social value answers are unsubstantiated, reputational risk from non-compliance with packaging or waste rules, a supplier behind the market on a now-standard requirement and weaker positioning against competitors who do publish one.","None of that may be true of you. It does not matter. In a tender, the assumption is what gets scored."],"point":["Most manufacturers think ESG is a paragraph on the website. Evaluators check whether the Carbon Reduction Plan is actually live, actually measured, and actually matches what the bid claims.","ESG is not reporting. It is evidence of how you actually behave."],"hero":"assets/hero-esg-sustainability-new.webp","heroJpg":"assets/hero-esg-sustainability-new.jpg"},{"n":9,"slug":"training-skills","name":"Training and Skills","tag":"Proof your people are competent, not just present","h1":"Proving your people are competent, not just present.","cost":["Without documented training and skills records, a buyer assumes unverified workforce competence behind method statement claims, key-person dependency with no succession plan, social value commitments with no substance behind them, inconsistent site safety competence and a workforce that can't be evidenced under audit.","None of that may be true of you. It does not matter. In a tender, the assumption is what gets scored."],"point":["Most manufacturers think competence is about running the course. It is about being able to produce the certificate, the date and the sign-off, six months later, without a scramble.","Training is an activity. Competence is a proof point. Auditors do not want to hear that you train your people. They want the matrix."],"hero":"assets/hero-training-skills-new.webp","heroJpg":"assets/hero-training-skills-new.jpg"},{"n":10,"slug":"cyber-assurance","name":"Cyber Security and vCISO","tag":"Proof you are secure and safe to share data with","h1":"Protecting their data. Proving you can recover.","cost":["Without Cyber Essentials, a buyer assumes unmanaged devices and networks, unpatched systems, no incident response capability, weak data handling and you are a soft entry point into their supply chain.","That last one is the killer. An OEM will not share sensitive design data with a supplier it thinks is leaky."],"point":["Most manufacturers think of cyber security as an IT problem. It is a governance problem, and Cyber Essentials is how a buyer checks your governance without ever needing to meet you.","A buyer will not hand sensitive data or system access to a business that cannot prove it is defended."],"hero":"assets/hero-cyber-assurance-new.webp","heroJpg":"assets/hero-cyber-assurance-new.jpg"},{"n":11,"slug":"ot-ics-security","name":"OT and Industrial Cybersecurity","tag":"Protection for the machines that actually make the product","h1":"Protecting the machines that actually make the product.","cost":["Without it, a buyer assumes production downtime risk, unsafe machinery, uncontrolled engineering changes, exposure to ransomware, compromised PLC logic and unsafe remote vendor access.","On some OEM frameworks, this is not a scoring question at all. It is a pass-or-fail gate."],"point":["Most manufacturers assume cyber-attacks target the office. Increasingly, they target the plant, and for good reason. PLCs rarely get patched, HMIs run operating systems that went out of support years ago, and almost nobody is monitoring OT traffic.","OT cyber is not IT cyber, and treating it as though it is causes real damage. Your IT team can patch a laptop on a Tuesday afternoon. Patch a PLC mid-run and you have scrapped a batch."],"hero":"assets/hero-ot-ics-security-new.webp","heroJpg":"assets/hero-ot-ics-security-new.jpg"},{"n":12,"slug":"managed-it","name":"Managed IT and Infrastructure","tag":"A stable, predictable digital backbone","h1":"Proving the systems behind your certificate actually work.","cost":["Without managed infrastructure, a buyer assumes Cyber Essentials controls exist on paper but not in practice, unreliable systems during contract delivery, no real continuity plan if systems fail, inconsistent patching and endpoint protection and support dependent on one person's availability.","None of that may be true of you. It does not matter. In a tender, the assumption is what gets scored."],"point":["Auditors do not take the certificate's word for it. They ask to see the patch log, the backup test, the access list. If the systems on the ground do not match the claim on the certificate, the claim collapses.","This is not IT support. IT support is what you call when something breaks. Managed IT is what stops it breaking."],"hero":"assets/hero-managed-it-new.webp","heroJpg":"assets/hero-managed-it-new.jpg"},{"n":13,"slug":"hardware-infrastructure","name":"Hardware and Infrastructure","tag":"The physical kit your certifications actually depend on","h1":"Proving the physical kit behind every certificate is real.","cost":["Without documented hardware and infrastructure management, a buyer assumes undocumented, inconsistent network configuration, ageing or unsupported equipment as a security gap, no clear record of what's connected to the network, risk in how old devices and data are disposed of and infrastructure claims in certifications that don't match reality.","None of that may be true of you. It does not matter. In an audit, the assumption is what gets tested."],"point":["Most manufacturers can describe their IT setup from memory. Almost none can produce an asset register that matches it, and that is exactly what an auditor asks to see.","Hardware is not a procurement decision. For tender purposes, it's documented evidence behind everything else you claim."],"hero":"assets/hero-hardware-infrastructure-new.webp","heroJpg":"assets/hero-hardware-infrastructure-new.jpg"},{"n":14,"slug":"web-digital","name":"Web Design and Digital","tag":"A first impression that reduces perceived risk","h1":"Proving your certifications actually exist, before they open your bid.","cost":["Without a current, compliant website, a buyer assumes claimed policies and certifications may not actually exist, the business is not actively maintained or invested in, a gap between bid claims and public evidence, weak data protection practice and lower overall credibility across every other claim in the bid.","None of that may be true of you. It does not matter. In a tender, the assumption is what gets scored."],"point":["Most manufacturers think a website is marketing. For tender purposes it is a due diligence surface, checked without your knowledge, outside the formal evaluation process.","A stale website works against you before a human even reads your submission."],"hero":"assets/hero-web-digital-new.webp","heroJpg":"assets/hero-web-digital-new.jpg"},{"n":15,"slug":"process-automation","name":"Process Automation","tag":"Evidence you can produce in minutes, not days","h1":"Proving your evidence can be produced in minutes, not days.","cost":["Without process automation, a buyer rarely notices directly — but the business feels it evidence takes too long to produce when a tender or audit asks for it, processes depend on one person's memory or method, version control errors create inconsistent documentation, administrative errors creep into repeated manual tasks and audits take longer and surface more inconsistencies than they should.","None of this typically loses a specific tender on its own — but it quietly undermines every other workstream's evidence."],"point":["Most manufacturers can describe how work gets done. Few can produce the evidence of it happening that way, on the day an auditor or evaluator actually asks.","A process that lives in one person's head is not a process. It is a single point of failure with a job title."],"hero":"assets/hero-process-automation-new.webp","heroJpg":"assets/hero-process-automation-new.jpg"},{"n":16,"slug":"vcio-technology-advisory","name":"Technology Roadmap","tag":"Technology spending that adds up to a plan","h1":"Proving your technology spend adds up to a plan.","cost":["Without vCIO oversight, a buyer rarely notices directly — but the business experiences it technology decisions made in isolation, without a coordinated plan, reactive spending instead of planned investment, no board-level visibility into cumulative technology risk, suppliers pulling in different directions instead of one coherent plan and missed opportunity to position technology maturity as a differentiator.","None of this usually costs a specific tender — but it caps how far the other workstreams can take you."],"point":["Most manufacturers spend on technology reactively, one urgent problem at a time. The spend adds up over the years, but it never compounds into a story a buyer can actually see.","A vCIO is not a luxury for businesses that cannot afford a full-time CIO. It is board-level judgement, sized right."],"hero":"assets/hero-vcio-technology-advisory-new.webp","heroJpg":"assets/hero-vcio-technology-advisory-new.jpg"}],"faqs":[["How was my score worked out?","Five of your seven answers were scored: Cyber and Data Security (20 points, 25%), Insurance and Financial Standing (16 points, 20%), Standards and Quality (16 points, 20%), Track Record and Bid Capability (16 points, 20%) and Social Value and Responsible Business (12 points, 15%). That's 80 points, which makes up 100% of your score. The first question (your company size) and the last (how confident you feel about bidding) put your results in context and aren't scored."],["What do Red, Amber and Green mean?","Green (85% to 100%) means a buyer would see real strength. Light Green (70% to 84%) means you're nearly there. Amber (40% to 69%) means you'd pass some checks but not all. Red (below 40%) means a buyer would most likely stop reading at this point."],["Why does one red category matter if my overall score is good?","Because tenders don't average you out. Many buyers use pass-or-fail gates, and failing one gate removes you from the competition, however strong the rest of your bid is. That's why we flag any Red category as a critical gate, even when your overall score looks healthy."],["Is this an audit or a certification?","No. The Screening is a two-minute self-assessment based on your own answers. It shows you where to look. The Comprehensive Health Assessment is where we check the evidence properly, against the tenders you actually want to win."],["What does Your Best Solution Limited do?","We help UK manufacturers win the tenders they're currently being filtered out of. We look at your business the way a buyer does, find what will get you screened out before anyone reads your price, such as Cyber Essentials, ISO, health and safety, insurance, financial standing, GDPR and social value, and then coordinate vetted specialists from our Cure Alliance to close each gap. You deal with one person, not sixteen suppliers."],["Who do you work with?","Owner-managed and mid-sized UK manufacturers with 10 to 500 employees, mainly in Essex, Kent, Hertfordshire and North and East London."],["Why do manufacturers lose tenders before their price is even read?","Because most tenders start with pass-or-fail gates. Financial standing is often checked automatically, and insurance, certifications and key policies are checked before the quality questions. Miss one and the rest of the bid is never read."],["Do I need Cyber Essentials to bid for public sector contracts?","Often, yes. UK central government has required Cyber Essentials since 2014 for contracts that involve handling certain types of information, and many large manufacturers now ask their suppliers for it too. Cyber Essentials Basic typically takes 4 to 8 weeks."],["Do I need a Carbon Reduction Plan to win government contracts?","For major central government contracts, yes. Suppliers bidding for those contracts are expected to publish a Carbon Reduction Plan, and more buyers are asking for one across the wider public sector and private supply chains."],["How long do certifications take?","Longer than most people expect, which is why timing matters. As a guide: Cyber Essentials 4 to 8 weeks, a GDPR alignment programme 4 to 8 weeks, Cyber Essentials Plus 2 to 3 months, ISO 9001 3 to 6 months, ISO 45001 or ISO 14001 4 to 6 months, and ISO 27001 6 to 12 months."],["What is the Cure Alliance?","The Cure Alliance is our network of vetted specialists covering the 16 areas buyers check. I act as the coordinator: I brief every specialist, sequence every step and record every result, so you have one point of contact and one plan, and nothing falls through the cracks."],["Is Your Best Solution a compliance consultancy?","Not in the usual sense. Compliance is the means, winning contracts is the goal. We don't sell you a certificate for its own sake. We find what's stopping you winning and bring in the right specialist to fix it, only where you need it."],["What happens in the Comprehensive Health Assessment?","We look at your business through a buyer's eyes, across every area UK manufacturers are scored on. We identify every gap in your current position, show which tenders you can't currently bid for and what it takes to qualify, and produce a prioritised Gap Analysis with a delivery plan and timeline. If your position is strong, we'll confirm it clearly."],["What is the Full Review?","The Full Review is a complete overhaul of your tender response. AI checks your documents against every requirement quickly and thoroughly, then a real bid manager with 15 years' experience evaluating tenders goes through it personally, spotting the nuances AI can't. You get the overhauled response and a clear roadmap. The speed of AI. The judgement of a human."],["What is Contender?","Contender is our live tender and compliance dashboard, coming soon. It watches UK tenders for you, shows countdown timers to every bid deadline and alerts you the moment a gap opens up, so you don't find out a certificate has lapsed the week a tender closes."],["How is this different from a bid writing agency?","A bid writer improves the words. We fix what sits behind them. Most manufacturers are filtered out on evidence, not writing, so we close the evidence gaps first and then make sure the bid shows them off."],["Can you guarantee we will win a tender?","No, and anyone who promises that is selling you something. Nobody controls a buyer's decision. What we can do is make sure you're not filtered out on things you could have fixed, so you're ready to compete for the win."],["What happens to my information?","Your answers are used to produce this report and to follow up with you about it. Your Best Solution Limited is registered with the ICO (C1911739) and you can ask us to delete your data at any time by emailing rob@yourbestsolution.co.uk."]]};
+const BOOK = "https://bookings.cloud.microsoft/book/ComplianceDiscoveryCall@yourbestsolution.co.uk/?ismsaljsauthenabled=true";
+const DEMO = "https://claude.ai/artifact/CThx9XWwA8btkLT8CUEqoN";
+const RAG = { "Green": ["#2E7D32", "#EAF5EA"], "Light Green": ["#7CB342", "#EAF5EA"], "Amber": ["#E09A00", "#FFF6E0"], "Red": ["#C62828", "#FDECEC"] };
+const TIERS = { "Tender-Ready": "#2E7D32", "Improving": "#7CB342", "Vulnerable": "#E09A00", "Critical": "#C62828" };
+const SHORT = { C: "Cyber & Data", A: "Insurance & Finance", B: "Standards & Quality", D: "Track Record", E: "Social Value" };
+const band = (p) => p >= 85 ? "Green" : p >= 70 ? "Light Green" : p >= 40 ? "Amber" : "Red";
+const tierOf = (p) => p >= 85 ? "Tender-Ready" : p >= 70 ? "Improving" : p >= 40 ? "Vulnerable" : "Critical";
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const list = (a) => a.length <= 1 ? a.join("") : a.slice(0, -1).join(", ") + " and " + a[a.length - 1];
+document.querySelectorAll("a.book").forEach((a) => a.href = BOOK);
+
+// ---- read results: ?r=cyber-insurance-standards-track-social (points), &d=YYYY-MM-DD
+const qs = new URLSearchParams(location.search);
+let pts = (qs.get("r") || "").split("-").map(Number);
+// HubSpot emails send percentages (p=cyber-insurance-standards-track-social); convert to points
+if (qs.get("p")) pts = qs.get("p").split("-").map((v, i) => Math.round(Number(v) * DATA.cats[i].max / 100));
+let profile = {};
+try { profile = JSON.parse(localStorage.getItem("ybsl_screening_profile") || "{}"); } catch (e) {}
+if (qs.get("demo") === "1") profile = { first: "Sam", company: "Sample Precision Engineering Ltd" };
+const valid = pts.length === 5 && pts.every((n, i) => Number.isFinite(n) && n >= 0 && n <= DATA.cats[i].max);
+if (!valid) { document.getElementById("notice").style.display = "block"; document.querySelectorAll(".bar-actions .btn-ghost").forEach((b) => b.style.display = "none"); }
+else render();
+
+function render() {
+  const cats = DATA.cats.map((c, i) => { const pct = Math.round(pts[i] / c.max * 100); return { ...c, score: pts[i], pct, band: band(pct) }; });
+  const total = pts.reduce((a, b) => a + b, 0), totalPct = Math.round(total / 80 * 100), tier = tierOf(totalPct), tierCol = TIERS[tier];
+  const reds = cats.filter((c) => c.band === "Red"), ambers = cats.filter((c) => c.band === "Amber");
+  const strong = cats.filter((c) => c.band === "Green" || c.band === "Light Green").sort((a, b) => b.pct - a.pct);
+  const ranked = [...cats].sort((a, b) => a.pct - b.pct).filter((c) => c.band !== "Green").slice(0, 3);
+  const dateTxt = (qs.get("d") ? new Date(qs.get("d")) : new Date()).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+  const who = profile.first ? esc(profile.first) : "";
+  const company = profile.company ? esc(profile.company) : "";
+  const svcBy = Object.fromEntries(DATA.svcs.map((s) => [s.n, s]));
+  const book = (label = "Book Your Comprehensive Health Assessment Now!", cls = "btn-xl") => `<a class="btn btn-book ${cls}" href="${BOOK}" target="_blank" rel="noopener">${label}</a>`;
+  const circ = 2 * Math.PI * 92;
+  let h = "";
+
+  // 1. COVER
+  h += `<section class="sheet cover">
+    <div class="cover-l">
+      <img class="logo" src="assets/ybsl-logo-report.png" alt="Your Best Solution Limited">
+      <div class="strap">The Bid and Tender Cure for UK Manufacturers</div>
+      <div class="eyebrow"><span class="dots"><i></i><i></i><i></i><i></i></span>Bid &amp; Tender Readiness Screening</div>
+      <h1>Your Readiness Report</h1>
+      <p class="for">Prepared for${who ? `<b>${who}</b>` : ""}${company ? `<b>${company}</b>` : ""}${!who && !company ? "<b>you</b>" : ""}${dateTxt}</p>
+      <p class="lede" style="margin-top:1.4rem">How your business looks to a buyer before they read your price, what that's costing you, and exactly where to start.</p>
+      <div class="tag2">Every Step. Every Specialist. Every Time.</div>
+    </div>
+    <div class="cover-r">
+      <div class="ring"><svg viewBox="0 0 200 200"><circle cx="100" cy="100" r="92" fill="none" stroke="rgba(255,255,255,.15)" stroke-width="14"/>
+        <circle cx="100" cy="100" r="92" fill="none" stroke="${tierCol}" stroke-width="14" stroke-linecap="round" stroke-dasharray="${circ * totalPct / 100} ${circ}"/></svg>
+        <div class="num"><b>${totalPct}%</b><span>${total} of 80 points</span></div></div>
+      <div class="tier-pill" style="background:${tierCol}">${tier}</div>
+      <div class="gate">${reds.length ? `<b>CRITICAL GATE FLAGGED</b>${esc(list(reds.map((c) => c.name)))} could rule you out of a tender on its own.` : `<b>NO CRITICAL GATES</b>Nothing here would stop a buyer at the first check.`}</div>
+    </div>
+  </section>`;
+
+  // 2. DASHBOARD + EXECUTIVE SUMMARY
+  h += `<section class="sheet" id="dashboard">
+    <div class="eyebrow"><span class="dots"><i></i><i></i><i></i><i></i></span>Your dashboard</div>
+    <h2 class="h-sheet">Where you stand, at a glance</h2>
+    <div class="dash-top">
+      <div class="tile big" style="background:${tierCol}"><small>Overall</small><b>${total}/80</b><span class="t2">${totalPct}% &middot; ${tier.toUpperCase()}</span></div>
+      <div class="tile gate-tile" style="background:${reds.length ? "#C62828" : "#2E7D32"}"><small>${reds.length ? "Critical gate" : "No critical gates"}</small>
+        <p>${reds.length ? `${esc(list(reds.map((c) => c.name)))} could rule you out of a tender on its own, however strong the rest of your bid is.` : "Nothing here would stop a buyer at the first check. The job now is turning strength into marks."}</p></div>
+    </div>
+    <div class="tiles5">${cats.map((c) => `<a class="tile" href="#cat-${c.key}" style="background:${RAG[c.band][0]};text-decoration:none"><small>${SHORT[c.key]}</small><b>${c.score}/${c.max}</b><span class="t2">${c.band.toUpperCase()}</span><small style="opacity:.85;letter-spacing:.04em;text-transform:none;font-weight:700">${c.weight} of score</small></a>`).join("")}</div>
+    <div class="legend"><span><i style="background:#2E7D32"></i>Green 85%+</span><span><i style="background:#7CB342"></i>Light Green 70&ndash;84%</span><span><i style="background:#E09A00"></i>Amber 40&ndash;69%</span><span><i style="background:#C62828"></i>Red below 40%</span></div>
+    <div class="exec">
+      <h2>Executive Summary</h2>
+      <div class="exec-row"><h4 style="color:#2E7D32">Where you stand</h4><p>${strong.length ? `You scored ${total} of 80 (${totalPct}%). You're strongest in ${esc(list(strong.map((c) => c.name)))}, which puts you ahead of many manufacturers your size.` : `You scored ${total} of 80 (${totalPct}%). None of your areas reached Green yet. That's more common than you'd think, and very fixable.`}</p></div>
+      <div class="exec-row"><h4 style="color:#C62828">What could stop you</h4><p>${reds.length ? `<b>${esc(list(reds.map((c) => c.name)))}</b> came out Red. On its own, that can rule you out of a tender before your price is read. Buyers don't average you out.` : ambers.length ? `There's no Red, but <b>${esc(ambers.sort((a, b) => a.pct - b.pct)[0].name)}</b> is where a sharper competitor would take marks off you.` : "Nothing here would stop a buyer at the first gate."}</p></div>
+      <div class="exec-row"><h4 style="color:#E09A00">What it's costing you</h4><p>Every bid that falls at a gate costs you the days it took to write and the contract you could have won. Automated checks don't send feedback, so it rarely shows up as the reason.</p></div>
+      <div class="exec-row"><h4>Your top priorities</h4><ol class="prio">${ranked.map((c) => `<li><span><a href="#cat-${c.key}" style="color:${RAG[c.band][0]}">${esc(c.name)}</a> (${c.band}, ${c.pct}%). ${esc(c.actions[0])}</span></li>`).join("") || "<li><span>Keep every certificate, policy and case study current, and make sure your bids show them off.</span></li>"}</ol></div>
+    </div>
+    <div class="cta-band"><div><h3>${who ? who + ", let's" : "Let's"} go through this together</h3><p>The Comprehensive Health Assessment checks the evidence behind every score, against the tenders you actually want to win.</p></div>${book("Book Your Comprehensive Health Assessment", "")}</div>
+  </section>`;
+
+  // 3. AREA BY AREA: praise, caution, warning
+  const groups = [
+    ["What you're doing well", "Let's start with the good news. These are the areas where a buyer would see real strength.", "#2E7D32", cats.filter((c) => c.band === "Green" || c.band === "Light Green"), "None of your areas reached Green this time. That's exactly what the next steps are for."],
+    ["Where to be careful", "These aren't stopping you today, but a buyer would pick up on them, and in a close contest they often separate first from second.", "#E09A00", ambers, "Nothing in the Amber zone. Your results were either strong or clear-cut."],
+    ["Where a buyer would stop reading", "I'll be straight with you, because it matters. These are the areas where a buyer would most likely stop reading your bid, often before they reach your price.", "#C62828", reds, "Good news: none of your areas are Red. Nothing here would stop a buyer at the first gate."],
+  ];
+  groups.forEach(([title, intro, col, items, none], gi) => {
+    h += `<section class="sheet">
+      <div class="part-h"><span class="part-badge" style="background:${col}">PART ${gi + 1}</span><div class="eyebrow" style="margin:0">Your results, area by area</div></div>
+      <h2 class="h-sheet">${title}</h2><p class="lede">${intro}</p>
+      ${items.length ? items.map((c) => catCard(c)).join("") : `<div class="none">${none}</div>`}
+      ${gi === 2 ? `<div class="cta-band no-print"><div><h3>Want to talk these through?</h3><p>We'll go through every Red and Amber together, with the evidence in front of us, and show you what it takes to clear each gate.</p></div>${book("Book Your Comprehensive Health Assessment", "")}</div>` : ""}
+    </section>`;
+  });
+  function catCard(c) {
+    const [col, pale] = RAG[c.band];
+    const verdict = c.band === "Green" ? c.green : c.band === "Light Green" ? c.lightGreen : c.band === "Amber" ? c.amber : c.red;
+    return `<article class="cat" id="cat-${c.key}">
+      <div class="cat-head" style="background:${col}"><div><small>${c.q} &middot; ${c.weight} of your score</small><h3>${esc(c.name)}</h3></div><span class="chip">${c.band.toUpperCase()} &middot; ${c.score}/${c.max} &middot; ${c.pct}%</span></div>
+      <div class="cat-body">
+        <div class="verdict" style="background:${pale};border-color:${col}">${esc(verdict)}</div>
+        <p class="asked"><b>What we asked about:</b> ${esc(c.asks)}</p>
+        <div class="two">
+          <div class="box cost"><h4>What it costs you to leave it alone</h4><p>${esc(c.cost)}</p></div>
+          <div class="box miss"><h4>The point most bidders miss</h4><p>${esc(c.miss)}</p></div>
+          <div class="box good"><h4>What Successful Bidders Do</h4><p>${esc(c.good)}</p></div>
+          <div class="box steps"><h4>Your First Three Steps</h4><ol>${c.actions.map((a) => `<li>${esc(a)}</li>`).join("")}</ol></div>
+        </div>
+        <div class="cure"><b>Where the Cure Alliance comes in</b><span>${esc(c.help)}</span></div>
+        <div class="svc-chips"><span>Read more:</span>${c.services.map((n) => `<a href="https://yourbestsolution.co.uk/${svcBy[n].slug}.html" target="_blank" rel="noopener">${esc(svcBy[n].name)}</a>`).join("")}</div>
+      </div></article>`;
+  }
+
+  // 4. SERVICES BEHIND YOUR GAPS
+  const gapCats = [...cats].filter((c) => c.band !== "Green").sort((a, b) => a.pct - b.pct);
+  const focus = gapCats[0];
+  const focusSvcs = focus ? focus.services.map((n) => svcBy[n]) : [];
+  const seen = new Set(focusSvcs.map((s) => s.n));
+  const bandFor = {}; cats.forEach((c) => c.services.forEach((n) => { if (!bandFor[n] || c.pct < bandFor[n].pct) bandFor[n] = c; }));
+  if (focus) {
+    h += `<section class="sheet">
+      <div class="eyebrow"><span class="dots"><i></i><i></i><i></i><i></i></span>Part 4 &middot; The services behind your score</div>
+      <h2 class="h-sheet">Start with ${esc(focus.name)}</h2>
+      <p class="lede">This is your lowest-scoring area, so it's where a buyer is most likely to stop reading. These are the specialist services that close it.</p>
+      ${focusSvcs.map((s) => `<article class="svc"><a href="https://yourbestsolution.co.uk/${s.slug}.html" target="_blank" rel="noopener"><img src="${s.hero}" alt="${esc(s.name)}"></a>
+        <div class="svc-b"><small>Service ${s.n} of 16</small><h3>${esc(s.name)}</h3><div class="tag">${esc(s.h1)}</div>
+        <p class="c0">${esc(s.cost[0])}</p><p class="punch">${esc(s.cost[1] || "")}</p><p class="miss">${esc(s.point[0])}</p>
+        <a class="more" href="https://yourbestsolution.co.uk/${s.slug}.html" target="_blank" rel="noopener">Read the full ${esc(s.name)} page &rarr;</a></div></article>`).join("")}
+    </section>`;
+  }
+  h += `<section class="sheet">
+    <div class="eyebrow"><span class="dots"><i></i><i></i><i></i><i></i></span>The Cure Alliance</div>
+    <h2 class="h-sheet">The 16 areas buyers check</h2>
+    <p class="lede">Before a buyer reads your price, they check sixteen things. The coloured dot shows how each one links to your results. One coordinator, a vetted specialist for every gap, and you deal with one contact, not sixteen.</p>
+    <div class="grid16">${DATA.svcs.map((s) => { const c = bandFor[s.n]; return `<a class="g16" href="https://yourbestsolution.co.uk/${s.slug}.html" target="_blank" rel="noopener"><i style="background:${c ? RAG[c.band][0] : "#CBD2E0"}"></i><small>${String(s.n).padStart(2, "0")}</small><b>${esc(s.name)}</b></a>`; }).join("")}</div>
+    <div class="legend" style="margin-bottom:0"><span><i style="background:#C62828"></i>Linked to a Red</span><span><i style="background:#E09A00"></i>Linked to an Amber</span><span><i style="background:#7CB342"></i>Linked to a Light Green</span><span><i style="background:#2E7D32"></i>Linked to a Green</span></div>
+  </section>`;
+
+  // 5. TIMING
+  const LT = [["Cyber Essentials", 1, 2, "4–8 weeks", "C"], ["GDPR alignment", 1, 2, "4–8 weeks", "C"], ["Cyber Essentials Plus", 2, 3, "2–3 months", "C"], ["ISO 9001", 3, 6, "3–6 months", "B"], ["ISO 45001 / 14001", 4, 6, "4–6 months", "B"], ["ISO 27001", 6, 12, "6–12 months", "C"]];
+  h += `<section class="sheet">
+    <div class="eyebrow"><span class="dots"><i></i><i></i><i></i><i></i></span>Part 5 &middot; The timing problem</div>
+    <h2 class="h-sheet">The problem isn't certification. It's when you start.</h2>
+    <p class="lede">Every certification has a lead time. Tender deadlines don't wait. The red line is the six months' notice you typically get when you can see a contract coming.</p>
+    <div class="lt">${LT.map(([n, a, b, w, k]) => { const c = cats.find((x) => x.key === k); const col = c ? RAG[c.band][0] : "#003DA5"; return `<div class="lt-row"><b>${n}</b><div class="lt-track"><div class="lt-fill" style="left:${a / 12 * 100}%;width:${(b - a) / 12 * 100 || 4}%;background:${col}"></div><div class="lt-fill" style="left:0;width:${a / 12 * 100}%;background:${col};opacity:.25"></div><div class="lt-mark"></div></div><span class="when">${w}</span></div>`; }).join("")}</div>
+    <div class="lt-key"><span>Bars are coloured by your score in that area</span><span style="color:#C62828;font-weight:700">| 6 months</span><span>Scale: 0 to 12 months</span></div>
+    <div class="callout">A manufacturer can see a contract coming six months out, which is exactly the lead time needed. The ones winning the work treat compliance as a planned business function, not a last-minute checklist triggered by a rejection letter.</div>
+  </section>`;
+
+  // 6. BOOK
+  h += `<section class="sheet" id="book">
+    <div class="book-hero"><div>
+      <div class="eyebrow" style="color:#FFC79A"><span class="dots"><i></i><i></i><i></i><i></i></span>Part 6 &middot; Your next step</div>
+      <h2>${who ? who + ", the" : "The"} next step is a conversation</h2>
+      <p>The Comprehensive Health Assessment looks at your business through a buyer's eyes, across every area UK manufacturers are scored on. If your position is strong, we'll confirm it clearly. If there are gaps, we'll show you exactly what needs fixing.</p>
+      ${book()}</div><img src="assets/rob-portrait-square.webp" alt="Rob Atkins"></div>
+    <div class="gets"><div>We identify every gap in your current position</div><div>We show which tenders you can't currently bid for, and what it takes to qualify</div><div>You get a prioritised Gap Analysis with a delivery plan and timeline</div><div>We coordinate the Cure Alliance specialists to close every gap</div></div>
+    <div class="ladder">
+      <div class="step done"><small>Step 1 &middot; Done</small><h4>Bid &amp; Tender Readiness Screening</h4><p>You now know, area by area, where a buyer would see strength and where they'd stop reading.</p></div>
+      <div class="step now"><small>Step 2 &middot; Your next step</small><h4>The Comprehensive Health Assessment</h4><p>Every gap identified. Every missed tender opportunity mapped.</p></div>
+      <div class="step next"><small>Step 3</small><h4>The Full Review</h4><p>AI checks every document against every requirement, then a bid manager with 15 years' experience evaluating tenders reviews it personally.</p></div>
+    </div>
+    <p class="quote">"Being good at the work gets you into the room. Being ready is what wins the contract."</p>
+    <p style="color:var(--mid);font-size:.95rem">Rob Atkins, Founder &amp; Principal Consultant. Thirty years in enterprise sales at IBM, HP and BT, now coordinating the specialists who close the gaps that lose tenders.</p>
+    <div class="contender"><a href="${DEMO}" target="_blank" rel="noopener"><img src="contender-demo.webp" alt="Contender live tender and compliance dashboard"></a>
+      <div><h4>Coming soon: Contender</h4><p>Your live tender and compliance dashboard. It watches UK tenders for you, counts down to every bid deadline and alerts you the moment a gap opens up.</p><a class="btn btn-ghost btn-sm" href="${DEMO}" target="_blank" rel="noopener">See the Contender demo</a></div></div>
+  </section>`;
+
+  // 7. FAQ + FINAL
+  const pick = ["How was my score worked out?", "Why does one red category matter if my overall score is good?", "Is this an audit or a certification?", "What happens in the Comprehensive Health Assessment?", "How long do certifications take?", "How is this different from a bid writing agency?", "Can you guarantee we will win a tender?", "What happens to my information?"];
+  const faqs = DATA.faqs.filter(([q]) => pick.includes(q));
+  h += `<section class="sheet">
+    <div class="eyebrow"><span class="dots"><i></i><i></i><i></i><i></i></span>Part 7 &middot; Your questions answered</div>
+    <h2 class="h-sheet">The questions people ask me next</h2>
+    <div class="faq">${faqs.map(([q, a]) => `<div><h4>${esc(q)}</h4><p>${esc(a)}</p></div>`).join("")}</div>
+    <div class="final">
+      <h2>Ready when you are</h2>
+      <p>Thirty minutes, your results on the screen, and a clear view of which tenders you can compete for next. Is that okay?</p>
+      ${book()}
+      <p class="sign"><b>Rob Atkins</b> &middot; Founder &amp; Principal Consultant &middot; <a href="mailto:rob@yourbestsolution.co.uk">rob@yourbestsolution.co.uk</a> &middot; +44 (0)7445 225 668</p>
+    </div>
+  </section>`;
+  document.getElementById("report").innerHTML = h;
+  document.title = `${company ? company + " | " : ""}Bid & Tender Readiness Report`;
+}
+</script>
+</body>
+</html>
