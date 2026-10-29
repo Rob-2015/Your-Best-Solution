@@ -60,6 +60,7 @@ Key facts:
 
 ## Guides
 
+- [Why Manufacturing Bids Lose](https://yourbestsolution.co.uk/why-manufacturing-bids-lose.html): the seven reasons manufacturing tenders fail before the price is read (financial standing, insurance, Cyber Essentials and H&S gateways, Carbon Reduction Plans, social value, answers that miss the question, evidence not ready) and what fixes each
 - [Protecting the Production Line](https://yourbestsolution.co.uk/protecting-the-production-line.pdf): 8-page cyber risk briefing, October 2026. What the 2026 cyber data means for UK manufacturers and their tenders: manufacturing took 27.7% of all cyber attacks (IBM X-Force), 61% of manufacturing breaches involved ransomware (Verizon DBIR), the five threats that matter most, real costs and the fixes that make the biggest difference
 - [The Compliance Reality for UK Manufacturers](https://yourbestsolution.co.uk/compliance-reality-for-uk-manufacturers.pdf): 10-page guide on what fines a manufacturer, what costs it the contract and what is coming next
 - [16 Services. One Plan.](https://yourbestsolution.co.uk/cure-alliance-specialists.pdf): 19-page overview of every Cure Alliance service

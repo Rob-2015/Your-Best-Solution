@@ -599,3 +599,6 @@ td:last-child {
 
 /* WebP images sit in <picture>; keep layout identical to a bare <img> */
 picture { display: contents; }
+
+/* SEO topic line inside H1 (keeps the slogan as the visual headline) */
+.h1-topic { display:block; margin:0 0 6px; color:var(--orange); font-family:"Segoe UI", Arial, sans-serif; font-size:11pt; font-weight:700; line-height:1.3; letter-spacing:0.02em; }
