@@ -97,6 +97,11 @@ Often, but not on every contract. Under PPN 014, central government departments,
 - 3. Nobody has thought about the factory floor: The requirements are written for IT and don't mention production machinery. The test is whether a device can connect to or from the internet, so a connected machine could fall in scope. Settle that at the start. And remember, passing doesn't mean your machines are protected. OT and industrial cybersecurity
 - 4. Your cloud services and logins were left out: Under the current requirements (version 3.3), cloud services hosting your data or services can't be excluded, and logging in to them must always use multi-factor authentication. If you last looked at this a couple of years ago, go through it again.
 
+### Why more of your customers may start asking
+When Jaguar Land Rover was hit by a cyber attack in 2025, vehicle production at its major UK plants stopped for around five weeks. The Cyber Monitoring Centre estimated the cost to the UK at £1.9 billion and said more than 5,000 organisations were affected. Some suppliers cut pay or laid off staff.
+That same October, ministers wrote to the UK's biggest companies asking them to require Cyber Essentials across their supply chains. The government's voluntary Cyber Resilience Pledge now asks signatories to take a risk-based approach to this, which may include requiring it from all suppliers. So if you supply a large company, or supply someone who does, expect the question to reach you, even if you never bid for public work. Some buyers will want Cyber Essentials Plus, so check what yours expects before you choose.
+JLR isn't a client of ours, and I'm not suggesting Cyber Essentials would have prevented the attack.
+
 ### Common questions
 - Is Cyber Essentials a legal requirement? No. It's a government-backed certification scheme, and no law makes every business hold it. It becomes a requirement when a buyer writes it into a tender or contract, and then it can decide whether you're allowed to bid.
 - How long does Cyber Essentials take? If your answers are ready, the self-assessment might take about an hour and results usually come back in about three days. If you fail, you get two working days to fix the issues and resubmit. For a manufacturer starting from scratch, I'd allow four to eight weeks, because of the work needed before you apply.
@@ -122,6 +127,9 @@ Hire a bid writer if you're getting through the buyer's pass or fail checks and 
 - 2. You passed, then lost marks on the answers: Read your assessment summary. Under the Procurement Act 2023, a public buyer must send one to every supplier whose tender was assessed, showing your score and the reason on each criterion. If you hold the evidence and the feedback says the answers fell short, a writer is the right call.
 - 3. You lost marks because you had no proof: If the feedback points at missing case studies, data or policies, better writing only goes so far. Build the evidence first with someone who knows what buyers look for, then bring in a writer for the next one.
 - 4. You ran out of time: If documents were scattered and the bid went in thin, your problem is how the bid was run. A bid manager and a proper evidence library will do more for you than another writer. Process automation
+
+### What one pass or fail question can do
+On a Royal Navy support contract worth around £385 million, MLS (Overseas) scored highest on quality and offered the lowest price. It was still disqualified for failing a pass or fail question on supply chain safety. The High Court later ruled the disqualification unlawful, because the tender hadn't made clear that failing that question meant being ruled out. So MLS had to go to court to overturn it. No amount of good writing would have fixed that question. MLS isn't a client of ours.
 
 ### Common questions
 - Should a first-time bidder hire a bid writer? Only once you've checked you can meet the requirements. On a first tender, the biggest risk is often a condition you didn't know about, so go through the conditions of participation before you pay anyone to write. Then decide what help you need with the answers.
