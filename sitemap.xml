@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://yourbestsolution.co.uk/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>1.0</priority>
     <image:image><image:loc>https://yourbestsolution.co.uk/assets/hero-home-hospital.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://yourbestsolution.co.uk/bid-writing-tenders.html</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.8</priority>
     <image:image><image:loc>https://yourbestsolution.co.uk/assets/hero-bid-writing-tenders-new.jpg</image:loc></image:image>
   </url>
@@ -50,7 +50,7 @@
   </url>
   <url>
     <loc>https://yourbestsolution.co.uk/esg-sustainability.html</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.8</priority>
     <image:image><image:loc>https://yourbestsolution.co.uk/assets/hero-esg-sustainability-new.jpg</image:loc></image:image>
   </url>
@@ -62,7 +62,7 @@
   </url>
   <url>
     <loc>https://yourbestsolution.co.uk/cyber-assurance.html</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.8</priority>
     <image:image><image:loc>https://yourbestsolution.co.uk/assets/hero-cyber-assurance-new.jpg</image:loc></image:image>
   </url>
@@ -105,6 +105,21 @@
   <url>
     <loc>https://yourbestsolution.co.uk/why-manufacturing-bids-lose.html</loc>
     <lastmod>2026-10-29</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yourbestsolution.co.uk/do-i-need-cyber-essentials.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yourbestsolution.co.uk/bid-writer-or-bid-consultant.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yourbestsolution.co.uk/do-i-need-a-carbon-reduction-plan.html</loc>
+    <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>

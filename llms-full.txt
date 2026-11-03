@@ -80,6 +80,85 @@ Source: https://yourbestsolution.co.uk/protecting-the-production-line.pdf
 
 An 8-page briefing by Rob Atkins on what the 2026 cyber data means for UK manufacturers and the tenders they want to win. Headline figures it reports: manufacturing took 27.7% of all cyber attacks, the most of any sector for the fifth year running (IBM X-Force 2026); 61% of manufacturing breaches involved ransomware and 61% involved a third party such as a supplier (Verizon DBIR 2026); the Jaguar Land Rover attack cost the UK economy an estimated £2bn and hit around 5,000 supply chain firms (Cyber Monitoring Centre). It covers the five threats that matter most (ransomware, unpatched systems, supply chain attacks, phone and text scams, and intellectual property leaking through AI tools), how attackers get in, what an attack really costs, why a manufacturer is its customers' supply chain risk, and the fixes that make the biggest difference.
 
+## Question: Do I need Cyber Essentials to bid for a government contract?
+URL: https://yourbestsolution.co.uk/do-i-need-cyber-essentials.html
+
+Often, but not on every contract. Under PPN 014, central government departments, their agencies, non-departmental public bodies and NHS bodies should ask for Cyber Essentials or Cyber Essentials Plus where a contract involves personal information about citizens or government staff, ICT that stores or processes OFFICIAL data, or information about the day-to-day business of government. A contract to supply parts that touches none of that may not trigger the rule at all. Councils can choose to follow the same approach, and your bigger customers can set their own terms, so the answer for you sits in the tender documents. Here's how I'd work it out if I were in your seat.
+
+### Who is likely to ask for it
+- Central government and the NHS: PPN 014 tells these buyers to require it where the contract meets one of its data or ICT triggers. They should have the certificate in hand before award, and it has to be renewed every year for the life of the contract.
+- Councils and other public bodies: PPN 014 only says they may wish to apply the same approach, so it isn't automatic. Some ask for it on everything and some don't. Check the conditions of participation on each tender rather than assuming.
+- Primes, OEMs and Tier-1s: Your customer can make it a condition of doing business, whether or not any government rule applies to the job. If a prime is on a government contract, expect the question to come down the chain to you too.
+- Defence work: MOD contracts and subcontracts can carry their own cyber requirements under DEFSTAN 05-138. If you're in a defence supply chain, ask which level applies to you, and don't assume a Cyber Essentials certificate settles it.
+
+### Four traps that catch manufacturers
+- 1. The certificate has lapsed: A certificate expires after 12 months and you have to go through it again each year. Get the renewal in the diary well ahead of it, because a lapse tends to show up the week a tender closes.
+- 2. The scope misses what the buyer cares about: You can certify the whole business or a well-defined, separately managed part of it, split off by a firewall or VLAN, with the boundary agreed before the assessment starts. If the buyer's data sits outside that boundary, your certificate doesn't answer their question.
+- 3. Nobody has thought about the factory floor: The requirements are written for IT and don't mention production machinery. The test is whether a device can connect to or from the internet, so a connected machine could fall in scope. Settle that at the start. And remember, passing doesn't mean your machines are protected. OT and industrial cybersecurity
+- 4. Your cloud services and logins were left out: Under the current requirements (version 3.3), cloud services hosting your data or services can't be excluded, and logging in to them must always use multi-factor authentication. If you last looked at this a couple of years ago, go through it again.
+
+### Common questions
+- Is Cyber Essentials a legal requirement? No. It's a government-backed certification scheme, and no law makes every business hold it. It becomes a requirement when a buyer writes it into a tender or contract, and then it can decide whether you're allowed to bid.
+- How long does Cyber Essentials take? If your answers are ready, the self-assessment might take about an hour and results usually come back in about three days. If you fail, you get two working days to fix the issues and resubmit. For a manufacturer starting from scratch, I'd allow four to eight weeks, because of the work needed before you apply.
+- Do I need Cyber Essentials or Cyber Essentials Plus? Follow the tender. Cyber Essentials is a verified self-assessment, and Plus adds independent technical testing. PPN 014 covers both, and the buyer decides what it needs based on risk. If the documents aren't clear, ask the buyer through the tender's clarification process.
+- Can I offer something equivalent instead? PPN 014 lets suppliers show equivalent controls another way, normally verified by a technically competent, independent third party. Evidence equivalent to Plus must always be independently verified. It's usually simpler to hold the certificate than to argue the point in the middle of a bid.
+- Do my subcontractors need Cyber Essentials as well? It depends on the contract. The government's Model Services Contract requires relevant subcontractors to hold it or an equivalent. Your own certificate doesn't cover third parties such as your cloud providers, so check what the buyer expects of them.
+
+Sources: PPN 014: Cyber Essentials Scheme (GOV.UK) https://www.gov.uk/government/publications/ppn-014-cyber-essentials-scheme/ppn-014-cyber-essentials-scheme-html; Cyber Essentials requirements for IT infrastructure v3.3 (NCSC) https://www.ncsc.gov.uk/files/cyber-essentials-requirements-for-it-infrastructure-v3-3.pdf; Cyber Essentials FAQs (IASME) https://iasme.co.uk/cyber-essentials/frequently-asked-questions/; Industry Security Notice 2026/02: DEFCON 658 (GOV.UK) https://assets.publishing.service.gov.uk/media/69cba72ba60a12ca3913c610/ISN_2026-02_Use_of_Defence_Cyber_Certification__DCC__as_assurance_of_control_requirements_under_DEFCON_658.pdf
+
+## Question: Should I hire a bid writer or a bid consultant?
+URL: https://yourbestsolution.co.uk/bid-writer-or-bid-consultant.html
+
+Hire a bid writer if you're getting through the buyer's pass or fail checks and losing marks on your written answers. Hire a bid consultant if you're being ruled out before your answers count, or you don't know why you keep losing. A writer improves how your evidence reads. A consultant works out whether you've got the right evidence, and whether the tender is worth chasing. If you know what to say but nobody has time to run the bid, you probably need a bid manager. Get the order wrong and you can pay to polish a bid that was never going to get through. So start with where you lost. Does that make sense?
+
+### Who does what
+- Bid writer: Turns your evidence into answers that match the question and the published scoring criteria. Worth having when you've got the proof and you're losing marks on how it reads. A good writer won't invent a certificate or a track record you don't have.
+- Bid manager: Runs the process: the plan, the deadlines, who supplies what, the compliance checks and the submission. Worth having when bids overlap, or when every tender turns into a last-minute scramble.
+- Bid consultant: Looks at the bigger picture: are you ready, is this tender winnable, what's missing and in what order should you fix it? Worth having when you're new to tendering, keep being ruled out, or can't see a pattern in your losses.
+- What if you need more than one?: Plenty of manufacturers do, because the gaps often run across certificates, insurance, finances and the written answers. That's why I coordinate specialists, including bid writers, so you're not managing them all yourself. It's also my business, so weigh my view with that in mind.
+
+### Work it out from the last tender you lost
+- 1. You failed a pass or fail question: Your answer's wording wasn't the problem. You were missing something the buyer requires, such as a turnover level, an insurance limit or a certificate. Fix that first, because a writer can't write around it. Why manufacturing bids lose
+- 2. You passed, then lost marks on the answers: Read your assessment summary. Under the Procurement Act 2023, a public buyer must send one to every supplier whose tender was assessed, showing your score and the reason on each criterion. If you hold the evidence and the feedback says the answers fell short, a writer is the right call.
+- 3. You lost marks because you had no proof: If the feedback points at missing case studies, data or policies, better writing only goes so far. Build the evidence first with someone who knows what buyers look for, then bring in a writer for the next one.
+- 4. You ran out of time: If documents were scattered and the bid went in thin, your problem is how the bid was run. A bid manager and a proper evidence library will do more for you than another writer. Process automation
+
+### Common questions
+- Should a first-time bidder hire a bid writer? Only once you've checked you can meet the requirements. On a first tender, the biggest risk is often a condition you didn't know about, so go through the conditions of participation before you pay anyone to write. Then decide what help you need with the answers.
+- What should I ask a bid writer before hiring them? Have they written tenders for manufacturers? Who exactly will write yours? Is the fee fixed and agreed in writing before they start? Do they use AI, and who checks what it produces? And what will they need from your team, and by when? A good writer will welcome all of those.
+- How is bid support usually charged? Usually as a fixed fee per bid, a day rate or a retainer. The cost tends to follow the number of scored questions, how much evidence already exists and how tight the deadline is. Ask for a quote based on the actual tender documents, so you can compare like with like.
+- Should I employ a bid writer rather than outsource? It comes down to how often you bid. If tenders come in a steady stream, having someone in-house can make sense. If you bid a handful of times a year, a full-time role is hard to keep busy, so outside support is usually the better fit.
+- Can a bid writer or consultant guarantee we'll win? No, and I'd be wary of anyone who says they can. Nobody controls a buyer's decision. What good support can do is stop you being knocked out on a technicality and make sure your answers do your business justice.
+
+Sources: Procurement Act 2023: assessment summaries (GOV.WALES) https://www.gov.wales/procurement-act-2023-guidance-assessment-summaries-html
+
+## Question: Do I need a Carbon Reduction Plan to bid?
+URL: https://yourbestsolution.co.uk/do-i-need-a-carbon-reduction-plan.html
+
+On central government contracts worth more than £5 million a year including VAT, usually yes. From 1 April 2027, NHS rules reach further, down to procurements below £5 million a year that are above the published procurement thresholds. Elsewhere it's down to the buyer. Here's the part worth knowing: under the central government guidance, the plan is pass or fail and your emissions figures aren't what's being assessed. A foundry with a big footprint can pass. A clean assembly shop with an out-of-date plan can fail. So what you need is a plan that's complete, current and signed off, and that takes data most manufacturers haven't pulled together.
+
+### Who is likely to ask for one
+- Central government: PPN 006 applies to departments, their agencies and non-departmental public bodies on contracts above £5 million a year including VAT, unless it isn't relevant or proportionate. The value is averaged over the contract's life, so a four-year contract worth £21 million is in scope.
+- The NHS, from 1 April 2027: At £5 million a year or more, and on new frameworks and dynamic markets by default, the 2027 NHS plan applies and covers all relevant Scope 3 emissions. Below £5 million but above the procurement thresholds, a plan with the shorter Scope 3 list applies. Procurements started earlier stay under the old rules.
+- Wales, councils and other buyers: Wales has its own policy note, WPPN 006. Councils and other public bodies can set their own requirements, so read the conditions of participation on each tender.
+- Primes and larger customers: If a bigger customer needs to report on its supply chain, or is bidding for public work itself, it may ask you for a plan as a condition of doing business, even when your own contract is well under £5 million.
+
+### What gets a plan failed
+- 1. Nothing on net zero: The plan has to commit to net zero by 2050 at the latest for your UK operations. Leave that out and it fails, however good the rest of it is. Carbon Reduction Plans and ESG
+- 2. Missing Scope 3 categories: You need all of Scope 1 and 2, plus five Scope 3 categories: upstream transport, waste from your operations, business travel, employee commuting and downstream transport. For a manufacturer, that means inbound freight and deliveries to customers. Leaving out a required Scope without explaining why is a fail.
+- 3. Out-of-date figures: A reporting period more than 18 months old fails unless you can explain why. The plan should be reviewed and updated every year, within six months of your financial year-end, so one you wrote two years ago for a tender may no longer count.
+- 4. No sign-off, or nowhere to find it: The board has to approve it and a director has to sign it. It also has to set out your environmental management measures, and be published on your UK website with a link in a prominent place on your homepage.
+
+### Common questions
+- Is a Carbon Reduction Plan a legal requirement? No general law says every manufacturer must have one. It's a condition buyers set for taking part in a tender. Larger companies may have separate carbon reporting duties under Streamlined Energy and Carbon Reporting, so check that with your accountant.
+- Are our emissions figures scored? Not under the central government guidance. The compliance questions are pass or fail, and your baseline and current emissions are for information only. Other buyers can treat it differently, and carbon commitments can also come up in social value or contract terms, so read each tender's criteria.
+- Can we use our parent company's plan? Under PPN 006, only in limited circumstances: the bidder must be wholly owned by the parent, adopt its commitment and publish the plan on its own website. PPN 006 treats this as a temporary measure until the bidder has a plan of its own.
+- What if we've been trading for less than a year? The guidance says suppliers trading for under 12 months shouldn't be disadvantaged. You should confirm your commitment to net zero by 2050 and publish a full plan as soon as you can.
+- Do we need one if we're bidding as a consortium? Yes. The central government guidance says each consortium member should complete its own plan, so check your partners have theirs in good time.
+- Will a central government plan meet the NHS rules? Not necessarily. From 1 April 2027, the NHS plan for procurements of £5 million a year or more needs all relevant Scope 3 emissions, not just the five categories, and has its own rules on net zero. Check the NHS England guidance that applies to your tender.
+
+Sources: PPN 006: Carbon Reduction Plans (GOV.UK) https://www.gov.uk/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-taking-account-of-carbon-reduction-plans-html; PPN 006 guidance on conditions of participation (GOV.UK) https://assets.publishing.service.gov.uk/media/67b716f078dd6cacb71c6a87/2025-02-05_PPN_006_Guidance_on_taking_account_of_carbon_reduction_plans_-_adopting_and_applying_conditions_of_participation.docx.pdf; PPN 006 technical standard (GOV.UK) https://assets.publishing.service.gov.uk/media/67b334c67c070e71525f5818/PPN_006_Technical_standard_for_Completion_of_Carbon_Reduction_Plans.pdf; 2027 NHS Carbon Reduction Plan requirements (NHS England) https://www.england.nhs.uk/long-read/2027-nhs-carbon-reduction-plan-requirements-for-the-procurement-of-nhs-goods-services-and-works/; WPPN 006: Carbon Reduction Plans in Wales (GOV.WALES) https://www.gov.wales/wppn-006-decarbonisation-through-procurement-taking-account-of-carbon-reduction-plans-html
+
 ## Bid Writing and Tenders
 
 Source: https://yourbestsolution.co.uk/bid-writing-tenders.html
@@ -691,7 +770,7 @@ Sustainability evidence packaged and published where evaluators can actually fin
 ### Common questions about sustainability and ESG
 
 **Do I need a Carbon Reduction Plan to win government contracts?**
-Yes, for major central government contracts. Under PPN 006, suppliers bidding for central government contracts worth more than £5 million a year (including VAT), advertised on or after 24 February 2025, must provide one. NHS England has its own carbon requirements, and many councils and prime contractors now ask smaller suppliers for a plan too.
+Usually yes on central government contracts worth more than £5 million a year including VAT, and NHS rules reach further from 1 April 2027. Elsewhere it's down to the buyer, and many councils and prime contractors ask for one too.
 
 **What must a Carbon Reduction Plan contain?**
 Your Scope 1 and Scope 2 emissions, a defined subset of Scope 3 emissions, a commitment to reach net zero by 2050 for your UK operations, and the measures you are taking to get there. PPN 006 says it should be updated at least annually, published and clearly signposted on your UK website, and signed off by a director.
@@ -783,7 +862,7 @@ Source: https://yourbestsolution.co.uk/cyber-assurance.html
 
 **Protecting their data. Proving you can recover.**
 
-Cyber Essentials is now a formal gateway requirement on most public-sector contracts. Miss it, and you are excluded before price is even considered.
+Cyber Essentials is now a formal gateway requirement on many public-sector contracts. Miss it, and you are excluded before price is even considered.
 
 ### What it costs you to leave alone
 
@@ -845,7 +924,7 @@ Incident planning, tested backups, staff awareness, supplier assurance and evide
 ### Common questions about Cyber Essentials and cyber security
 
 **Do I need Cyber Essentials to bid for government contracts?**
-For many central government contracts, yes. PPN 014, which replaced PPN 09/14 and PPN 09/23 from 24 February 2025, tells central government departments, their agencies and NHS bodies to require Cyber Essentials where a supplier handles citizens' or government staff's personal data, or provides ICT that stores or processes OFFICIAL data. The certificate must be renewed every year for the life of the contract, and many OEMs and prime contractors now ask for it throughout their supply chains.
+Often, but not on every contract. Central government and NHS buyers should ask for it where a contract involves personal information, ICT handling OFFICIAL data or the day-to-day business of government, and many OEMs and prime contractors ask for it too.
 
 **What is the difference between Cyber Essentials and Cyber Essentials Plus?**
 Both cover the same five controls: firewalls, secure configuration, user access control, malware protection and security update management. Cyber Essentials is a self-assessment that is independently verified. Cyber Essentials Plus adds a hands-on technical audit, where an assessor tests your devices and systems. Plus has to be completed within three months of passing the basic certification.
