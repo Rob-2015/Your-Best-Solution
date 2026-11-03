@@ -1315,7 +1315,7 @@ picture { display: contents; }
 /* Homepage hero headline block */
 .tm-hero .tm-headline { margin:28px auto 0; max-width:none; font-size:clamp(27px, 7.4vw, 44px); font-weight:900; line-height:1.12; letter-spacing:-0.03em; }
 .tm-topline { display:block; margin:0 0 14px; color:var(--teal); font-family:var(--fh); font-size:clamp(12px, 1.2vw, 15px); font-weight:700; line-height:1.4; letter-spacing:0.18em; text-transform:uppercase; }
-.tm-lead { max-width:760px; margin:18px auto 0; color:var(--mid); font-family:var(--fb); font-size:clamp(16px, 1.5vw, 20px); font-weight:400; line-height:1.5; text-align:center; text-wrap:balance; }
+.tm-lead { max-width:980px; margin:18px auto 0; color:var(--teal); font-family:var(--fb); font-size:clamp(18px, 1.8vw, 24px); font-weight:400; line-height:1.5; text-align:center; text-wrap:balance; }
 .tm-nb { white-space:nowrap; }
 @media (min-width: 700px) { .tm-hero .tm-headline { font-size:min(44px, calc((100vw - 48px) / 27)); } }
 @media (max-width: 699px) { .tm-br { display:none; } }
