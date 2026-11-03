@@ -1,0 +1,72 @@
+# Tells Bing and the other IndexNow search engines when pages on the site change.
+# Runs on its own when a web page or PDF changes on main.
+# To resubmit every page in sitemap.xml: Actions > Notify IndexNow > Run workflow.
+name: Notify IndexNow
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '*.html'
+      - '*.pdf'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Work out which URLs changed
+        env:
+          EVENT: ${{ github.event_name }}
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          SITE="https://yourbestsolution.co.uk"
+          if [ "$EVENT" = "workflow_dispatch" ]; then
+            grep -oP '<loc>\K[^<]+' sitemap.xml > urls.txt
+          else
+            git diff --name-only "$BEFORE" "$AFTER" \
+              | { grep -E '^[^/]+\.(html|pdf)$' || true; } \
+              | { grep -v '^404\.html$' || true; } \
+              | sed -e "s#^index\.html\$#$SITE/#" -e "t" -e "s#^#$SITE/#" > urls.txt
+          fi
+          echo "URLs to submit:"
+          cat urls.txt
+
+      - name: Wait for GitHub Pages to publish
+        if: github.event_name == 'push'
+        run: sleep 120
+
+      - name: Send to IndexNow
+        run: |
+          set -euo pipefail
+          if [ ! -s urls.txt ]; then
+            echo "Nothing to submit."
+            exit 0
+          fi
+          # The key is the public verification file already in the site root.
+          KEY_FILE=$(ls | grep -E '^[0-9a-f]{32}\.txt$' | head -n 1)
+          KEY="${KEY_FILE%.txt}"
+          HOST="yourbestsolution.co.uk"
+          jq -n --arg host "$HOST" --arg key "$KEY" \
+            --arg loc "https://$HOST/$KEY_FILE" \
+            --rawfile urls urls.txt \
+            '{host: $host, key: $key, keyLocation: $loc, urlList: ($urls | split("\n") | map(select(length > 0)))}' > payload.json
+          STATUS=$(curl -sS -o response.txt -w '%{http_code}' \
+            -X POST 'https://api.indexnow.org/indexnow' \
+            -H 'Content-Type: application/json; charset=utf-8' \
+            --data @payload.json)
+          echo "IndexNow responded with HTTP $STATUS"
+          cat response.txt
+          case "$STATUS" in
+            200|202) echo "Accepted." ;;
+            *) exit 1 ;;
+          esac
