@@ -91,7 +91,7 @@ Often, but not on every contract. Under PPN 014, central government departments,
 - Primes, OEMs and Tier-1s: Your customer can make it a condition of doing business, whether or not any government rule applies to the job. If a prime is on a government contract, expect the question to come down the chain to you too.
 - Defence work: MOD contracts and subcontracts can carry their own cyber requirements under DEFSTAN 05-138. If you're in a defence supply chain, ask which level applies to you, and don't assume a Cyber Essentials certificate settles it.
 
-### Four traps that catch manufacturers
+### Four traps that catch manufacturers out
 - 1. The certificate has lapsed: A certificate expires after 12 months and you have to go through it again each year. Get the renewal in the diary well ahead of it, because a lapse tends to show up the week a tender closes.
 - 2. The scope misses what the buyer cares about: You can certify the whole business or a well-defined, separately managed part of it, split off by a firewall or VLAN, with the boundary agreed before the assessment starts. If the buyer's data sits outside that boundary, your certificate doesn't answer their question.
 - 3. Nobody has thought about the factory floor: The requirements are written for IT and don't mention production machinery. The test is whether a device can connect to or from the internet, so a connected machine could fall in scope. Settle that at the start. And remember, passing doesn't mean your machines are protected. OT and industrial cybersecurity
