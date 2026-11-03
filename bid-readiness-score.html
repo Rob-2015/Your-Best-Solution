@@ -1234,6 +1234,11 @@
             });
             document.getElementById(stageId).classList.add('active');
         }
+
+        // Buttons linking to #start skip the intro and open the name and email page
+        if (window.location.hash === '#start') {
+            startQuiz();
+        }
     </script>
 </body>
 </html>
