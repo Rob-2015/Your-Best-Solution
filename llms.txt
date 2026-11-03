@@ -64,6 +64,11 @@ Key facts:
 - [Do I need Cyber Essentials to bid for a government contract?](https://yourbestsolution.co.uk/do-i-need-cyber-essentials.html): often, but not always. Which buyers ask for it under PPN 014, when a parts contract may not need it, and four traps that catch manufacturers out
 - [Should I hire a bid writer or a bid consultant?](https://yourbestsolution.co.uk/bid-writer-or-bid-consultant.html): it depends where you are losing. What a bid writer, bid manager and bid consultant each do, and how to tell from the last tender you lost
 - [Do I need a Carbon Reduction Plan to bid?](https://yourbestsolution.co.uk/do-i-need-a-carbon-reduction-plan.html): who asks under PPN 006, the NHS change from 1 April 2027, and what gets a plan failed
+- [All guides and resources](https://yourbestsolution.co.uk/resources.html)
+- [What the government's FTSE 350 cyber letter means for UK manufacturers](https://yourbestsolution.co.uk/ftse-350-cyber-letter-for-manufacturers.html) ([PDF](https://yourbestsolution.co.uk/ftse-350-cyber-letter-for-manufacturers.pdf)): the October 2025 ministerial letter asking large companies to require Cyber Essentials in their supply chains, and what it means for suppliers
+- [Protecting the Production Line, web version](https://yourbestsolution.co.uk/protecting-the-production-line.html)
+- [The Compliance Reality for UK Manufacturers, web version](https://yourbestsolution.co.uk/compliance-reality-for-uk-manufacturers.html)
+- [16 Services. One Plan., web version](https://yourbestsolution.co.uk/16-services-one-plan.html)
 - [Protecting the Production Line](https://yourbestsolution.co.uk/protecting-the-production-line.pdf): 8-page cyber risk briefing, October 2026. What the 2026 cyber data means for UK manufacturers and their tenders: manufacturing took 27.7% of all cyber attacks (IBM X-Force), 61% of manufacturing breaches involved ransomware (Verizon DBIR), the five threats that matter most, real costs and the fixes that make the biggest difference
 - [The Compliance Reality for UK Manufacturers](https://yourbestsolution.co.uk/compliance-reality-for-uk-manufacturers.pdf): 10-page guide on what fines a manufacturer, what costs it the contract and what is coming next
 - [16 Services. One Plan.](https://yourbestsolution.co.uk/cure-alliance-specialists.pdf): 19-page overview of every Cure Alliance service

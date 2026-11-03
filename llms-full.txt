@@ -167,6 +167,110 @@ On central government contracts worth more than £5 million a year including VAT
 
 Sources: PPN 006: Carbon Reduction Plans (GOV.UK) https://www.gov.uk/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-taking-account-of-carbon-reduction-plans-html; PPN 006 guidance on conditions of participation (GOV.UK) https://assets.publishing.service.gov.uk/media/67b716f078dd6cacb71c6a87/2025-02-05_PPN_006_Guidance_on_taking_account_of_carbon_reduction_plans_-_adopting_and_applying_conditions_of_participation.docx.pdf; PPN 006 technical standard (GOV.UK) https://assets.publishing.service.gov.uk/media/67b334c67c070e71525f5818/PPN_006_Technical_standard_for_Completion_of_Carbon_Reduction_Plans.pdf; 2027 NHS Carbon Reduction Plan requirements (NHS England) https://www.england.nhs.uk/long-read/2027-nhs-carbon-reduction-plan-requirements-for-the-procurement-of-nhs-goods-services-and-works/; WPPN 006: Carbon Reduction Plans in Wales (GOV.WALES) https://www.gov.wales/wppn-006-decarbonisation-through-procurement-taking-account-of-carbon-reduction-plans-html
 
+## Guide: What the government's FTSE 350 cyber letter means for UK manufacturers
+URL: https://yourbestsolution.co.uk/ftse-350-cyber-letter-for-manufacturers.html
+PDF: https://yourbestsolution.co.uk/ftse-350-cyber-letter-for-manufacturers.pdf
+
+On 13 October 2025, senior ministers and the heads of the National Cyber Security Centre and the National Crime Agency wrote to the chief executives and chairs of every FTSE 100 and FTSE 250 company, and a number of other leading UK firms, with three requests. The third was to require Cyber Essentials in their supply chains. If you supply one of those companies, or supply someone who does, that request could reach you as a condition of doing business, even if you never bid for public work. It's a request and not a law, and every customer will move at its own speed. But it's better to be ready before they ask than to find out when they do. Here's what the letter says and what I'd do about it.
+
+### What the letter asks boards to do
+- 1. Make cyber risk a Board-level priority: Use the government's Cyber Governance Code of Practice, and complete the free training that goes with it. The letter also asks boards to plan and rehearse how they'd keep operating and rebuild after a destructive attack.
+- 2. Sign up to NCSC Early Warning: This free service tells you about potential cyber attacks on your network. The letter strongly advises companies and their suppliers to register, so this one is meant for you too.
+- 3. Require Cyber Essentials in the supply chain: The letter calls Cyber Essentials the minimum standard businesses should seek. It says government already requires most of its suppliers to meet it, and asks the country's largest businesses to embed the same requirements in their own supply chains.
+- Who signed it: Liz Kendall, Rachel Reeves, Peter Kyle and Dan Jarvis signed for the government, alongside Dr Richard Horne, CEO of the National Cyber Security Centre, and Graeme Biggar, Director General of the National Crime Agency. Read the letter on GOV.UK
+
+### What it means for your business
+- Your customers may start asking: The letter says just 14% of UK businesses assess the cyber risks posed by their immediate suppliers. The government's voluntary Cyber Resilience Pledge now asks signatories to take a risk-based approach to requiring Cyber Essentials, which may include requiring it from all suppliers.
+- It can reach you outside a tender: You don't have to bid for public work to feel this. A large customer can make Cyber Essentials part of its supplier checks or contract terms, and that can pass down from one tier to the next. Do I need Cyber Essentials?
+- There's a balance sheet argument too: The letter says organisations with Cyber Essentials are 92% less likely to make a claim on their cyber insurance. For a manufacturer, that's a good reason to look at it, even before a customer asks.
+- What the letter doesn't say: It doesn't make Cyber Essentials a legal requirement, it doesn't set a deadline for suppliers, and it doesn't mention Cyber Essentials Plus. Some buyers ask for Plus anyway, so check what yours expects.
+
+### Common questions
+- Does the letter make Cyber Essentials a legal requirement? No. It's a request from government to the boards of leading companies. It becomes binding on you if a customer writes it into its supplier terms or contract, or if a tender makes it a condition.
+- My business isn't in the FTSE 350. Does this affect me? It can, if you supply a company that acts on the letter or supply someone who does. Whether it reaches you, and when, depends on what your customers decide to do.
+- What is Cyber Essentials? A government-backed scheme that certifies you have key protections in place against common cyber attacks. It covers firewalls, secure configuration, security update management, user access control and malware protection.
+- What is the Cyber Resilience Pledge? A voluntary government pledge for major organisations. Signatories commit to board responsibility for cyber risk, signing up to Early Warning and a risk-based approach to requiring Cyber Essentials across their supply chains.
+
+## Guide: Protecting the Production Line: what the 2026 cyber data means for UK manufacturers
+URL: https://yourbestsolution.co.uk/protecting-the-production-line.html
+PDF: https://yourbestsolution.co.uk/protecting-the-production-line.pdf
+
+If you run a UK manufacturing business, your production line is now the most attacked target in the economy, and your cyber position is quietly deciding which tenders you can even bid for. I've spent 30 years selling technology into businesses like yours, and the pattern never changes. The MD knows cyber matters, it sits on the list, then a big order lands and it slips another quarter. This briefing pulls together the latest 2026 figures and keeps only what a busy MD needs: what's hitting manufacturers, what it costs and the handful of things that make the biggest difference. Is that okay? Good, let's get into it.
+
+### Manufacturing by the numbers, 2026
+- 27.7% of all attacks: Manufacturing took more cyber attacks than any other sector last year, for the fifth year running (IBM X-Force 2026).
+- 61% ransomware: Of manufacturing breaches involved ransomware, and malware of some kind was in 75% (Verizon DBIR 2026).
+- 61% third party: Of manufacturing breaches involved a supplier, vendor or partner (Verizon DBIR 2026).
+- £3m per UK breach: The average cost of a UK breach, with about 225 days to find and contain it (IBM UK Cost of a Data Breach 2026). The worldwide average for industrial businesses is £4m.
+- 87% about money: Of attacks are financially motivated, and a further 15% are espionage, after your designs (Verizon DBIR 2026).
+- 43% of UK businesses: Were hit by a breach or attack in the last year, rising to 69% of large firms (UK Cyber Breaches Survey 2025/26).
+- 1,589 attempts a week: The number of attack attempts per UK organisation every week, up 34% on a year ago (Check Point, June 2026).
+- Only 31% at board level: Of UK businesses have someone at board level responsible for cyber, and only 25% have a written incident response plan.
+
+### The five threats that matter most
+- Ransomware: Involved in 61% of manufacturing breaches. Your systems are locked and your data stolen until you pay, or rebuild.
+- Unpatched systems: 38% of breaches started with an exploited weakness in kit facing the internet. It's now the number one way in.
+- Supply chain attacks: 61% of breaches involved a third party. Someone else's weak spot becomes your problem, and yours becomes your customer's.
+- Phone and text scams: 40% more likely to work than an email. The fake call from IT asking for a code is the scam to watch.
+- Intellectual property leaking through AI: 45% of staff now use AI regularly at work, 67% of them through personal accounts. Drawings, specs and source code are being pasted into tools you don't control.
+
+### What it really costs
+- Jaguar Land Rover, UK, 2025: Five weeks with no car production, an estimated £1.9 billion cost to the UK economy and more than 5,000 organisations affected (Cyber Monitoring Centre).
+- Asahi Group, Japan, late 2025: Ransomware closed its domestic factories, suspended shipments and put corporate data at risk.
+- Kreisel GmbH, Germany, 2024: Ransomware halted operations for weeks. It refused to pay, never recovered and filed for insolvency that November.
+- Why that matters to you: JLR had the size and the balance sheet to ride it out. Kreisel didn't. Most of the manufacturers I talk to in Essex, Kent and London look a lot more like Kreisel than JLR. Does that make sense?
+
+### The fundamentals checklist
+- 1. Patch fast: Patch anything facing the internet within 14 days of a critical fix, and know who owns that job.
+- 2. Multi-factor authentication: Turn it on for email, remote access and every cloud system.
+- 3. Clean up accounts: Remove old accounts and limit admin rights to the few people who need them.
+- 4. Backups you can trust: Keep offline or immutable backups, and test a restore at least twice a year.
+- 5. Separate production: Separate your production network (OT) from the office network. OT and industrial cybersecurity
+- 6. Brief your staff: Warn them about phone and text scams, with a simple call back to check rule.
+- 7. One-page AI policy: Write it down and name the tools people are allowed to use.
+- 8. Check suppliers: Ask key suppliers about their cyber standards and put a minimum in the contract.
+- 9. Plan the first hour: Write down who does what in the first hour of an attack, including who rings the insurer.
+- 10. Get certified: Get Cyber Essentials, then decide whether buyers need Plus or ISO 27001. Do I need Cyber Essentials?
+
+### Common questions
+- How do attackers get into manufacturers? The most common way in is now an unpatched system facing the internet, at 38% of manufacturing breaches, ahead of phishing at 13% and stolen logins at 11% (Verizon DBIR 2026). Stolen credentials featured in 41% of manufacturing breaches overall.
+- What is the first thing a manufacturer should fix? Patch anything facing the internet and turn on multi-factor authentication for email, remote access and every cloud system. None of this needs a genius hacker. It needs a gap that nobody has got round to closing, and gaps can be closed.
+- Should we ban AI tools to protect our designs? No. Pick approved tools, write a one-page policy and tell people what they can and can't paste in. Verizon found 3.2% of uploads were research and technical documentation, so expect buyers to start asking about it.
+- Does Cyber Essentials reduce insurance claims? The UK Government says organisations with Cyber Essentials are 92% less likely to make a claim on their cyber insurance.
+
+## Guide: The Compliance Reality for UK Manufacturers: what fines you, what costs you the contract and what's coming
+URL: https://yourbestsolution.co.uk/compliance-reality-for-uk-manufacturers.html
+PDF: https://yourbestsolution.co.uk/compliance-reality-for-uk-manufacturers.pdf
+
+It can be tempting to put compliance on the back burner, but addressing it now can save you significant time, cost and stress later. Public sector buyers, and increasingly the large private customers above you in the supply chain, no longer just ask whether you can make the product. They ask whether you are safe, legal, insured, certified and demonstrably responsible before they'll let you near a contract. Two distinctions run through this guide. Some things fine you: health and safety, employment law and data protection are enforced by regulators. Others cost you the contract: requirements like Cyber Essentials, insurance, financial standing and social value carry no government fine, but where a buyer asks for them they can rule you out or out-score you.
+
+### What fines you today
+- Employment law changed on 6 April 2026: The Employment Rights Act 2025 is law. Statutory sick pay and paternity and parental leave are now day-one rights, the protective award for getting a collective redundancy wrong has doubled to 180 days' pay per employee, and a new Fair Work Agency began enforcing on 7 April 2026. From 1 January 2027 the unfair dismissal qualifying period drops from two years to six months. People and employment law
+- Health and safety carries the heaviest fines: HSE fines scale with turnover and run into millions for serious breaches. The Corporate Manslaughter Act carries unlimited fines and directors can face personal prosecution. It's also assessed at the Selection Questionnaire stage on virtually every public contract. Health and safety
+- A data breach can cost up to £17.5m or 4% of turnover: UK GDPR is fully in force, and a reportable breach must reach the ICO within 72 hours. If you process a customer's data, your Data Processing Agreement pins the liability on you. GDPR and data protection
+
+### What costs you the contract
+- Cyber Essentials: On many contracts it's the floor you must clear even to bid. Where a tender requires it, you're out without it, and if a required certificate lapses you can breach the contract. Do I need Cyber Essentials?
+- Insurance: Public and Employers' Liability, Professional Indemnity and Product Liability must be held at the levels the buyer specifies, with certificates in the right format. Under-insured, wrong format or missing a policy can be a straightforward fail. Insurance and key person cover
+- Financial standing: Buyers check turnover against contract value, filed accounts and ratios such as current ratio, gearing and interest cover. Newer businesses without three years of filed history need the right management accounts and accountant's letters. Financial standing
+- ISO certifications: ISO 9001 is table stakes. ISO 14001 and ISO 45001 are increasingly required, and ISO 27001 appears on larger or data-heavy contracts. Many manufacturers hold 9001 alone and are quietly screened out of everything that asks for the others. ISO management systems
+- Social value: Under the Procurement Act 2023, award moved to the most advantageous tender. Manufacturers already do local hiring, apprenticeships and community work but can't evidence or quantify it, so they leave those marks on the table. Bid writing
+- Carbon: Statutory carbon reporting (SECR) applies only to large companies. Below that there's no general legal duty, but buyers can ask for a Carbon Reduction Plan and Scope 1, 2 and 3 data whatever your size. Do I need a Carbon Reduction Plan?
+- Modern Slavery: A statement is a legal obligation only once turnover reaches £36m. Larger customers require one in their tender questions anyway, and evaluators check your website for it. People and employment law
+- Contract terms: Standard terms often set liability caps and clauses that conflict with your insurance or operating model. Missing an Anti-Bribery or Whistleblowing policy is also a common questionnaire fail. Contract review
+- Your website: During due diligence, evaluators can go straight to your site to verify your certifications, Carbon Reduction Plan, Modern Slavery statement and privacy policy. Stale logos or missing policies can sink a good bid. Web design and digital
+
+### What is coming over the next five years
+- Cyber Security and Resilience Bill: Not law when this guide was written, with phased implementation possibly running to 2028. Manufacturing isn't currently named in direct scope, but it regulates managed service providers and creates designated critical suppliers, and large customers may push requirements down to you by contract.
+- Ransomware rules: The proposed payment ban targets the public sector and critical national infrastructure. A duty to notify before paying and mandatory incident reporting may reach everyone else, so tested offline backups and a rehearsed continuity plan matter. Managed IT
+- EU Cyber Resilience Act: Since 11 September 2026, manufacturers of products with digital elements have had to report actively exploited vulnerabilities and severe incidents. If you sell anything with software or connectivity into Europe, the clock is already running. OT and industrial cybersecurity
+- Joining it all up: Sixteen separate suppliers can produce sixteen documents that contradict each other under scrutiny. A lapsed certificate, an out-of-date website and a missing policy compound. Technology roadmap
+
+### Common questions
+- What can a UK manufacturer be fined for? Health and safety, employment law and data protection are enforced by regulators. HSE fines scale with turnover, and the ICO can fine up to £17.5m or 4% of global annual turnover under UK GDPR.
+- Is a Modern Slavery statement a legal requirement? Only once turnover reaches £36m. Most manufacturers with 10 to 500 employees sit under that, but larger customers can still ask for one in their tender questions.
+- What changed in employment law in 2026? The Employment Rights Act 2025 brought day-one rights to statutory sick pay and paternity and parental leave from 6 April 2026, doubled the protective award to 180 days' pay and created a Fair Work Agency. From 1 January 2027, the unfair dismissal qualifying period drops to six months.
+
 ## Bid Writing and Tenders
 
 Source: https://yourbestsolution.co.uk/bid-writing-tenders.html
