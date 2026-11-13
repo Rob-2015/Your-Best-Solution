@@ -1321,3 +1321,8 @@ picture { display: contents; }
 @media (min-width: 700px) { .tm-hero .tm-headline { font-size:min(44px, calc((100vw - 48px) / 27)); } }
 @media (max-width: 699px) { .tm-br { display:none; } }
 @media (max-width: 600px) { .tm-hero .tm-headline { margin-top:12px; } .tm-topline { letter-spacing:0.12em; } }
+
+/* Headline split (13 Nov 2026): H1 is the topline only, slogan is a styled paragraph; spacing kept as before */
+.tm-hero h1.tm-topline { margin:28px 0 14px; }
+.tm-hero h1.tm-topline + .tm-headline { margin-top:0; }
+@media (max-width: 600px) { .tm-hero h1.tm-topline { margin-top:12px; } }
