@@ -246,6 +246,21 @@
 
   /* attention list */
   .att{display:flex;align-items:center;gap:13px;padding:13px 20px;border-bottom:1px solid var(--line);}
+  .att-x{border-bottom:1px solid var(--line);}
+  .att-x:last-child{border-bottom:none;}
+  .att-x .att{border-bottom:none;cursor:pointer;transition:background .12s;}
+  .att-x .att:hover{background:#FAFBFE;}
+  .att-x .att-chev{width:18px;height:18px;flex:0 0 18px;color:var(--muted);transition:transform .2s;}
+  .att-x.open .att-chev{transform:rotate(180deg);}
+  .att-x.open .att{background:#FAFBFE;}
+  .att-more{display:none;padding:2px 20px 16px 67px;background:#FAFBFE;}
+  .att-x.open .att-more{display:block;animation:fade .2s ease;}
+  .att-more p{font-size:12.5px;line-height:1.55;color:var(--ink);margin-bottom:8px;}
+  .att-more p b{font-weight:700;}
+  .att-help{display:flex;gap:12px;align-items:center;flex-wrap:wrap;background:var(--card);border:1px solid var(--line);
+    border-left:4px solid var(--orange);border-radius:9px;padding:11px 13px;margin-top:4px;}
+  .att-help span{flex:1;min-width:200px;font-size:12.5px;font-weight:600;line-height:1.5;}
+  .att-help a{text-decoration:none;}
   .att:last-child{border-bottom:none;}
   .att-ico{width:34px;height:34px;border-radius:8px;flex:0 0 34px;display:flex;
     align-items:center;justify-content:center;}
@@ -1111,10 +1126,10 @@ essexboys:{
     {id:"ebp1", title:"Essex Fire & Rescue — Vehicle Fabrication Framework", buyer:"Essex County Fire & Rescue Service", value:"Est. £300k+", expected:"Forecast ~5 months out", note:"Early pipeline notice. Will require ISO 9001. Starting certification now positions you for this and the two conditional bids above.", action:"Begin ISO 9001 — refer to ISO specialist"}
   ],
   alerts:[
-    {id:"eba1", sev:"r", reg:"NCSC", regl:"UK Government", title:"Cyber compliance is now a daily obligation, not annual", changed:"Flagged security patches must be applied within 14 days under the UK Cyber Security & Resilience Bill. An annual Cyber Essentials certificate alone is no longer sufficient.", effective:"Phased from 2026", affected:"Cyber Essentials Certificate", days:"Ongoing", action:"No daily scanning currently active — set this up before it becomes a bid blocker.", specialist:"Cyber Security / Managed IT"},
-    {id:"eba2", sev:"r", reg:"ICO", regl:"Data protection", title:"No GDPR documentation on file", changed:"No Record of Processing Activities, privacy policy or breach log currently held. This is a basic accountability requirement, not an optional extra, and increasingly appears as a tender pass/fail item.", effective:"Ongoing requirement", affected:"GDPR Documentation", days:"Immediate", action:"Start with a Record of Processing Activities and a named accountable contact.", specialist:"Data Protection / GDPR"},
-    {id:"eba3", sev:"a", reg:"HSE", regl:"Health & Safety", title:"Updated HSE guidance — machinery guarding & manual handling", changed:"HSE has refreshed its guidance on machinery guarding and manual handling relevant to fabrication work. Your current risk assessments predate this.", effective:"Guidance updated", affected:"H&S Policy & Risk Assessments", days:"~30 days to review", action:"Review and re-sign risk assessments against the updated guidance.", specialist:"Health & Safety"},
-    {id:"eba4", sev:"a", reg:"Cabinet Office", regl:"Procurement", title:"Social value now scored on most council frameworks", changed:"Local authority tenders increasingly weight social value at 10–20% of the score. You currently have no published position.", effective:"In force", affected:"Social Value Statement", days:"Before next bid", action:"Draft a first Social Value Statement — even a simple one lifts win probability materially.", specialist:"Sustainability / ESG + Bid Writing"}
+    {id:"eba1", help:"Speak to Rob about a Cure Alliance cyber specialist who can switch on daily vulnerability scanning and keep your patches inside the 14-day window.", sev:"r", reg:"NCSC", regl:"UK Government", title:"Cyber compliance is now a daily obligation, not annual", changed:"Flagged security patches must be applied within 14 days under the UK Cyber Security & Resilience Bill. An annual Cyber Essentials certificate alone is no longer sufficient.", effective:"Phased from 2026", affected:"Cyber Essentials Certificate", days:"Ongoing", action:"No daily scanning currently active — set this up before it becomes a bid blocker.", specialist:"Cyber Security / Managed IT"},
+    {id:"eba2", help:"Speak to Rob about a data protection specialist who can write your company's GDPR documentation and privacy statement, and get it added to your website footer.", sev:"r", reg:"ICO", regl:"Data protection", title:"No GDPR documentation on file", changed:"No Record of Processing Activities, privacy policy or breach log currently held. This is a basic accountability requirement, not an optional extra, and increasingly appears as a tender pass/fail item.", effective:"Ongoing requirement", affected:"GDPR Documentation", days:"Immediate", action:"Start with a Record of Processing Activities and a named accountable contact.", specialist:"Data Protection / GDPR"},
+    {id:"eba3", help:"Speak to Rob about a health and safety specialist who can review and re-sign your risk assessments against the updated HSE guidance.", sev:"a", reg:"HSE", regl:"Health & Safety", title:"Updated HSE guidance — machinery guarding & manual handling", changed:"HSE has refreshed its guidance on machinery guarding and manual handling relevant to fabrication work. Your current risk assessments predate this.", effective:"Guidance updated", affected:"H&S Policy & Risk Assessments", days:"~30 days to review", action:"Review and re-sign risk assessments against the updated guidance.", specialist:"Health & Safety"},
+    {id:"eba4", help:"Speak to Rob about a bid writer who can draft your first Social Value Statement before your next tender goes in.", sev:"a", reg:"Cabinet Office", regl:"Procurement", title:"Social value now scored on most council frameworks", changed:"Local authority tenders increasingly weight social value at 10–20% of the score. You currently have no published position.", effective:"In force", affected:"Social Value Statement", days:"Before next bid", action:"Draft a first Social Value Statement — even a simple one lifts win probability materially.", specialist:"Sustainability / ESG + Bid Writing"}
   ],
   accred:[
     {n:"Cyber Essentials", iss:"Certified by IASME", st:"ok", exp:"Jul 2027", amend:""},
@@ -1401,6 +1416,7 @@ var CURRENT = "essexboys";
 var JOURNEY_LABELS = ["7-Q Snapshot","Pre-Call Research","Preview Call","Health Check","Partner Handover","Specialist Work"];
 
 /* ================= HELPERS ================= */
+var BOOK_URL="https://bookings.cloud.microsoft/book/ComprehensiveHealthAssessmentDiscussionDescriptionAfree@yourbestsolution.co.uk/?ismsaljsauthenabled=true";
 function D(){ return COMPANIES[CURRENT]; }
 function el(html){var d=document.createElement('div');d.innerHTML=html.trim();return d.firstChild;}
 
@@ -1641,14 +1657,29 @@ function renderDashboard(){
   var da=document.getElementById('dash-alerts');
   da.innerHTML=d.alerts.filter(function(a){return a.sev==='r'||a.sev==='a';}).slice(0,4).map(function(a){
     var rc=a.sev==='r'?'r':'a';
-    return '<div class="att">'+
-      '<div class="att-ico" style="background:'+(a.sev==='r'?'var(--rag-red-bg)':'var(--rag-amber-bg)')+'">'+
-        '<span class="dot '+rc+'" style="width:9px;height:9px"></span></div>'+
-      '<div class="att-txt"><div class="at1">'+a.title+'</div>'+
-        '<div class="at2">'+a.reg+' &middot; affects '+a.affected+'</div></div>'+
-      '<span class="rag '+rc+'">'+(a.sev==='r'?'Critical':'Action')+'</span>'+
+    var help=a.help||('Speak to Rob about a Cure Alliance specialist ('+a.specialist+') who can help you close this gap.');
+    return '<div class="att-x">'+
+      '<div class="att" role="button" tabindex="0" aria-expanded="false">'+
+        '<div class="att-ico" style="background:'+(a.sev==='r'?'var(--rag-red-bg)':'var(--rag-amber-bg)')+'">'+
+          '<span class="dot '+rc+'" style="width:9px;height:9px"></span></div>'+
+        '<div class="att-txt"><div class="at1">'+a.title+'</div>'+
+          '<div class="at2">'+a.reg+' &middot; affects '+a.affected+'</div></div>'+
+        '<span class="rag '+rc+'">'+(a.sev==='r'?'Critical':'Action')+'</span>'+
+        '<svg class="att-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>'+
+      '</div>'+
+      '<div class="att-more">'+
+        '<p><b>What has changed:</b> '+a.changed+'</p>'+
+        '<p><b>Recommended action:</b> '+a.action+' <span style="color:var(--muted)">&middot; Time to act: '+a.days+'</span></p>'+
+        '<div class="att-help"><span>'+help+'</span>'+
+          '<a class="btn btn-orange" href="'+BOOK_URL+'" target="_blank" rel="noopener">Speak to Rob</a></div>'+
+      '</div>'+
     '</div>';
   }).join('');
+  Array.prototype.forEach.call(da.querySelectorAll('.att-x > .att'),function(row){
+    function t(){var x=row.parentNode;var o=x.classList.toggle('open');row.setAttribute('aria-expanded',o?'true':'false');}
+    row.addEventListener('click',t);
+    row.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();t();}});
+  });
 
   document.getElementById('dash-pillars').innerHTML=d.pillars.map(function(p){
     return '<div class="card pillar" style="border-top-color:'+p.color+'">'+
