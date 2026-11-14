@@ -2146,7 +2146,15 @@ function goToTourStep(idx){
         }
       });
     }
-    if(firstTarget){
+    var openA=step.openAlert && document.querySelector('#dash-alerts .att-x[data-id="'+step.openAlert+'"]');
+    if(openA){
+      /* bring the opened alert, including its Speak to Rob box, into view */
+      var sc0=document.querySelector('.scroll'), ar=openA.getBoundingClientRect(), sr0=sc0.getBoundingClientRect();
+      var fits=ar.height < sc0.clientHeight-40;
+      var y0=sc0.scrollTop + ar.top - sr0.top - (fits ? (sc0.clientHeight-ar.height)/2 : 20);
+      sc0.scrollTo({top:Math.max(0,y0), left:0, behavior:'smooth'});
+      openA.classList.add('tour-glow');
+    } else if(firstTarget){
       /* scroll up/down only, so the page never slides sideways under the tour box */
       var sc=document.querySelector('.scroll'), tr=firstTarget.getBoundingClientRect(), sr=sc.getBoundingClientRect();
       var tall=tr.height > sc.clientHeight*0.6;
