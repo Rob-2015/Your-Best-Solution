@@ -1658,7 +1658,7 @@ function renderDashboard(){
   da.innerHTML=d.alerts.filter(function(a){return a.sev==='r'||a.sev==='a';}).slice(0,4).map(function(a){
     var rc=a.sev==='r'?'r':'a';
     var help=a.help||('Speak to Rob about a Cure Alliance specialist ('+a.specialist+') who can help you close this gap.');
-    return '<div class="att-x">'+
+    return '<div class="att-x" data-id="'+a.id+'">'+
       '<div class="att" role="button" tabindex="0" aria-expanded="false">'+
         '<div class="att-ico" style="background:'+(a.sev==='r'?'var(--rag-red-bg)':'var(--rag-amber-bg)')+'">'+
           '<span class="dot '+rc+'" style="width:9px;height:9px"></span></div>'+
@@ -1946,7 +1946,7 @@ function bindNav(){
 }
 
 /* ================= GUIDED TOUR ================= */
-/* Narration: drop recordings in /audio as step-01.mp3 ... step-17.mp3 and set NARRATION_READY=true */
+/* Narration: recordings live in /audio as step-01.mp3 ... step-17.mp3, plus step-06b.mp3 for the alert drill-down step. A step can name its own file with audio:"..." */
 var NARRATION_READY=true;
 var SCREENING_URL="https://yourbestsolution.co.uk/bid-readiness-score.html";
 var ASSESSMENT_URL="https://bookings.cloud.microsoft/book/ComprehensiveHealthAssessmentDiscussionDescriptionAfree@yourbestsolution.co.uk/?ismsaljsauthenabled=true";
@@ -1981,6 +1981,11 @@ var TOUR_STEPS=[
     what:"These are today's regulatory changes that could quietly affect a live bid.",
     why:"Standards change constantly — cyber rules, GDPR, health and safety guidance — and a valid certificate can go out of date the moment a regulator moves the goalposts.",
     means:"This business finds out from Contender, not from a rejection letter. Your business doesn't waste resources on a bid you won't win."},
+  {view:"dashboard", highlight:"#dash-alerts", openAlert:"eba2", audio:"audio/step-06b.mp3", wait:16000,
+    title:"Click an alert and it tells you what to do",
+    what:"Every alert opens up. Take this one: no GDPR documentation on file. Contender explains what's changed, what needs doing, and how long you've got to do it.",
+    why:"An alert on its own is just another worry. An alert with a clear next step, and the right specialist named against it, actually gets fixed.",
+    means:"One click and you're speaking to me about a data protection specialist who'll write your GDPR documentation and privacy statement, and get it on your website, long before it costs you a bid."},
   {view:"tenders", openTender:"eb1", closeTender:"eb2", highlight:"#tender-eb1",
     title:"Inside a tender — the green case",
     what:"Every requirement the buyer has listed is checked automatically against Proof Point, which holds your bid documents as well as previous bids you have submitted.",
@@ -2043,7 +2048,9 @@ var tourAudio=null, soundOn=true, tourSpeed=1;
 function clearTourGlow(){
   document.querySelectorAll('.tour-glow').forEach(function(e){e.classList.remove('tour-glow');});
 }
-function audioSrc(i){ return 'audio/step-'+(i<9?'0':'')+(i+1)+'.mp3'; }
+(function(){ var n=0; TOUR_STEPS.forEach(function(st){ if(!st.audio){ n++; st.audio='audio/step-'+(n<10?'0':'')+n+'.mp3'; } }); })();
+function audioSrc(i){ return TOUR_STEPS[i].audio; }
+function stepWait(){ return (TOUR_STEPS[tourIdx]&&TOUR_STEPS[tourIdx].wait)||7500; }
 function stopNarration(){
   if(tourAudio){ tourAudio.onended=null; tourAudio.onerror=null; tourAudio.pause(); tourAudio=null; }
 }
@@ -2056,7 +2063,7 @@ function playNarration(){
   var a=new Audio(audioSrc(tourIdx)); tourAudio=a;
   a.playbackRate=tourSpeed;
   a.onended=function(){ if(tourPlaying) scheduleTourAdvance(1200); };
-  a.onerror=function(){ if(tourPlaying) scheduleTourAdvance(7500); };
+  a.onerror=function(){ if(tourPlaying) scheduleTourAdvance(stepWait()); };
   var p=a.play(); if(p && p.catch) p.catch(function(){ if(tourPlaying) scheduleTourAdvance(7500); });
 }
 
@@ -2119,6 +2126,11 @@ function goToTourStep(idx){
       var closeEl=document.getElementById('tender-'+step.closeTender);
       if(closeEl) closeEl.classList.remove('open');
     }
+    Array.prototype.forEach.call(document.querySelectorAll('#dash-alerts .att-x'),function(x){
+      var on=!!step.openAlert && x.getAttribute('data-id')===step.openAlert;
+      x.classList.toggle('open',on);
+      var r=x.querySelector('.att'); if(r) r.setAttribute('aria-expanded',on?'true':'false');
+    });
     if(step.openTender){
       var openEl=document.getElementById('tender-'+step.openTender);
       if(openEl) openEl.classList.add('open');
