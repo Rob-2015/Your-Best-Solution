@@ -12,7 +12,7 @@ Step 3: The Full Review (paid). AI does the heavy lifting, checking your documen
 
 Coordinate: the Cure Alliance. 16 vetted specialist partners across Cyber, ISO, H&S, Employment Law, GDPR, Insurance, Finance and Bid Writing, coordinated entirely by YBSL. One contact, not sixteen.
 
-Monitor: Contender (coming soon). A live tender and compliance dashboard. Contender watches UK tenders, keeps the client's compliance position in view, shows countdown timers to every bid deadline and sends automatic alerts the moment a gap opens. Example dashboard: https://claude.ai/artifact/CThx9XWwA8btkLT8CUEqoN
+Monitor: Contender (coming soon). A live tender and compliance dashboard. Contender watches UK tenders, keeps the client's compliance position in view, shows countdown timers to every bid deadline and sends automatic alerts the moment a gap opens. Example dashboard: https://yourbestsolution.co.uk/contender-demo/
 
 YBSL does not guarantee tender wins. It makes sure a manufacturer is never knocked out on a technicality and is ready to compete for the win on quality and price.
 
