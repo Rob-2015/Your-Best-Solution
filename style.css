@@ -7,7 +7,13 @@
   --navy:#003DA5;
   --white:#FFFFFF;
   --accent:#003DA5;
+  --fh:'Montserrat','Aptos Display',Arial,sans-serif;
+  --fb:'Open Sans','Segoe UI',Arial,sans-serif;
 }
+
+h1, h2, h3, h4 { font-family:var(--fh); }
+
+button, input, select, textarea { font-family:inherit; }
 
 * { box-sizing:border-box; }
 
@@ -18,7 +24,7 @@ body {
   padding:28px 14px;
   background:#EEF1F6;
   color:var(--navy);
-  font-family:Aptos, "Segoe UI", Arial, sans-serif;
+  font-family:var(--fb);
   font-size:11pt;
   line-height:1.25;
 }
@@ -49,7 +55,7 @@ body {
   text-decoration:none;
   color:var(--navy);
   font-weight:800;
-  font-family:"Segoe UI", Arial, sans-serif;
+  font-family:var(--fh);
 }
 
 .sitenav .brand-dots i {
@@ -65,7 +71,7 @@ body {
   text-decoration:none;
   color:var(--navy);
   font-weight:700;
-  font-family:"Segoe UI", Arial, sans-serif;
+  font-family:var(--fh);
   font-size:10pt;
   border:2px solid var(--navy);
   border-radius:8px;
@@ -108,7 +114,7 @@ body {
   align-items:center;
   gap:14px;
   color:var(--navy);
-  font-family:"Segoe UI", Arial, sans-serif;
+  font-family:var(--fh);
   font-size:11pt;
   font-weight:800;
 }
@@ -141,7 +147,7 @@ h1 {
 .department {
   margin:0 0 11px;
   color:var(--navy);
-  font-family:"Segoe UI", Arial, sans-serif;
+  font-family:var(--fb);
   font-size:10pt;
   font-weight:700;
 }
@@ -177,7 +183,7 @@ summary {
   background:var(--white);
   border:2px solid var(--blue);
   border-radius:8px;
-  font-family:"Segoe UI", Arial, sans-serif;
+  font-family:var(--fh);
   font-weight:800;
 }
 
@@ -208,7 +214,7 @@ details[open] .hide { display:inline; }
 .section-title {
   margin:0 0 10px;
   color:var(--navy);
-  font-family:"Segoe UI", Arial, sans-serif;
+  font-family:var(--fh);
   font-size:11pt;
   font-weight:800;
   text-transform:uppercase;
@@ -233,7 +239,7 @@ details[open] .hide { display:inline; }
 
 .cover-card h3 {
   margin:0 0 8px;
-  font-family:"Segoe UI", Arial, sans-serif;
+  font-family:var(--fh);
   font-size:10pt;
   line-height:1.2;
   text-transform:uppercase;
@@ -300,7 +306,7 @@ th {
   color:var(--white);
   background:var(--accent);
   text-align:left;
-  font-family:"Segoe UI", Arial, sans-serif;
+  font-family:var(--fh);
   font-weight:800;
   border-right:1px solid var(--white);
   white-space:normal;
@@ -365,7 +371,7 @@ td:last-child {
 .cost-box h2,
 .point-box h2 {
   margin:0 0 8px;
-  font-family:"Segoe UI", Arial, sans-serif;
+  font-family:var(--fh);
   font-size:10.5pt;
   text-transform:uppercase;
 }
@@ -402,7 +408,7 @@ td:last-child {
   padding:15px 26px 17px;
   border-top:1px solid var(--blue);
   color:var(--navy);
-  font-family:"Segoe UI", Arial, sans-serif;
+  font-family:var(--fh);
   font-size:10pt;
 }
 
@@ -489,7 +495,7 @@ td:last-child {
   font-size:11pt;
   margin-bottom:8px;
 }
-.strategy-card h3 { margin:0 0 6px; font-size:11pt; color:var(--navy); font-family:"Segoe UI", Arial, sans-serif; }
+.strategy-card h3 { margin:0 0 6px; font-size:11pt; color:var(--navy); font-family:var(--fh); }
 .strategy-card p { margin:0; font-size:10pt; color:var(--navy); }
 
 .service-grid {
@@ -510,7 +516,7 @@ td:last-child {
 }
 .service-card:hover { transform:translateY(-3px); box-shadow:0 8px 18px rgba(0,20,80,0.12); }
 .service-card .num {
-  font-family:"Segoe UI", Arial, sans-serif;
+  font-family:var(--fh);
   font-size:9pt;
   font-weight:800;
   color:var(--accent-c);
@@ -521,7 +527,7 @@ td:last-child {
   font-size:11pt;
   line-height:1.25;
   color:var(--navy);
-  font-family:"Segoe UI", Arial, sans-serif;
+  font-family:var(--fh);
 }
 .service-card p {
   margin:0;
@@ -575,7 +581,7 @@ td:last-child {
 
 /* ---------- next step ---------- */
 .next-step { margin: 8px 28px 28px; padding: 26px 28px; border: 1px solid var(--navy); border-top: 6px solid var(--orange); border-radius: 16px; background: #F6F8FC; }
-.next-step h2 { margin: 0 0 8px; font-family: "Segoe UI", Arial, sans-serif; font-weight: 800; font-size: 1.35rem; color: var(--navy); }
+.next-step h2 { margin: 0 0 8px; font-family:var(--fh); font-weight: 800; font-size: 1.35rem; color: var(--navy); }
 .next-step p { margin: 0 0 16px; line-height: 1.55; color: #24345C; max-width: 760px; }
 .next-step__links { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 14px; }
 .next-step__btn { display: inline-block; padding: 12px 20px; border-radius: 10px; background: var(--orange); color: #fff; font-weight: 700; text-decoration: none; border: 2px solid var(--orange); }
@@ -591,7 +597,7 @@ td:last-child {
 .svc-faq .section-title { margin-bottom: 14px; }
 .svc-faq__item { padding: 14px 0; border-top: 1px solid #EEF1F7; }
 .svc-faq__item:first-of-type { border-top: none; padding-top: 4px; }
-.svc-faq__item h3 { margin: 0 0 6px; color: var(--navy); font-family: "Segoe UI", Arial, sans-serif; font-size: 1.05rem; font-weight: 800; line-height: 1.35; }
+.svc-faq__item h3 { margin: 0 0 6px; color: var(--navy); font-family:var(--fh); font-size: 1.05rem; font-weight: 800; line-height: 1.35; }
 .svc-faq__item p { margin: 0; color: #2E3A55; line-height: 1.65; }
 .svc-faq__sources, .svc-faq__reviewed { margin: 12px 0 0; font-size: 0.85rem; color: #5B6785; line-height: 1.55; }
 .svc-faq__sources a, .svc-faq__reviewed a { color: var(--navy); }
@@ -601,4 +607,4 @@ td:last-child {
 picture { display: contents; }
 
 /* SEO topic line inside H1 (keeps the slogan as the visual headline) */
-.h1-topic { display:block; margin:0 0 6px; color:var(--orange); font-family:"Segoe UI", Arial, sans-serif; font-size:11pt; font-weight:700; line-height:1.3; letter-spacing:0.02em; }
+.h1-topic { display:block; margin:0 0 6px; color:var(--orange); font-family:var(--fh); font-size:11pt; font-weight:700; line-height:1.3; letter-spacing:0.02em; }
